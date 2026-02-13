@@ -8,10 +8,10 @@ void main() async {
   final text = await file.readAsString();
   final document = XmlDocument.parse(text);
 
-  final stations = getStationsFromSmallStopLayer(document);
+  final stations = [...getStationsFromSmallStopLayer(document), ...getStationsFromLargeStopLayer(document)];
 
   await File('assets/data/stations.json').writeAsString(
-    '[${stations.map((station) => '{"name": "${escapeJson(station.name)}", "location": {"x": ${station.x}, "y": ${station.y}}}').join(',\n')}]',
+    '[${stations.map((station) => station.toJson()).join(',\n')}]',
   );
 
   print('Wrote ${stations.length} stations to assets/data/stations.json');
@@ -22,11 +22,17 @@ String escapeJson(String value) {
 }
 
 class ParsedStation {
-  const ParsedStation({required this.name, required this.x, required this.y});
+  const ParsedStation({required this.name, required this.x, required this.y, this.radius});
 
   final String name;
   final double x;
   final double y;
+  final double? radius;
+
+  String toJson() {
+    final radiusPart = radius == null ? '' : ', "radius": $radius';
+    return '{"name": "${escapeJson(name)}", "location": {"x": $x, "y": $y}$radiusPart}';
+  }
 }
 
 List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
@@ -59,6 +65,35 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
   return stations;
 }
 
+List<ParsedStation> getStationsFromLargeStopLayer(XmlDocument document) {
+  final largeStopLayer = document.findAllElements('g').firstWhere(
+    (element) => element.getAttribute('inkscape:label') == 'stor_hållplats',
+  );
+
+  final stations = <ParsedStation>[];
+
+  for (final group in largeStopLayer.childElements.where((e) => e.name.local == 'g')) {
+    final circle = group.descendants.whereType<XmlElement>().firstWhereOrNull((e) => e.name.local == 'circle');
+    final text = group.descendants.whereType<XmlElement>().firstWhereOrNull((e) => e.name.local == 'text');
+
+    if (circle == null || text == null) {
+      continue;
+    }
+
+    final stopPosition = getCirclePosition(circle);
+    final radius = getCircleRadius(circle, stopPosition.$1, stopPosition.$2);
+    final stopName = extractText(text);
+
+    if (stopName.isEmpty) {
+      continue;
+    }
+
+    stations.add(ParsedStation(name: stopName, x: stopPosition.$1, y: stopPosition.$2, radius: radius));
+  }
+
+  return stations;
+}
+
 (double, double) getUsePosition(XmlDocument document, XmlElement use) {
   final href = use.getAttribute('xlink:href')?.replaceFirst('#', '');
 
@@ -80,6 +115,36 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
   }
 
   return (x, y);
+}
+
+(double, double) getCirclePosition(XmlElement circle) {
+  var x = double.tryParse(circle.getAttribute('cx') ?? '') ?? 0;
+  var y = double.tryParse(circle.getAttribute('cy') ?? '') ?? 0;
+
+  final transformChain = [circle, ...circle.ancestors.whereType<XmlElement>()];
+
+  for (final element in transformChain) {
+    (x, y) = applyTransform(element.getAttribute('transform'), x, y);
+  }
+
+  return (x, y);
+}
+
+double getCircleRadius(XmlElement circle, double centerX, double centerY) {
+  final radius = double.tryParse(circle.getAttribute('r') ?? '') ?? 0;
+  var edgeX = (double.tryParse(circle.getAttribute('cx') ?? '') ?? 0) + radius;
+  var edgeY = double.tryParse(circle.getAttribute('cy') ?? '') ?? 0;
+
+  final transformChain = [circle, ...circle.ancestors.whereType<XmlElement>()];
+
+  for (final element in transformChain) {
+    (edgeX, edgeY) = applyTransform(element.getAttribute('transform'), edgeX, edgeY);
+  }
+
+  final dx = edgeX - centerX;
+  final dy = edgeY - centerY;
+
+  return math.sqrt(dx * dx + dy * dy);
 }
 
 (double, double) applyTransform(String? transform, double x, double y) {

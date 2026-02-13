@@ -1,1 +1,6262 @@
-[{"name":"Lilla Bommen","location":{"x":419.99998,"y":639.89994}},{"name":"Nordstan","location":{"x":429.099979,"y":623.99994}},{"name":"Stenpiren","location":{"x":385.67131,"y":656.3403}},{"name":"Domkyrkan","location":{"x":416.015738,"y":670.99994}},{"name":"Kungsportsplatsen","location":{"x":447.364678,"y":667.43549}},{"name":"Svingeln","location":{"x":487.349961,"y":599.64996}},{"name":"Gårdatorget","location":{"x":545.987647,"y":664.17365}},{"name":"Järnvågen","location":{"x":360.99998,"y":661.03077}},{"name":"Valand","location":{"x":468.478609,"y":688.52132}},{"name":"Vasaplatsen","location":{"x":453.649985,"y":708.64994}},{"name":"Mölndals bro","location":{"x":539.099974,"y":890.99994}},{"name":"Mölndals Innerstad","location":{"x":528.999974,"y":905.05318}},{"name":"Mölndals stadsmuseum","location":{"x":593.89998,"y":890.99994}},{"name":"Fritidsvägen","location":{"x":783.99997,"y":632.37137}},{"name":"Nils Henrikssons väg","location":{"x":794.99996,"y":577.89995}},{"name":"Gamla Prästvägen","location":{"x":802.67369,"y":577.99995}},{"name":"Oluff Nilssons väg","location":{"x":813.89996,"y":577.99995}},{"name":"Skulltorpsvägen","location":{"x":820.99998,"y":577.99355}},{"name":"Partille port","location":{"x":820.99997,"y":567.89995}},{"name":"Partille arena","location":{"x":816.40322,"y":555.99995}},{"name":"Kulturum","location":{"x":809.39753,"y":555.99995}},{"name":"Högshall","location":{"x":867.89995,"y":555.99995}},{"name":"Hallebacken","location":{"x":879.89995,"y":555.99995}},{"name":"Jons väg","location":{"x":889.09996,"y":555.99995}},{"name":"Kåhögsvägen","location":{"x":858.64995,"y":551.64995}},{"name":"Kåhög","location":{"x":849.64995,"y":542.64995}},{"name":"Kåhögs gård","location":{"x":844.64995,"y":537.64995}},{"name":"Lexbydalsvägen","location":{"x":835.89996,"y":533.99995}},{"name":"Lexby skola","location":{"x":824.89996,"y":533.99995}},{"name":"Lexby","location":{"x":814.89996,"y":533.99995}},{"name":"Partille station","location":{"x":799.89996,"y":533.99995}},{"name":"Besebäcksvägen","location":{"x":792.09996,"y":533.99995}},{"name":"Särtered","location":{"x":855.09995,"y":577.99995}},{"name":"Uddared","location":{"x":847.89995,"y":577.99995}},{"name":"Kåbäcken","location":{"x":840.09996,"y":577.99995}},{"name":"Kvastekulla","location":{"x":833.09996,"y":577.99995}},{"name":"Lilla Varholmen","location":{"x":33.1,"y":577.99725}},{"name":"Hjuvik","location":{"x":41.0,"y":603.89725}},{"name":"Kärraporten","location":{"x":447.004578,"y":345.89996}},{"name":"Arendal Portal","location":{"x":154.59998,"y":620.99991}},{"name":"Kärrlyckan","location":{"x":172.99999,"y":608.89995}},{"name":"Arendalsvägen","location":{"x":183.99248,"y":597.99995}},{"name":"Kärrlyckegatan","location":{"x":165.99999,"y":589.89995}},{"name":"Rya Skog","location":{"x":220.09999,"y":615.99995}},{"name":"Bensingatan","location":{"x":238.01395,"y":615.98588}},{"name":"Ivarsbergsmotet","location":{"x":244.99999,"y":616.09995}},{"name":"Volvo Torslanda RA","location":{"x":195.99999,"y":523.09995}},{"name":"Volvo Torslanda PVH","location":{"x":195.99999,"y":505.99539}},{"name":"Volvo Torslanda PV","location":{"x":188.99999,"y":512.89995}},{"name":"Polestar","location":{"x":181.09999,"y":520.99995}},{"name":"Volvohallen","location":{"x":181.01394,"y":530.98589}},{"name":"Batterifabriken","location":{"x":157.58584,"y":525.55905}},{"name":"Volvo City","location":{"x":173.60243,"y":540.99995}},{"name":"Volvo Torslanda TK","location":{"x":165.99999,"y":544.60331}},{"name":"Stenliden","location":{"x":814.99998,"y":601.99356}},{"name":"Sörhallstorget","location":{"x":306.89998,"y":615.99995}},{"name":"Sannegårdshamnen","location":{"x":347.83427,"y":615.99995}},{"name":"Polstjärnegatan","location":{"x":335.99997,"y":597.89994}},{"name":"Regnbågsgatan","location":{"x":336.09998,"y":588.99995}},{"name":"Änghagen","location":{"x":75.99999,"y":524.89995}},{"name":"Torslanda Mellangård","location":{"x":83.64999,"y":513.34995}},{"name":"Lilleby Skolväg","location":{"x":89.64999,"y":507.34995}},{"name":"Lillebyvägen","location":{"x":96.34999,"y":500.34995}},{"name":"Gamla Torslandavägen","location":{"x":92.64999,"y":496.64995}},{"name":"Spänstvägen","location":{"x":163.38372,"y":398.61257}},{"name":"Högåsa","location":{"x":175.84549,"y":386.15439}},{"name":"Garaget Högstena","location":{"x":188.33707,"y":373.66292}},{"name":"Högstena","location":{"x":200.85884,"y":361.14197}},{"name":"Åseby","location":{"x":213.4063,"y":348.60524}},{"name":"Säve Flyplats","location":{"x":225.99999,"y":336.09996}},{"name":"Säve Flygplatsväg","location":{"x":234.34999,"y":327.64996}},{"name":"Askesby","location":{"x":242.34999,"y":319.64996}},{"name":"Trädet","location":{"x":253.09999,"y":315.99996}},{"name":"Öxnäs","location":{"x":264.99999,"y":315.99996}},{"name":"Kalshed","location":{"x":276.89998,"y":315.99996}},{"name":"Bärby","location":{"x":285.99999,"y":316.09997}},{"name":"Skändla Rös","location":{"x":295.99998,"y":325.89996}},{"name":"Assmundtorp","location":{"x":304.09998,"y":333.99996}},{"name":"Skändla Norra","location":{"x":313.34998,"y":343.34995}},{"name":"Skändla Södra","location":{"x":320.99998,"y":351.09995}},{"name":"Fyrspannvägen","location":{"x":401.899967,"y":282.0}},{"name":"Skimmelvägen","location":{"x":398.999968,"y":273.9}},{"name":"Gerrebacka Gård","location":{"x":401.899979,"y":266.0}},{"name":"Ridhästvägen","location":{"x":406.899979,"y":261.0}},{"name":"Mystängen","location":{"x":421.099973,"y":261.1}},{"name":"Stora Mysternavägen","location":{"x":425.999978,"y":270.9}},{"name":"Ingebäcks By","location":{"x":425.99998,"y":279.835}},{"name":"Klareberg","location":{"x":425.999987,"y":288.9}},{"name":"Burmans Gata","location":{"x":425.999978,"y":299.9}},{"name":"Lillekärr Norra","location":{"x":425.999978,"y":307.6483}},{"name":"Kärra Centrum","location":{"x":425.999987,"y":315.39797}},{"name":"Kärra Kyrka","location":{"x":425.999977,"y":323.14875}},{"name":"Lillekärr Södra","location":{"x":425.999978,"y":330.89996}},{"name":"Rönning","location":{"x":425.999978,"y":242.1}},{"name":"Uppegård","location":{"x":425.999978,"y":232.0294}},{"name":"Skarsbo","location":{"x":425.999978,"y":221.9654}},{"name":"Ellesbo","location":{"x":425.999979,"y":211.9198}},{"name":"Rösbo","location":{"x":425.999978,"y":201.8989}},{"name":"Lilla Oxhagen","location":{"x":425.999978,"y":191.9}},{"name":"Stora Oxhagen","location":{"x":425.999978,"y":173.5732}},{"name":"Pilgatan","location":{"x":416.015742,"y":705.99995}},{"name":"Kärringberget","location":{"x":160.99999,"y":707.99918}},{"name":"Fågelvägen","location":{"x":187.00963,"y":707.99994}},{"name":"Påvelunds Centrum","location":{"x":160.99999,"y":751.37429}},{"name":"Sändaregatan","location":{"x":320.99226,"y":878.08577}},{"name":"Radiotorget","location":{"x":320.90353,"y":865.20207}},{"name":"Armlängdsgatan","location":{"x":320.95057,"y":852.35783}},{"name":"Synhållsgatan","location":{"x":320.99661,"y":839.55114}},{"name":"Högsbo Sjukhus","location":{"x":304.09998,"y":791.99994}},{"name":"Axel Dahlströms Torg","location":{"x":299.00004,"y":779.46448}},{"name":"Gerdas gård","location":{"x":277.09999,"y":785.99993}},{"name":"Fyrktorget","location":{"x":265.99998,"y":778.09994}},{"name":"Tolvskillingsgatan","location":{"x":265.99998,"y":766.09994}},{"name":"Sjupundsgatan","location":{"x":291.36448,"y":765.89994}},{"name":"Gråberget","location":{"x":305.99998,"y":691.09994}},{"name":"Blåsutgatan","location":{"x":305.99998,"y":681.09994}},{"name":"Kustgatan","location":{"x":305.99998,"y":670.99417}},{"name":"Jaegerdorffsplatsen","location":{"x":289.89998,"y":670.99994}},{"name":"Klippan","location":{"x":270.09998,"y":670.99994}},{"name":"Banehagsgatan","location":{"x":258.34999,"y":677.64994}},{"name":"Orustgatan","location":{"x":249.34999,"y":686.64994}},{"name":"Bolmhörtsgatan","location":{"x":235.99999,"y":739.89994}},{"name":"Dalavägen","location":{"x":235.99999,"y":754.15196}},{"name":"Kaprifolgatan","location":{"x":235.99999,"y":768.40873}},{"name":"Trälåsvägen","location":{"x":235.99999,"y":782.67835}},{"name":"Kavåsvägen","location":{"x":235.99999,"y":796.96504}},{"name":"Klangfärgsgatan","location":{"x":235.99348,"y":810.99994}},{"name":"Bergkristallsgatan","location":{"x":235.99999,"y":830.89993}},{"name":"Smyckegatan","location":{"x":243.64999,"y":838.64994}},{"name":"Rud","location":{"x":245.34999,"y":820.34994}},{"name":"Munspelsgatan","location":{"x":256.34999,"y":831.34994}},{"name":"J A Weetergrens Gata","location":{"x":346.09999,"y":800.99992}},{"name":"Olof Asklunds Gata","location":{"x":346.09999,"y":820.99992}},{"name":"Beatrice Lesslies Gata","location":{"x":345.99998,"y":842.09994}},{"name":"Amalia Jönssons Gata","location":{"x":346.09999,"y":859.99992}},{"name":"F O Peterssons Gata","location":{"x":346.09998,"y":880.99993}},{"name":"Lona Knapes Gata","location":{"x":356.09998,"y":890.99993}},{"name":"Frölunda Smedja","location":{"x":345.99998,"y":907.89993}},{"name":"Pilegårdsvägen","location":{"x":355.89998,"y":924.99994}},{"name":"Kobbegårdsvägen","location":{"x":360.99998,"y":929.89994}},{"name":"Hantvärksvägen","location":{"x":372.999981,"y":935.05424}},{"name":"Sisjö Kullegata","location":{"x":383.99998,"y":920.89994}},{"name":"Datavägen","location":{"x":383.99998,"y":928.09994}},{"name":"Stora Åvägen","location":{"x":372.999981,"y":949.09994}},{"name":"Sisjöbäckens väg","location":{"x":383.899983,"y":948.99988}},{"name":"Kobbegården","location":{"x":355.89998,"y":946.29969}},{"name":"Backa","location":{"x":355.99998,"y":958.89993}},{"name":"Knapehall","location":{"x":364.89998,"y":958.99991}},{"name":"Gåsmossen","location":{"x":375.614941,"y":958.89991}},{"name":"Varpemossen","location":{"x":383.99998,"y":958.89994}},{"name":"Ringestensvägen","location":{"x":355.99998,"y":968.09994}},{"name":"Trollåsen","location":{"x":355.99998,"y":977.09994}},{"name":"Otterbäck","location":{"x":355.99998,"y":985.89994}},{"name":"Askims Kyrka","location":{"x":345.92843,"y":985.99994}},{"name":"Granliden","location":{"x":317.99999,"y":985.8999}},{"name":"Lövviksvägen","location":{"x":317.99999,"y":994.0999}},{"name":"Vassgången","location":{"x":317.99999,"y":1002.09989}},{"name":"Högen","location":{"x":317.99999,"y":1010.89989}},{"name":"Sandås","location":{"x":317.89999,"y":1020.99989}},{"name":"Brottkärrsmotet","location":{"x":318.00284,"y":1030.99989}},{"name":"Enebacken","location":{"x":306.44784,"y":1021.00002}},{"name":"Brända Berget","location":{"x":293.5012,"y":1020.9991}},{"name":"Ugglegården","location":{"x":283.5472,"y":1020.90019}},{"name":"Lyckhem","location":{"x":346.99941,"y":1026.99993}},{"name":"Bassås","location":{"x":317.99999,"y":1040.31409}},{"name":"Uggledal","location":{"x":317.99999,"y":1054.38431}},{"name":"Hästebäck","location":{"x":317.99999,"y":1063.89989}},{"name":"Skintebo","location":{"x":317.99999,"y":1075.09989}},{"name":"Pilegården","location":{"x":335.99998,"y":933.86047}},{"name":"Askims Stationsväg","location":{"x":335.99998,"y":943.04563}},{"name":"Trollängen","location":{"x":335.99998,"y":952.25967}},{"name":"Askimsbadet","location":{"x":335.99998,"y":961.5069}},{"name":"Hovås Nedre","location":{"x":335.99998,"y":979.78379}},{"name":"Högsboleden","location":{"x":315.99998,"y":801.73613}},{"name":"Köpcentrum 421","location":{"x":378.6905,"y":890.99994}},{"name":"Norra Långebergsgatan","location":{"x":410.999979,"y":891.09994}},{"name":"Bäckstensgatan","location":{"x":424.099979,"y":880.99988}},{"name":"Eklanda skog","location":{"x":437.899978,"y":880.99988}},{"name":"Eklanda torg","location":{"x":430.999982,"y":891.09994}},{"name":"Eklanda lund","location":{"x":440.643742,"y":900.64018}},{"name":"Jolen södra","location":{"x":450.223013,"y":910.25279}},{"name":"Eklanda skola","location":{"x":450.899976,"y":890.99994}},{"name":"Stallbacken","location":{"x":489.599979,"y":890.99994}},{"name":"Aby Arenastad","location":{"x":487.899901,"y":920.87718}},{"name":"Kallblodsgatan","location":{"x":503.601691,"y":920.87718}},{"name":"Ponnygatan","location":{"x":518.0999,"y":920.87718}},{"name":"Katrinebergsgatan","location":{"x":528.999974,"y":913.47254}},{"name":"Storgatan","location":{"x":518.899973,"y":890.99994}},{"name":"Våggatan","location":{"x":502.099974,"y":890.99994}},{"name":"Stallbacken västra","location":{"x":476.001848,"y":911.99037}},{"name":"Fässbergsskolan","location":{"x":510.999973,"y":878.09994}},{"name":"Jungfruplatsen","location":{"x":510.999973,"y":867.09994}},{"name":"Vetekornsgatan","location":{"x":489.649976,"y":862.34988}},{"name":"Bifrost","location":{"x":501.099974,"y":850.99994}},{"name":"Mölndals sjukhus","location":{"x":528.999972,"y":867.09994}},{"name":"Lackarebäck","location":{"x":528.899972,"y":850.99994}},{"name":"Svanegatan","location":{"x":591.89998,"y":901.99994}},{"name":"Fjällgatan","location":{"x":600.64997,"y":910.64994}},{"name":"Glättaregatan","location":{"x":608.34997,"y":918.34994}},{"name":"Lejonslättsgatan","location":{"x":628.09997,"y":925.99994}},{"name":"Hålsten","location":{"x":636.09997,"y":916.99994}},{"name":"Skyttegatan","location":{"x":635.99997,"y":904.89994}},{"name":"Ejdergatan","location":{"x":619.99997,"y":917.54564}},{"name":"Kullavägen","location":{"x":665.99997,"y":855.09995}},{"name":"Gunnebovägen","location":{"x":673.99996,"y":847.55561}},{"name":"Ängsvägen","location":{"x":680.99996,"y":840.49843}},{"name":"Vällsjö centrum","location":{"x":689.34996,"y":840.34995}},{"name":"Sjökullevägen","location":{"x":697.3854,"y":840.41869}},{"name":"Vällkullevägen","location":{"x":706.08538,"y":840.41869}},{"name":"Rådavägen","location":{"x":715.98538,"y":840.31869}},{"name":"Kvarnbacken","location":{"x":710.09998,"y":856.99995}},{"name":"Hårskeredsvägen","location":{"x":696.99998,"y":870.09995}},{"name":"Kobackevägen","location":{"x":683.89998,"y":882.99995}},{"name":"Kyrkogårdsgatan","location":{"x":619.98267,"y":901.99994}},{"name":"Hönekullavägen","location":{"x":715.99996,"y":831.09994}},{"name":"Råda stock","location":{"x":715.89996,"y":820.99994}},{"name":"Högadal","location":{"x":754.38872,"y":820.99994}},{"name":"Sommarhemsvägen","location":{"x":764.28872,"y":821.09994}},{"name":"Lövskogsvägen","location":{"x":774.63872,"y":826.34994}},{"name":"Nysätersvägen","location":{"x":782.73939,"y":834.45061}},{"name":"Långetjärn","location":{"x":790.83958,"y":842.5508}},{"name":"Höga hallar","location":{"x":798.93874,"y":850.64995}},{"name":"Ekgatan","location":{"x":545.999974,"y":869.09994}},{"name":"Bergfotsgatan","location":{"x":545.999972,"y":838.09994}},{"name":"Sörgärdesgatan","location":{"x":545.999972,"y":822.09994}},{"name":"Kallebäck","location":{"x":586.10791,"y":788.00019}},{"name":"Smörkärnegatan","location":{"x":576.44157,"y":788.00019}},{"name":"Smörgatan","location":{"x":566.77485,"y":788.00019}},{"name":"Gräddgatan","location":{"x":557.107915,"y":788.00019}},{"name":"Kallebäcksvägen","location":{"x":550.999974,"y":769.39993}},{"name":"Skårsskolan","location":{"x":572.11237,"y":734.00144}},{"name":"Fagerängsgatan","location":{"x":581.01237,"y":728.98418}},{"name":"Skårsplatsen","location":{"x":581.01237,"y":717.10148}},{"name":"Prytzgatan","location":{"x":577.36237,"y":711.35148}},{"name":"Anneholmsgatan","location":{"x":572.36238,"y":707.65148}},{"name":"Betaniagatan","location":{"x":566.01239,"y":702.99245}},{"name":"Årbogatan","location":{"x":566.01239,"y":718.48511}},{"name":"Sankt Sigfrids Plan","location":{"x":566.01239,"y":694.10148}},{"name":"Herrgårdsgatan","location":{"x":565.99998,"y":672.09994}},{"name":"Prästgårdsgatan","location":{"x":565.99998,"y":662.09995}},{"name":"Kärralundsgatan","location":{"x":566.00003,"y":646.27717}},{"name":"Lundenskolan","location":{"x":580.89365,"y":649.99984}},{"name":"Hogenskildsgatan","location":{"x":585.99365,"y":640.09984}},{"name":"Nobelgatan","location":{"x":578.72633,"y":620.00008}},{"name":"Nobelplatsen","location":{"x":565.99997,"y":613.1811}},{"name":"Pärlstickare gatan","location":{"x":565.99997,"y":633.12585}},{"name":"Ingeborgsgatan","location":{"x":549.349974,"y":638.34994}},{"name":"Överåsvallen","location":{"x":540.946778,"y":635.99994}},{"name":"Norra Gubberogatan","location":{"x":531.223194,"y":635.99994}},{"name":"Vagnhallen Gårda","location":{"x":521.487677,"y":635.99994}},{"name":"Ullevi Norra","location":{"x":511.746779,"y":635.99994}},{"name":"Syster Estrids Gata","location":{"x":443.899985,"y":783.99994}},{"name":"Doktor Westrings Gata","location":{"x":455.899985,"y":783.99994}},{"name":"Doktor Weltzins Gata","location":{"x":467.09996,"y":795.99979}},{"name":"Doktor Forselius Gata","location":{"x":479.999985,"y":787.09994}},{"name":"Mossen","location":{"x":488.999982,"y":778.09993}},{"name":"Sörgårdsskolan","location":{"x":515.349988,"y":795.34994}},{"name":"Björkuddsgatan","location":{"x":509.349975,"y":789.34994}},{"name":"Framnäsgatan","location":{"x":500.999976,"y":776.09994}},{"name":"Pilbågsgatan","location":{"x":500.999983,"y":766.30554}},{"name":"Lana","location":{"x":528.999976,"y":787.41614}},{"name":"Bergsprängaregatan","location":{"x":501.00644,"y":755.99994}},{"name":"Engdalhsgatan","location":{"x":492.899992,"y":755.99995}},{"name":"Chalmers Tvärgata","location":{"x":485.999984,"y":745.09994}},{"name":"Ålandsgatan","location":{"x":474.349977,"y":729.34994}},{"name":"Spaldingsgatan","location":{"x":500.999983,"y":743.09994}},{"name":"Vidblicksgatan","location":{"x":500.999983,"y":729.09994}},{"name":"Utlandagatan","location":{"x":510.999983,"y":746.09994}},{"name":"Carlandersplatsen","location":{"x":521.099973,"y":717.99994}},{"name":"Götaplatsen","location":{"x":489.649984,"y":709.64994}},{"name":"Chalmers","location":{"x":465.999986,"y":735.89994}},{"name":"Wavrinskys Plats","location":{"x":458.099985,"y":743.99994}},{"name":"Medicinaregatan","location":{"x":445.866199,"y":750.97898}},{"name":"Sahlgrenska Södra","location":{"x":430.99433,"y":762.56734}},{"name":"Södermalmsgatan","location":{"x":430.899986,"y":775.99994}},{"name":"Sahlgrenska Huvudentré","location":{"x":416.72811,"y":750.99994}},{"name":"Annedalskyrkan","location":{"x":394.899981,"y":739.99994}},{"name":"Härlanda","location":{"x":618.44997,"y":598.04995}},{"name":"Munkebäckstorget","location":{"x":624.99997,"y":602.09991}},{"name":"Qvidingsgatan","location":{"x":630.40125,"y":607.29785}},{"name":"Bovallstrandsgatan","location":{"x":635.64997,"y":612.64991}},{"name":"Studiegången","location":{"x":642.89997,"y":615.99991}},{"name":"Stabbetorget","location":{"x":649.45079,"y":616.1001}},{"name":"Trätorget","location":{"x":655.99997,"y":615.96056}},{"name":"Spåntorget","location":{"x":655.99996,"y":609.11943}},{"name":"Smörslottsgatan","location":{"x":655.99996,"y":602.2736}},{"name":"Östra Sjukhuset","location":{"x":655.99998,"y":590.89995}},{"name":"Backvägen","location":{"x":680.99996,"y":601.09995}},{"name":"Persplatsen","location":{"x":680.99997,"y":615.09991}},{"name":"Ljungkullen","location":{"x":680.89997,"y":621.9999}},{"name":"Kvarnfallsvägen","location":{"x":687.09997,"y":625.99995}},{"name":"Soldatheden","location":{"x":694.89997,"y":625.99995}},{"name":"Oxledsvägen","location":{"x":700.99997,"y":621.89995}},{"name":"Björnåsvägen","location":{"x":700.99996,"y":608.09991}},{"name":"Broängsvägen","location":{"x":709.34996,"y":594.64995}},{"name":"Bockemossen","location":{"x":715.18362,"y":588.81629}},{"name":"Frejaplan","location":{"x":724.34996,"y":579.64995}},{"name":"Magnusvägen","location":{"x":730.34996,"y":573.64995}},{"name":"Finngösa","location":{"x":749.89998,"y":565.99995}},{"name":"Stora Ringvägen","location":{"x":737.89997,"y":565.99995}},{"name":"Sävedalens folkets hus","location":{"x":724.47314,"y":565.99995}},{"name":"Allévägen","location":{"x":711.00505,"y":565.99995}},{"name":"Skolvägen","location":{"x":697.47685,"y":565.99995}},{"name":"Gibsons väg","location":{"x":683.87996,"y":565.99995}},{"name":"Mellanvägen","location":{"x":670.21657,"y":565.99995}},{"name":"Fräntorp","location":{"x":656.52076,"y":565.99995}},{"name":"Torpamotet","location":{"x":642.76912,"y":565.99995}},{"name":"Munkebäcksmotet","location":{"x":624.89149,"y":565.99995}},{"name":"Eriksbo Östergärde","location":{"x":603.87533,"y":370.99996}},{"name":"Eriksbo Skola","location":{"x":586.479773,"y":370.999955}},{"name":"Eriksbo Västergärde","location":{"x":572.09997,"y":370.99995}},{"name":"Handbollsvägen","location":{"x":559.899971,"y":370.99995}},{"name":"Bläsebogärdet","location":{"x":546.999969,"y":364.91326}},{"name":"Hjällbovallen","location":{"x":547.099972,"y":350.99995}},{"name":"Branddammsbacken","location":{"x":590.99905,"y":335.99996}},{"name":"Sandeslättsgatan","location":{"x":590.999969,"y":351.099956}},{"name":"Storås Industriväg","location":{"x":610.999966,"y":352.099964}},{"name":"Storås","location":{"x":605.999966,"y":331.099961}},{"name":"Spadegatan","location":{"x":590.999967,"y":316.00481}},{"name":"Gårdstensliden","location":{"x":558.999971,"y":289.0798}},{"name":"Salviagatan","location":{"x":543.999972,"y":279.2702}},{"name":"Gårdsten Centrum","location":{"x":543.999971,"y":265.0947}},{"name":"Saffransgatan","location":{"x":543.999971,"y":256.9308}},{"name":"Timjansgatan","location":{"x":520.999973,"y":256.974125}},{"name":"Kanelgatan","location":{"x":520.999973,"y":272.259018}},{"name":"Peppargatan","location":{"x":520.999973,"y":281.8798}},{"name":"Angeredsvinkeln","location":{"x":571.99996,"y":270.0798}},{"name":"Trädgårdsberget","location":{"x":565.99997,"y":255.1}},{"name":"Rappedalen","location":{"x":590.99544,"y":260.9097}},{"name":"Trädsgårdsgärdet","location":{"x":590.99997,"y":250.8798}},{"name":"Kryddnejlikegatan","location":{"x":587.34997,"y":237.3499}},{"name":"Gunnaredsvägen","location":{"x":581.09997,"y":231.0}},{"name":"Fänkålsgatan","location":{"x":566.09997,"y":231.0}},{"name":"Lövgärdets Centrum","location":{"x":565.99997,"y":220.1}},{"name":"Mejramgatan","location":{"x":561.64997,"y":211.65}},{"name":"Körvelgatan","location":{"x":555.099971,"y":205.0}},{"name":"Persiljegatan","location":{"x":546.34998,"y":196.3304}},{"name":"Fjäderharvsgatan","location":{"x":610.64997,"y":270.35}},{"name":"Vättleskolan","location":{"x":621.34997,"y":259.65}},{"name":"Fjällsyran","location":{"x":640.99997,"y":266.1}},{"name":"Fjällkåpan","location":{"x":653.89996,"y":275.9798}},{"name":"Fjällhavren","location":{"x":665.99997,"y":268.2128}},{"name":"Fjällbruden","location":{"x":666.09996,"y":256.0}},{"name":"Rannebergen","location":{"x":646.49271,"y":250.9798}},{"name":"Eliebergsvägen","location":{"x":520.000854,"y":315.97975}},{"name":"Fars Hatt","location":{"x":422.999978,"y":103.1}},{"name":"Kexbageriet","location":{"x":417.433021,"y":97.3394}},{"name":"Västra Parken","location":{"x":411.765382,"y":91.6714}},{"name":"Kongahällsgatan","location":{"x":405.999979,"y":86.1}},{"name":"Kungälv resecentrum","location":{"x":396.099966,"y":86.0}},{"name":"Angereds Storåsväg","location":{"x":610.999974,"y":380.926543}},{"name":"Långavallsgatan","location":{"x":641.09997,"y":380.99995}},{"name":"Linnarhultsvägen","location":{"x":669.99996,"y":381.09995}},{"name":"Åstebo","location":{"x":783.99996,"y":641.85799}},{"name":"Örjansvägen","location":{"x":783.99996,"y":655.15317}},{"name":"Brasebacken","location":{"x":783.99996,"y":666.72072}},{"name":"Öjersjö centrum","location":{"x":772.34996,"y":682.64994}},{"name":"Öjersjö brunn","location":{"x":761.34996,"y":693.64994}},{"name":"Gökegård","location":{"x":749.34996,"y":705.64994}},{"name":"Solbacken","location":{"x":738.64996,"y":716.34996}},{"name":"Hålsjön","location":{"x":729.50592,"y":725.63915}},{"name":"Isfabriken","location":{"x":720.19875,"y":734.75735}},{"name":"Analysvägen","location":{"x":701.82707,"y":753.17113}},{"name":"Mölnlycke företagspark","location":{"x":692.64996,"y":762.34996}},{"name":"Hultet","location":{"x":711.0089,"y":743.97366}},{"name":"Bråta by","location":{"x":751.56688,"y":781.99994}},{"name":"Bråta industriområde","location":{"x":758.64298,"y":781.99996}},{"name":"Källdalen","location":{"x":765.71597,"y":781.99994}},{"name":"Röset","location":{"x":772.78018,"y":781.99994}},{"name":"Slamby","location":{"x":779.83124,"y":781.99994}},{"name":"Bårekulla","location":{"x":786.86708,"y":781.99994}},{"name":"Grönhultsvägen","location":{"x":793.88865,"y":781.99994}},{"name":"Solhem","location":{"x":800.89996,"y":781.99994}},{"name":"Landvetter resecentrum","location":{"x":822.89996,"y":762.99994}},{"name":"Prinsgatan","location":{"x":367.737336,"y":680.99994}},{"name":"Oscar Fredriks Kyrka","location":{"x":359.99998,"y":685.96557}},{"name":"Vegagatan","location":{"x":359.99426,"y":698.53458}},{"name":"Jungmansgatan","location":{"x":353.60165,"y":704.62095}},{"name":"Paradisgatan","location":{"x":345.09998,"y":704.72095}},{"name":"Fjällskolan","location":{"x":330.34999,"y":704.76197}},{"name":"Kompassgatan","location":{"x":339.99998,"y":711.82095}},{"name":"Masthugget","location":{"x":339.999993,"y":719.82095}},{"name":"Landvetter motet","location":{"x":828.09996,"y":770.99994}},{"name":"Hälsö hamn","location":{"x":16.0,"y":528.04314}},{"name":"Västeräng","location":{"x":16.0,"y":521.15869}},{"name":"Burö färjeläge","location":{"x":16.0,"y":514.80079}},{"name":"Hönö norra","location":{"x":16.0,"y":572.09995}},{"name":"Bäckebolsmotet","location":{"x":437.99999,"y":402.15996}},{"name":"Kapellplatsen","location":{"x":465.899986,"y":720.99994}},{"name":"Vallhamra torg","location":{"x":700.99996,"y":601.09995}},{"name":"Puketorp","location":{"x":716.09996,"y":600.99991}},{"name":"Åsvägen","location":{"x":726.09996,"y":595.99992}},{"name":"Korsägen","location":{"x":733.99996,"y":587.89996}},{"name":"Hammarkullens Väg","location":{"x":571.38539,"y":315.99995}},{"name":"Ramnebacken","location":{"x":556.385387,"y":315.99995}},{"name":"Bredfjällsgatan","location":{"x":556.64997,"y":341.34997}},{"name":"Gropens Gård","location":{"x":573.09997,"y":335.99996}},{"name":"Madängsgatan","location":{"x":335.99998,"y":577.09996}},{"name":"Volvo Torslanda TLA","location":{"x":167.8679,"y":530.95446}},{"name":"Kanndalen","location":{"x":16.00001,"y":565.68732}},{"name":"Öckerö hamn","location":{"x":15.99993,"y":559.29221}},{"name":"Intaget","location":{"x":15.99996,"y":552.92112}},{"name":"Blåbärsvägen","location":{"x":16.00001,"y":546.44204}},{"name":"Propellerfabriken","location":{"x":16.00001,"y":540.19248}},{"name":"Hälsö södra","location":{"x":16.00001,"y":534.04314}},{"name":"Granhäll","location":{"x":256.33541,"y":365.99993}},{"name":"Säve Depå","location":{"x":245.99999,"y":356.09996}},{"name":"Thorskog","location":{"x":79.09998,"y":486.00001}},{"name":"Hovåsskolan","location":{"x":335.99998,"y":970.77909}},{"name":"Tvärhandsgatan","location":{"x":320.96425,"y":826.77051}},{"name":"Högsbo","location":{"x":321.09998,"y":813.99994}},{"name":"Fässberg","location":{"x":463.099977,"y":890.99994}},{"name":"Jolen norra","location":{"x":476.099976,"y":890.99994}},{"name":"Steken","location":{"x":536.004813,"y":315.99995}},{"name":"Lillövägen","location":{"x":274.4787,"y":1021.05275}},{"name":"Askims Svertemosse","location":{"x":402.099985,"y":958.99994}},{"name":"Råda portar västra","location":{"x":686.99996,"y":802.36166}},{"name":"Råda säteri","location":{"x":686.89996,"y":811.99994}},{"name":"Bårhult","location":{"x":783.99996,"y":682.30366}},{"name":"Hallen","location":{"x":784.00367,"y":690.02881}},{"name":"Gökskulla","location":{"x":783.88484,"y":697.7391}},{"name":"Västergårdsvägen","location":{"x":783.90078,"y":705.41158}},{"name":"Uppegårdsvägen","location":{"x":783.90095,"y":713.02852}},{"name":"Tahults mellangård","location":{"x":783.99611,"y":720.58636}},{"name":"Tahults östergård","location":{"x":783.99996,"y":728.09994}},{"name":"Pinntorpsvägen","location":{"x":792.34996,"y":740.34994}},{"name":"Önneröd","location":{"x":798.01637,"y":746.01635}},{"name":"Önnerödsskolan","location":{"x":803.68309,"y":751.68308}},{"name":"Salmered","location":{"x":809.34996,"y":757.34994}},{"name":"Krokslätts Fabriker","location":{"x":528.999974,"y":832.89988}},{"name":"Krokslätts torg","location":{"x":528.899983,"y":805.99994}},{"name":"Operan","location":{"x":404.64998,"y":637.34994}},{"name":"Liseberg Station","location":{"x":546.029316,"y":697.00148}},{"name":"Gamla torget","location":{"x":580.89998,"y":890.99994}},{"name":"Lövgatan","location":{"x":568.50951,"y":873.895}},{"name":"Enerbacksgatan","location":{"x":576.50951,"y":871.095}},{"name":"Siriusgatan 30","location":{"x":598.53632,"y":451.0}},{"name":"Siriusgatan 54","location":{"x":604.15413,"y":450.84491}},{"name":"Siriusgatan 78","location":{"x":609.77187,"y":450.99476}},{"name":"Siriusgatan 106","location":{"x":615.3911,"y":450.99992}},{"name":"Siriusgatan 2","location":{"x":588.49113,"y":443.59993}},{"name":"Gärdsås Torg","location":{"x":588.49107,"y":421.09994}},{"name":"Tycho Brahes Gata","location":{"x":615.95035,"y":412.89995}},{"name":"Astronomgatan","location":{"x":615.95035,"y":418.89995}},{"name":"Keplers Gata","location":{"x":615.95035,"y":424.89995}},{"name":"Syrhåla","location":{"x":138.09999,"y":565.99995}},{"name":"Bur","location":{"x":107.09999,"y":565.99995}},{"name":"Sörredsmotet","location":{"x":165.98109,"y":565.98587}},{"name":"Torslandakrysset","location":{"x":91.09999,"y":565.99725}},{"name":"Synneröd","location":{"x":165.99999,"y":615.89995}},{"name":"Ytterhamnsmotet","location":{"x":195.99351,"y":585.99995}},{"name":"Vädermotet","location":{"x":213.09999,"y":585.99995}},{"name":"Sydatlanten","location":{"x":211.01395,"y":626.98587}},{"name":"Höstvädersgatan","location":{"x":243.09999,"y":578.99994}},{"name":"Kyrkbytorget","location":{"x":261.00746,"y":585.99994}},{"name":"Vårvindsgatan","location":{"x":260.99999,"y":593.58546}},{"name":"Oslogatan","location":{"x":258.09077,"y":602.82415}},{"name":"Rosenhill","location":{"x":249.29077,"y":611.82415}},{"name":"John Bunyans Väg","location":{"x":198.34999,"y":493.64995}},{"name":"Kålsered","location":{"x":205.99999,"y":480.89995}},{"name":"Lexby Odlareväg","location":{"x":205.99999,"y":450.09996}},{"name":"Allebyvägen","location":{"x":189.00746,"y":445.99995}},{"name":"Trulsegården","location":{"x":162.09999,"y":441.99995}},{"name":"Skra Bro","location":{"x":150.99999,"y":431.09995}},{"name":"Kvisljungeby","location":{"x":148.64999,"y":448.34995}},{"name":"Toleredsgatan","location":{"x":284.64999,"y":519.64995}},{"name":"Bjurslätts Torg","location":{"x":296.34999,"y":531.34995}},{"name":"Wieselgrensplatsen","location":{"x":315.99997,"y":565.89995}},{"name":"Bjurslättsskolan","location":{"x":315.99997,"y":554.90442}},{"name":"Wieselgrensgatan","location":{"x":315.99997,"y":536.01691}},{"name":"Lantmannagatan","location":{"x":315.89998,"y":575.99995}},{"name":"Ramberget","location":{"x":315.99998,"y":585.9}},{"name":"Volvo Lundby Norra","location":{"x":299.09999,"y":574.99994}},{"name":"Vågmästeraplatsen","location":{"x":335.99998,"y":565.89995}},{"name":"Swedenborgsplatsen","location":{"x":335.89998,"y":543.99995}},{"name":"Frihamnsporten","location":{"x":384.113179,"y":592.88664}},{"name":"Pumpgatan","location":{"x":367.999982,"y":608.89994}},{"name":"Lindholmen","location":{"x":356.89998,"y":615.99995}},{"name":"Lilleby Kronogård","location":{"x":104.34999,"y":492.64996}},{"name":"Innegården","location":{"x":113.23306,"y":483.7924}},{"name":"Låssbyvägen","location":{"x":122.03731,"y":474.86721}},{"name":"Skräddaregården","location":{"x":130.93908,"y":466.05177}},{"name":"Gamla Lillebyvägen","location":{"x":139.79783,"y":457.20244}},{"name":"Lexbyvägen","location":{"x":150.99999,"y":411.09996}},{"name":"Björlanda Kyrka","location":{"x":143.34999,"y":403.34995}},{"name":"Storegården","location":{"x":135.99999,"y":396.09995}},{"name":"Sjömarksstigen","location":{"x":125.89999,"y":395.99995}},{"name":"Hovdalen","location":{"x":118.09999,"y":395.99995}},{"name":"Björlanda Kile","location":{"x":109.99999,"y":396.09995}},{"name":"Lunnagården","location":{"x":138.42793,"y":388.48053}},{"name":"Östergården","location":{"x":141.37777,"y":379.788}},{"name":"Nolvik","location":{"x":144.32788,"y":371.07931}},{"name":"Kallhed","location":{"x":147.01293,"y":362.26446}},{"name":"Vikhall","location":{"x":150.1735,"y":353.58867}},{"name":"Bli","location":{"x":152.97306,"y":344.77604}},{"name":"Kippholmen","location":{"x":155.9,"y":335.99996}},{"name":"Volvo Tuve L A","location":{"x":229.761412,"y":412.690895}},{"name":"Volvo Tuve L B","location":{"x":236.037575,"y":418.962294}},{"name":"Svärdslundsvägen","location":{"x":266.99658,"y":365.99995}},{"name":"Stora Holms Gärd","location":{"x":277.67277,"y":365.99995}},{"name":"Trafikövningsbanan","location":{"x":288.39065,"y":365.99995}},{"name":"Smedjeholmen","location":{"x":299.16851,"y":365.99995}},{"name":"Bygdegården","location":{"x":310.0098,"y":365.99995}},{"name":"Holmvägen","location":{"x":320.89998,"y":365.99995}},{"name":"Bergsgårdsvägen","location":{"x":320.99514,"y":379.0498}},{"name":"Tuve Prästgård","location":{"x":320.99998,"y":392.1}},{"name":"Snarberget","location":{"x":324.64998,"y":404.65}},{"name":"Tångenvägen","location":{"x":331.64998,"y":411.65}},{"name":"Glöstorpsvägen","location":{"x":335.99998,"y":428.1}},{"name":"Hinnebäcksgatan","location":{"x":295.99999,"y":441.09995}},{"name":"Norumshöjd","location":{"x":295.99998,"y":431.9}},{"name":"Norumsgärde","location":{"x":304.09998,"y":426.0}},{"name":"Tuve Centrum","location":{"x":315.99998,"y":435.9}},{"name":"Brunnehagen","location":{"x":315.99998,"y":445.9}},{"name":"Gunnesgärde","location":{"x":326.09998,"y":446.0}},{"name":"Grimbo","location":{"x":335.99998,"y":465.9}},{"name":"Finlandsvägen","location":{"x":336.09998,"y":446.0}},{"name":"Taklöksvägen","location":{"x":326.34998,"y":515.64995}},{"name":"Bäckedalsvägen","location":{"x":335.99998,"y":506.09995}},{"name":"Björnsonsgatan","location":{"x":335.99998,"y":527.09995}},{"name":"Hildedalsgatan","location":{"x":335.99998,"y":516.09995}},{"name":"Sävedal","location":{"x":285.99999,"y":303.4}},{"name":"Säve Station","location":{"x":285.99999,"y":291.1}},{"name":"Brunstorp","location":{"x":285.99999,"y":283.027}},{"name":"Gunnesby Bro","location":{"x":285.99999,"y":274.5604}},{"name":"Hasselbacken","location":{"x":270.64998,"y":263.65}},{"name":"Brunstorpsnäs","location":{"x":259.14999,"y":252.15}},{"name":"Kornhalls Färja","location":{"x":247.64999,"y":240.65}},{"name":"Gunnensby Skola","location":{"x":285.99998,"y":260.9}},{"name":"Kringlekullen","location":{"x":285.99998,"y":249.1}},{"name":"Gunnesby Kalsbogård","location":{"x":285.99999,"y":238.9469}},{"name":"Skålvisered","location":{"x":285.99999,"y":228.7937}},{"name":"Nordängen","location":{"x":291.34998,"y":220.35}},{"name":"Klobergslyckan","location":{"x":302.13049,"y":209.9084}},{"name":"Tomtebacken","location":{"x":312.73144,"y":199.2658}},{"name":"Bolsten","location":{"x":323.36554,"y":188.6345}},{"name":"Ragnhildsholmen","location":{"x":334.00637,"y":177.9939}},{"name":"Hög","location":{"x":344.64998,"y":167.35}},{"name":"Ellered","location":{"x":363.89998,"y":161.0}},{"name":"Backered","location":{"x":381.266269,"y":161.0147}},{"name":"Backereds Skola","location":{"x":398.632617,"y":161.1142}},{"name":"Göddered","location":{"x":415.999991,"y":161.1}},{"name":"Eriksdal","location":{"x":426.099978,"y":161.0}},{"name":"Trankärrsgatan","location":{"x":425.999987,"y":350.73115}},{"name":"Simonsvägen","location":{"x":425.999987,"y":358.89996}},{"name":"Göpåsgatan","location":{"x":425.999987,"y":366.89996}},{"name":"Tagene","location":{"x":425.999987,"y":375.84829}},{"name":"Tagenevägen 11","location":{"x":425.999978,"y":384.89995}},{"name":"Brandkärr","location":{"x":425.999987,"y":397.44675}},{"name":"Bäckebols Gård","location":{"x":425.999978,"y":407.36243}},{"name":"Kärramotet","location":{"x":450.999975,"y":352.05829}},{"name":"Göpåstunneln","location":{"x":450.999976,"y":366.09995}},{"name":"Bäckebol Norra","location":{"x":450.999976,"y":379.59321}},{"name":"Bäckebol Köpcentrum","location":{"x":451.003922,"y":393.37068}},{"name":"Bäckebol Södra","location":{"x":450.999976,"y":407.09996}},{"name":"Bäckebolsmotet Östra","location":{"x":450.999963,"y":420.90821}},{"name":"Friedländers Gata","location":{"x":431.999979,"y":438.82093}},{"name":"Lisa Sass Gata","location":{"x":431.999977,"y":449.55163}},{"name":"Sägengatan","location":{"x":405.999967,"y":467.13967}},{"name":"Backa Kyrkogatan","location":{"x":405.999967,"y":483.38739}},{"name":"Björkrisvägen","location":{"x":405.999967,"y":499.63967}},{"name":"Balladgatan","location":{"x":405.999967,"y":515.89994}},{"name":"Tingstadsmotet","location":{"x":425.999966,"y":515.89994}},{"name":"Tryckerigatan","location":{"x":425.999966,"y":500.89994}},{"name":"Legendgatan","location":{"x":425.999966,"y":490.89994}},{"name":"Selma Lagerlöfs Torg","location":{"x":405.999967,"y":450.89994}},{"name":"Trämjölsfabriken","location":{"x":450.999956,"y":430.86734}},{"name":"Importgatan","location":{"x":450.999956,"y":441.10072}},{"name":"Backa Bergö","location":{"x":450.999956,"y":451.64503}},{"name":"Stigs Center","location":{"x":450.999976,"y":462.31082}},{"name":"Timber Trading","location":{"x":450.999976,"y":472.76177}},{"name":"Plastteknik","location":{"x":450.999958,"y":483.03871}},{"name":"Exportgatan","location":{"x":450.999979,"y":493.57003}},{"name":"Calvert","location":{"x":450.999976,"y":505.09996}},{"name":"Balamundi","location":{"x":450.999976,"y":517.09995}},{"name":"Stena Metall","location":{"x":450.899976,"y":530.99994}},{"name":"Cold Stores","location":{"x":442.899977,"y":538.99996}},{"name":"Stålverksgatan","location":{"x":436.795286,"y":545.21148}},{"name":"Bessemergatan","location":{"x":430.636731,"y":551.36357}},{"name":"Manufakturgatan","location":{"x":424.488949,"y":557.51098}},{"name":"Stenkolsgatan","location":{"x":418.349978,"y":563.64995}},{"name":"Smidesgatan","location":{"x":409.899978,"y":565.99995}},{"name":"Sankt Jörgens Allé","location":{"x":370.999981,"y":450.9}},{"name":"Skogabergsgatan","location":{"x":367.999981,"y":458.9}},{"name":"Lillhagens station","location":{"x":355.89998,"y":461.0}},{"name":"Berghöjdsgatan","location":{"x":355.99998,"y":474.9}},{"name":"Arödsgatan","location":{"x":356.09998,"y":494.0}},{"name":"Aröds Äng","location":{"x":361.16568,"y":507.8688}},{"name":"Kvillängen Stora","location":{"x":367.032831,"y":515.8672}},{"name":"Minelundsvägen","location":{"x":370.999981,"y":524.3232}},{"name":"Tingstadsvass","location":{"x":370.999981,"y":536.1}},{"name":"Anekdotgatan","location":{"x":398.99998,"y":536.03421}},{"name":"Brunnsbotorget","location":{"x":399.09998,"y":522.99991}},{"name":"Mölnlyckemotet","location":{"x":687.00292,"y":782.13534}},{"name":"Råda portar","location":{"x":700.65292,"y":781.99994}},{"name":"Platåvägen","location":{"x":719.34448,"y":781.99994}},{"name":"Solsten","location":{"x":738.051403,"y":782.003713}},{"name":"Kyrkvägen","location":{"x":737.996242,"y":792.558885}},{"name":"Hulebäcksgymnasiet","location":{"x":738.01405,"y":804.777691}},{"name":"Delsjömotet","location":{"x":591.09997,"y":770.99989}},{"name":"Kalvemossen","location":{"x":611.57498,"y":765.89995}},{"name":"Helenedal","location":{"x":619.09998,"y":785.99994}},{"name":"Helenevik","location":{"x":619.09352,"y":802.52957}},{"name":"Heleneviksvägen","location":{"x":619.01292,"y":819.03918}},{"name":"Nöståsberget","location":{"x":619.00095,"y":835.47953}},{"name":"Gunnebo Park","location":{"x":618.99998,"y":851.89994}},{"name":"Tallkottegatan","location":{"x":609.648,"y":860.99994}},{"name":"Stensjökyrkan","location":{"x":588.89998,"y":860.99994}},{"name":"Broberggsgatan","location":{"x":579.89998,"y":860.99994}},{"name":"Lackarebäcks äldreboende","location":{"x":567.09997,"y":860.99994}},{"name":"Flöjelbergsgatan","location":{"x":554.899974,"y":860.99994}},{"name":"Fässbergs äldreboende","location":{"x":490.999974,"y":840.89994}},{"name":"Wennerbergsgatan","location":{"x":478.349969,"y":828.34994}},{"name":"Toltorpsskolan","location":{"x":466.349977,"y":816.34994}},{"name":"Dalgångsgatan","location":{"x":455.999985,"y":805.99346}},{"name":"Bruns backe","location":{"x":473.099976,"y":805.99994}},{"name":"Grågåsgatan","location":{"x":484.099975,"y":805.99994}},{"name":"Hökegårdsgatan","location":{"x":493.999974,"y":806.09994}},{"name":"Soltorpsvägen","location":{"x":506.899983,"y":805.99994}},{"name":"Fredåsgatan","location":{"x":518.899983,"y":805.99994}},{"name":"Linnéplatsen","location":{"x":381.003741,"y":725.99994}},{"name":"Olskroken","location":{"x":531.899972,"y":597.99995}},{"name":"Bagaregårdsskolan","location":{"x":587.16852,"y":589.42258}},{"name":"Strömmensbergsstigen","location":{"x":589.95615,"y":578.75584}},{"name":"Gustavsplatsen","location":{"x":581.40177,"y":565.99995}},{"name":"Lefflersgatan","location":{"x":604.58722,"y":579.09995}},{"name":"Kransen","location":{"x":607.1304,"y":586.6577}},{"name":"Tomtebacksgatan","location":{"x":604.78722,"y":594.39995}},{"name":"Kristinedal","location":{"x":539.021889,"y":547.97099}},{"name":"Nylösegatan","location":{"x":519.999975,"y":497.01209}},{"name":"Alekärrsgatan","location":{"x":519.99998,"y":478.9973}},{"name":"Skräppekärr Östra","location":{"x":519.99998,"y":460.82226}},{"name":"Alelyckan","location":{"x":519.99998,"y":442.56411}},{"name":"Kretsloppsparken","location":{"x":519.99998,"y":424.24357}},{"name":"Burmabacken","location":{"x":529.999972,"y":397.92655}},{"name":"Lärjeholmen","location":{"x":539.099972,"y":389.02655}},{"name":"Hjällbo","location":{"x":546.999972,"y":380.92655}},{"name":"Bohus centrum","location":{"x":500.999975,"y":168.879741}},{"name":"Sörgårdsvägen","location":{"x":500.999975,"y":181.113041}},{"name":"Idrottsvägen","location":{"x":500.999975,"y":193.338941}},{"name":"Surte kyrka","location":{"x":500.999975,"y":205.544641}},{"name":"Bruksvägen","location":{"x":500.999975,"y":217.723841}},{"name":"Videgårdsvägen","location":{"x":500.999975,"y":229.879841}},{"name":"Polhemsplatsen","location":{"x":485.999977,"y":630.09994}},{"name":"Åkareplatsen","location":{"x":458.649983,"y":608.64994}},{"name":"Berzelligatan","location":{"x":509.349983,"y":694.34994}},{"name":"Skårs Kyrka","location":{"x":566.01239,"y":733.97019}},{"name":"Grönsakstorget","location":{"x":429.015742,"y":683.99995}},{"name":"Furulunds centrum","location":{"x":788.09998,"y":615.99995}},{"name":"Merkurius gatan","location":{"x":661.0393,"y":417.1395}},{"name":"Hönö färjeläge","location":{"x":31.34063,"y":574.64725}},{"name":"Fyrskeppsvägen","location":{"x":41.0,"y":597.09725}},{"name":"Majvik","location":{"x":46.1,"y":577.99725}},{"name":"Batterivägen","location":{"x":51.45449,"y":577.99725}},{"name":"Långrevsvägen","location":{"x":56.81021,"y":577.99725}},{"name":"Övre Hällsvik","location":{"x":62.16925,"y":577.99725}},{"name":"Hällsviksvägen","location":{"x":67.53269,"y":577.99725}},{"name":"Gossbydalsvägen","location":{"x":72.89999,"y":577.99725}},{"name":"Amhults Torg","location":{"x":88.64999,"y":588.40584}},{"name":"Amhult Resecentrum","location":{"x":90.89999,"y":577.99725}},{"name":"Arendal Skans","location":{"x":145.01395,"y":620.98587}},{"name":"Arendals Allé","location":{"x":135.94845,"y":620.98587}},{"name":"Arendal Terminal","location":{"x":130.99999,"y":614.09995}},{"name":"Bockkranen","location":{"x":275.84678,"y":625.99995}},{"name":"Eriksbergsdockan","location":{"x":285.34998,"y":623.64995}},{"name":"Terminalvägen","location":{"x":131.00739,"y":598.36158}},{"name":"Arendal Norra","location":{"x":141.09999,"y":588.99995}},{"name":"Hamneviksvägen","location":{"x":145.89999,"y":596.20271}},{"name":"Godsgatan","location":{"x":150.99999,"y":610.47985}},{"name":"Östergärde","location":{"x":212.99999,"y":448.09995}},{"name":"Helgered Gårdar","location":{"x":225.68002,"y":460.69877}},{"name":"Klare Mosse","location":{"x":238.31748,"y":473.33164}},{"name":"Klara","location":{"x":246.99999,"y":481.89995}},{"name":"Solstrålegatan","location":{"x":246.99999,"y":491.62547}},{"name":"Länsmanstorget","location":{"x":238.09999,"y":506.99996}},{"name":"Temperaturgatan","location":{"x":246.99999,"y":507.01488}},{"name":"Svarte Mossse","location":{"x":229.99999,"y":506.89995}},{"name":"Väderilsgatan","location":{"x":246.99999,"y":517.89994}},{"name":"Friskväderstorget","location":{"x":246.99999,"y":530.09996}},{"name":"Önskevädersgatan","location":{"x":246.99999,"y":544.57436}},{"name":"Vårväderstorget","location":{"x":236.09999,"y":565.99994}},{"name":"Hagelvädersgatan","location":{"x":228.00006,"y":565.99994}},{"name":"Ruskvädersgatan","location":{"x":219.89999,"y":565.99994}},{"name":"Jättestensskolan","location":{"x":260.99999,"y":548.09995}},{"name":"Skeppsbyggaregatan","location":{"x":260.99999,"y":538.99941}},{"name":"Svartedalsgatan","location":{"x":260.99999,"y":529.89996}},{"name":"Krabbeliderna","location":{"x":270.34999,"y":516.64995}},{"name":"Bjurslättsliden","location":{"x":275.90074,"y":510.9992}},{"name":"Hålldammen","location":{"x":783.99996,"y":591.89995}},{"name":"Björndammen","location":{"x":784.00079,"y":599.45281}},{"name":"Slättenvägen","location":{"x":797.09996,"y":603.99995}},{"name":"Stubbvägen","location":{"x":805.99998,"y":610.99356}},{"name":"Häradsvägen","location":{"x":820.99996,"y":589.09995}},{"name":"Lundby Gamla Kyrka","location":{"x":295.89998,"y":584.99994}},{"name":"Säterigatan","location":{"x":306.09998,"y":600.99995}},{"name":"Danaplatsen","location":{"x":298.34998,"y":608.65}},{"name":"Eriksbergstorget","location":{"x":295.99354,"y":615.99995}},{"name":"Häggvägen","location":{"x":88.64999,"y":492.64996}},{"name":"Bergegården","location":{"x":72.26699,"y":485.99903}},{"name":"Sävviken","location":{"x":65.42367,"y":486.09478}},{"name":"Gröna Viken","location":{"x":58.56446,"y":486.09086}},{"name":"Lillebybadet","location":{"x":51.68902,"y":486.09049}},{"name":"Norskog","location":{"x":44.79961,"y":486.07945}},{"name":"Lilleby Båthamn","location":{"x":37.90164,"y":485.97576}},{"name":"Sillvik","location":{"x":30.99999,"y":485.89999}},{"name":"Akkas Gata","location":{"x":405.999979,"y":430.89995}},{"name":"Olshammarsgatan","location":{"x":382.941646,"y":420.89995}},{"name":"Båtsman Grås Gata","location":{"x":388.89998,"y":405.99995}},{"name":"Båtsman Kapers Gata","location":{"x":388.99998,"y":394.89995}},{"name":"Båtsman Hisings Gata","location":{"x":396.899979,"y":390.99995}},{"name":"Fridhems Kyrkogård","location":{"x":406.099979,"y":398.99995}},{"name":"Backadalsmotet","location":{"x":431.899977,"y":463.99995}},{"name":"Åketorpsgatan","location":{"x":375.549835,"y":420.9961}},{"name":"Skogsbrynet","location":{"x":363.35855,"y":421.0}},{"name":"Skälltorpsvägen","location":{"x":355.99998,"y":420.993}},{"name":"Lillhagsparken Södra","location":{"x":355.99955,"y":405.9014}},{"name":"Lillhagsparken Norra","location":{"x":356.1013,"y":390.9012}},{"name":"Skogome","location":{"x":355.999987,"y":375.89995}},{"name":"Sankt jörgens Park","location":{"x":355.99998,"y":446.0404}},{"name":"Krockebacksgatan","location":{"x":181.0,"y":698.11751}},{"name":"Skogsrydsgatan","location":{"x":180.99999,"y":689.57255}},{"name":"Sjögången","location":{"x":180.99999,"y":682.09994}},{"name":"Tångudden","location":{"x":185.09999,"y":675.99995}},{"name":"Toredamm","location":{"x":197.64999,"y":677.64994}},{"name":"Nya Varvets Torg","location":{"x":203.09999,"y":682.99994}},{"name":"Örlogsvägen","location":{"x":202.99999,"y":663.9937}},{"name":"Pingstvägen","location":{"x":181.0,"y":770.97001}},{"name":"Madbäcksvägent","location":{"x":196.99999,"y":787.09994}},{"name":"Beryllgatan","location":{"x":210.99999,"y":810.99916}},{"name":"Östes Gata","location":{"x":193.99998,"y":810.99917}},{"name":"Västes Gata","location":{"x":177.99999,"y":810.99917}},{"name":"Skärvallsgatan","location":{"x":160.99999,"y":782.99917}},{"name":"Björnåsgatan","location":{"x":161.09999,"y":810.99994}},{"name":"Fiskebäcksskolan","location":{"x":160.99977,"y":828.52657}},{"name":"Sikgatan","location":{"x":160.99999,"y":846.05349}},{"name":"Fiskebäcks Småbåtshamn","location":{"x":140.9,"y":845.99994}},{"name":"Aprikosgatan","location":{"x":175.99999,"y":846.01803}},{"name":"Melongatan","location":{"x":183.34999,"y":853.34994}},{"name":"Åkerberget","location":{"x":190.99999,"y":860.89994}},{"name":"Greveberget","location":{"x":202.89999,"y":860.99994}},{"name":"Grevegårdsvägen","location":{"x":218.09999,"y":860.99994}},{"name":"Björkhöjdsgatan","location":{"x":231.89999,"y":860.99994}},{"name":"Stenkärsgatan","location":{"x":190.99999,"y":872.31545}},{"name":"Klåveskärsgatan","location":{"x":191.09999,"y":883.99993}},{"name":"Juteskärsgatan","location":{"x":190.99999,"y":895.05774}},{"name":"Halleskärsgatan","location":{"x":190.99999,"y":906.09994}},{"name":"Önnereds Brygga","location":{"x":170.89999,"y":905.99994}},{"name":"Brungatan","location":{"x":208.89999,"y":905.99994}},{"name":"Åkered","location":{"x":225.99999,"y":906.09994}},{"name":"Opaltorget","location":{"x":225.99998,"y":886.45127}},{"name":"Kulörgatan","location":{"x":225.99999,"y":918.673}},{"name":"Rödgatan","location":{"x":225.99998,"y":931.25755}},{"name":"Hammarvägen","location":{"x":225.99998,"y":943.85239}},{"name":"Näsbovägen","location":{"x":225.89999,"y":955.99994}},{"name":"Kannebäck","location":{"x":255.09999,"y":905.99994}},{"name":"Välen","location":{"x":264.99998,"y":915.45127}},{"name":"Gjutegården","location":{"x":264.99999,"y":926.89994}},{"name":"Hultåsen","location":{"x":264.99999,"y":935.89994}},{"name":"Hults Bro","location":{"x":264.99998,"y":906.05707}},{"name":"Ängås","location":{"x":264.99999,"y":897.09994}},{"name":"Toftaåsgatan","location":{"x":264.99999,"y":887.89994}},{"name":"Västra Frölunda Kyrka","location":{"x":302.99998,"y":878.09994}},{"name":"Radiovägen","location":{"x":320.89998,"y":886.99993}},{"name":"Radiomotet","location":{"x":335.99998,"y":900.89994}},{"name":"Johannefred","location":{"x":459.794579,"y":919.89368}},{"name":"Riskulla","location":{"x":481.006432,"y":940.99986}},{"name":"Kryptongatan","location":{"x":499.099155,"y":940.99989}},{"name":"Neongatan","location":{"x":516.099985,"y":940.99989}},{"name":"Gamla tingshuset","location":{"x":537.099974,"y":955.99994}},{"name":"Goco","location":{"x":536.999974,"y":948.89994}},{"name":"AstraZeneca","location":{"x":529.028604,"y":940.99994}},{"name":"Peppareds torg","location":{"x":537.04674,"y":973.81274}},{"name":"Kikås","location":{"x":627.09998,"y":890.99994}},{"name":"Gunnebodal","location":{"x":656.08433,"y":891.09993}},{"name":"Persikovägen","location":{"x":665.99997,"y":883.09993}},{"name":"Pixbo herrgård","location":{"x":665.99997,"y":875.11866}},{"name":"Pixbo dammar","location":{"x":665.99997,"y":867.2385}},{"name":"Torsgatan","location":{"x":444.999979,"y":586.89994}},{"name":"Falutorget","location":{"x":454.349978,"y":577.64995}},{"name":"Gasverket","location":{"x":465.674525,"y":566.32377}},{"name":"Vassgatan","location":{"x":476.009961,"y":555.98994}},{"name":"Viadukten","location":{"x":486.349977,"y":545.64995}},{"name":"Bergsjödalen","location":{"x":669.99996,"y":426.1}},{"name":"Rymdtorget Buss","location":{"x":669.99995,"y":443.89995}},{"name":"Saturnusgatan","location":{"x":692.96725,"y":450.51957}},{"name":"Komettorget","location":{"x":656.09996,"y":470.99995}},{"name":"Bergsjösvängen","location":{"x":660.09995,"y":485.99995}},{"name":"Atmosfärgatan","location":{"x":644.34995,"y":474.34996}},{"name":"Stora Björn","location":{"x":630.99997,"y":466.09995}},{"name":"Orion","location":{"x":630.99997,"y":474.89995}},{"name":"Gärdsåsgatan","location":{"x":630.99997,"y":482.29995}},{"name":"Valborgsmässogatan","location":{"x":635.34997,"y":490.34995}},{"name":"Hindersmässogatan","location":{"x":641.19713,"y":496.20726}},{"name":"Ungbrodesgatan","location":{"x":650.89995,"y":509.99996}},{"name":"Gillegatan","location":{"x":650.99997,"y":517.8405}},{"name":"SKF","location":{"x":559.899971,"y":526.99995}},{"name":"Bellevue","location":{"x":570.89997,"y":526.99995}},{"name":"Kvibergsskolan","location":{"x":584.99997,"y":526.89995}},{"name":"Orrebacksgatan","location":{"x":601.99996,"y":526.89995}},{"name":"Lemmingsgatan","location":{"x":632.99996,"y":527.04269}},{"name":"Byfogdegatan","location":{"x":572.89997,"y":545.99995}},{"name":"Sävenäs Lokstation","location":{"x":586.69284,"y":545.99772}},{"name":"SKF R-porten","location":{"x":600.48833,"y":545.9749}},{"name":"Lindareverkstaden","location":{"x":614.29044,"y":545.89779}},{"name":"Nordbakels","location":{"x":628.09997,"y":545.99995}},{"name":"Industrivägen","location":{"x":632.99997,"y":537.59995}},{"name":"Östergärde","location":{"x":650.99997,"y":526.96537}},{"name":"Frimästaregatan","location":{"x":670.09996,"y":526.99995}},{"name":"Fjällbo","location":{"x":687.09996,"y":526.99995}},{"name":"Jennyhill","location":{"x":706.00642,"y":526.99996}},{"name":"Artles torg","location":{"x":736.09996,"y":526.99994}},{"name":"Kungälvs sjukhus","location":{"x":395.999986,"y":71.9}},{"name":"Ekeredsvägen","location":{"x":687.84442,"y":381.09995}},{"name":"Gunnilse skola","location":{"x":698.34996,"y":378.64995}},{"name":"Angereds Kyrka","location":{"x":703.35746,"y":373.64242}},{"name":"Rågården","location":{"x":708.36755,"y":368.63236}},{"name":"Bingared","location":{"x":713.3813,"y":363.61861}},{"name":"Knipared","location":{"x":718.39878,"y":358.60113}},{"name":"Björsared","location":{"x":723.41848,"y":353.58143}},{"name":"Ströms Väg","location":{"x":728.43698,"y":348.56293}},{"name":"Olofstorp Västra","location":{"x":733.449,"y":343.55091}},{"name":"Olofstorp","location":{"x":738.44792,"y":338.55199}},{"name":"Häljered","location":{"x":743.42656,"y":333.57336}},{"name":"Stenared","location":{"x":766.09994,"y":329.99997}},{"name":"Bergums Kyrka","location":{"x":753.29842,"y":323.7015}},{"name":"Dockeredsvägen","location":{"x":758.18439,"y":318.81553}},{"name":"Kvarnabäcken","location":{"x":763.0369,"y":313.96302}},{"name":"Delabäcken","location":{"x":767.85953,"y":309.1404}},{"name":"Ytterstad","location":{"x":772.65824,"y":304.3417}},{"name":"Målöga","location":{"x":777.44058,"y":299.5593}},{"name":"Jönsagården","location":{"x":782.21464,"y":294.7853}},{"name":"Stannum","location":{"x":786.98799,"y":290.0119}},{"name":"Stannum station","location":{"x":791.76686,"y":285.2331}},{"name":"Furubergsvägen","location":{"x":796.55557,"y":280.4443}},{"name":"Ingabo","location":{"x":801.35618,"y":275.6437}},{"name":"Pionvägen","location":{"x":806.16856,"y":270.8314}},{"name":"Vårlöksvägen","location":{"x":810.99071,"y":266.0092}},{"name":"Stora Lundby kyrka","location":{"x":815.81922,"y":261.1807}},{"name":"Hjällsnäsvägen","location":{"x":820.64996,"y":256.35}},{"name":"Gråbo busstation","location":{"x":825.64996,"y":251.35}},{"name":"Kärna bussterminal","location":{"x":128.59309,"y":168.594}},{"name":"Hallbjörtorpsvägen","location":{"x":133.60743,"y":173.607}},{"name":"Lerlycke norra","location":{"x":138.56459,"y":178.5644}},{"name":"Lerlycke södra","location":{"x":143.52198,"y":183.5217}},{"name":"Hermansby östra","location":{"x":148.47974,"y":188.4787}},{"name":"Torrebräcka","location":{"x":153.38644,"y":193.486}},{"name":"Flateby norra","location":{"x":158.39159,"y":198.3946}},{"name":"Flateby södra","location":{"x":163.34999,"y":203.35}},{"name":"Torps bro","location":{"x":169.09999,"y":206.0}},{"name":"Harestad västra","location":{"x":176.29155,"y":206.0}},{"name":"Harestads kyrka","location":{"x":183.53719,"y":206.0}},{"name":"Sjöhedsvägen","location":{"x":190.85234,"y":206.0}},{"name":"Harestad östra","location":{"x":198.20482,"y":206.0}},{"name":"Hammars korsväg","location":{"x":205.6432,"y":206.0}},{"name":"Hammar södra","location":{"x":213.09999,"y":206.0}},{"name":"Ulvesundsvägen","location":{"x":218.2009,"y":211.1994}},{"name":"Kornhall","location":{"x":223.34999,"y":216.35}},{"name":"Pölsebo","location":{"x":264.09999,"y":615.99996}},{"name":"Nordviksgatan","location":{"x":335.99998,"y":615.89995}},{"name":"Nordhagsvägen","location":{"x":85.34999,"y":560.34995}},{"name":"Torslanda Torg","location":{"x":75.99999,"y":547.89995}},{"name":"Hembygdsgatan","location":{"x":75.99999,"y":540.89995}},{"name":"Vårbäcksvägen","location":{"x":76.01396,"y":533.98587}},{"name":"Högstensgatan","location":{"x":66.9,"y":533.99995}},{"name":"Runskriftsgatan","location":{"x":61.0,"y":533.99995}},{"name":"Runslingan","location":{"x":55.1,"y":533.99995}},{"name":"Lönnrunan","location":{"x":49.35,"y":530.34995}},{"name":"Hornkamsgatan","location":{"x":44.65001,"y":525.64996}},{"name":"Skräppekärr","location":{"x":490.999961,"y":443.48424}},{"name":"Färgfabrikerna","location":{"x":490.999974,"y":456.91182}},{"name":"Dickson Norra","location":{"x":490.999974,"y":467.72185}},{"name":"Dickson Södra","location":{"x":491.000061,"y":478.52653}},{"name":"Göteborgs Varv","location":{"x":490.999487,"y":489.3233}},{"name":"Lärjehamnen","location":{"x":491.001153,"y":500.11087}},{"name":"Marieholm","location":{"x":490.998456,"y":510.88978}},{"name":"Slakthusgatan","location":{"x":491.022892,"y":521.66245}}]
+[
+  {
+    "name": "Lilla Bommen",
+    "location": {
+      "x": 419.99998,
+      "y": 639.89994
+    }
+  },
+  {
+    "name": "Nordstan",
+    "location": {
+      "x": 429.099979,
+      "y": 623.99994
+    }
+  },
+  {
+    "name": "Stenpiren",
+    "location": {
+      "x": 385.67131,
+      "y": 656.3403000000001
+    }
+  },
+  {
+    "name": "Domkyrkan",
+    "location": {
+      "x": 416.015738,
+      "y": 670.99994
+    }
+  },
+  {
+    "name": "Kungsportsplatsen",
+    "location": {
+      "x": 447.364678,
+      "y": 667.4354900000001
+    }
+  },
+  {
+    "name": "Svingeln",
+    "location": {
+      "x": 487.349961,
+      "y": 599.6499600000001
+    }
+  },
+  {
+    "name": "Gårdatorget",
+    "location": {
+      "x": 545.987647,
+      "y": 664.1736500000001
+    }
+  },
+  {
+    "name": "Järnvågen",
+    "location": {
+      "x": 360.99998,
+      "y": 661.0307700000001
+    }
+  },
+  {
+    "name": "Valand",
+    "location": {
+      "x": 468.4786087,
+      "y": 688.5213200000001
+    }
+  },
+  {
+    "name": "Vasaplatsen",
+    "location": {
+      "x": 453.649985,
+      "y": 708.64994
+    }
+  },
+  {
+    "name": "Mölndals bro",
+    "location": {
+      "x": 539.099974,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Mölndals Innerstad",
+    "location": {
+      "x": 528.9999740000001,
+      "y": 905.0531800000001
+    }
+  },
+  {
+    "name": "Mölndals stadsmuseum",
+    "location": {
+      "x": 593.89998,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Fritidsvägen",
+    "location": {
+      "x": 783.9999700000001,
+      "y": 632.3713700000001
+    }
+  },
+  {
+    "name": "Nils Henrikssons väg",
+    "location": {
+      "x": 794.99996,
+      "y": 577.89995
+    }
+  },
+  {
+    "name": "Gamla Prästvägen",
+    "location": {
+      "x": 802.6736900000001,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Oluff Nilssons väg",
+    "location": {
+      "x": 813.89996,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Skulltorpsvägen",
+    "location": {
+      "x": 820.99998,
+      "y": 577.99355
+    }
+  },
+  {
+    "name": "Partille port",
+    "location": {
+      "x": 820.9999700000001,
+      "y": 567.89995
+    }
+  },
+  {
+    "name": "Partille arena",
+    "location": {
+      "x": 816.40322,
+      "y": 555.99995
+    }
+  },
+  {
+    "name": "Kulturum",
+    "location": {
+      "x": 809.39753,
+      "y": 555.99995
+    }
+  },
+  {
+    "name": "Högshall",
+    "location": {
+      "x": 867.89995,
+      "y": 555.99995
+    }
+  },
+  {
+    "name": "Hallebacken",
+    "location": {
+      "x": 879.89995,
+      "y": 555.99995
+    }
+  },
+  {
+    "name": "Jons väg",
+    "location": {
+      "x": 889.09996,
+      "y": 555.99995
+    }
+  },
+  {
+    "name": "Kåhögsvägen",
+    "location": {
+      "x": 858.64995,
+      "y": 551.64995
+    }
+  },
+  {
+    "name": "Kåhög",
+    "location": {
+      "x": 849.64995,
+      "y": 542.64995
+    }
+  },
+  {
+    "name": "Kåhögs gård",
+    "location": {
+      "x": 844.64995,
+      "y": 537.64995
+    }
+  },
+  {
+    "name": "Lexbydalsvägen",
+    "location": {
+      "x": 835.89996,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Lexby skola",
+    "location": {
+      "x": 824.89996,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Lexby",
+    "location": {
+      "x": 814.89996,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Partille station",
+    "location": {
+      "x": 799.89996,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Besebäcksvägen",
+    "location": {
+      "x": 792.09996,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Särtered",
+    "location": {
+      "x": 855.09995,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Uddared",
+    "location": {
+      "x": 847.89995,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Kåbäcken",
+    "location": {
+      "x": 840.09996,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Kvastekulla",
+    "location": {
+      "x": 833.09996,
+      "y": 577.99995
+    }
+  },
+  {
+    "name": "Lilla Varholmen",
+    "location": {
+      "x": 33.10000000000002,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Hjuvik",
+    "location": {
+      "x": 41.0,
+      "y": 603.89725
+    }
+  },
+  {
+    "name": "Kärraporten",
+    "location": {
+      "x": 447.00457800000004,
+      "y": 345.8999600000001
+    }
+  },
+  {
+    "name": "Arendal Portal",
+    "location": {
+      "x": 154.59998000000002,
+      "y": 620.99991
+    }
+  },
+  {
+    "name": "Kärrlyckan",
+    "location": {
+      "x": 172.99999000000003,
+      "y": 608.89995
+    }
+  },
+  {
+    "name": "Arendalsvägen",
+    "location": {
+      "x": 183.99248,
+      "y": 597.99995
+    }
+  },
+  {
+    "name": "Kärrlyckegatan",
+    "location": {
+      "x": 165.99999000000003,
+      "y": 589.89995
+    }
+  },
+  {
+    "name": "Rya Skog",
+    "location": {
+      "x": 220.09999000000002,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Bensingatan",
+    "location": {
+      "x": 238.01395000000002,
+      "y": 615.9858800000001
+    }
+  },
+  {
+    "name": "Ivarsbergsmotet",
+    "location": {
+      "x": 244.99999000000003,
+      "y": 616.09995
+    }
+  },
+  {
+    "name": "Volvo Torslanda RA",
+    "location": {
+      "x": 195.99999000000003,
+      "y": 523.09995
+    }
+  },
+  {
+    "name": "Volvo Torslanda PVH",
+    "location": {
+      "x": 195.99999000000003,
+      "y": 505.99539000000004
+    }
+  },
+  {
+    "name": "Volvo Torslanda PV",
+    "location": {
+      "x": 188.99999000000003,
+      "y": 512.89995
+    }
+  },
+  {
+    "name": "Polestar",
+    "location": {
+      "x": 181.09999,
+      "y": 520.99995
+    }
+  },
+  {
+    "name": "Volvohallen",
+    "location": {
+      "x": 181.01394,
+      "y": 530.98589
+    }
+  },
+  {
+    "name": "Batterifabriken",
+    "location": {
+      "x": 157.58584000000002,
+      "y": 525.5590500000001
+    }
+  },
+  {
+    "name": "Volvo City",
+    "location": {
+      "x": 173.60243000000003,
+      "y": 540.99995
+    }
+  },
+  {
+    "name": "Volvo Torslanda TK",
+    "location": {
+      "x": 165.99999000000003,
+      "y": 544.6033100000001
+    }
+  },
+  {
+    "name": "Stenliden",
+    "location": {
+      "x": 814.99998,
+      "y": 601.99356
+    }
+  },
+  {
+    "name": "Sörhallstorget",
+    "location": {
+      "x": 306.89998,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Sannegårdshamnen",
+    "location": {
+      "x": 347.83427,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Polstjärnegatan",
+    "location": {
+      "x": 335.99997,
+      "y": 597.89994
+    }
+  },
+  {
+    "name": "Regnbågsgatan",
+    "location": {
+      "x": 336.09998,
+      "y": 588.99995
+    }
+  },
+  {
+    "name": "Änghagen",
+    "location": {
+      "x": 75.99999000000003,
+      "y": 524.89995
+    }
+  },
+  {
+    "name": "Torslanda Mellangård",
+    "location": {
+      "x": 83.64999,
+      "y": 513.34995
+    }
+  },
+  {
+    "name": "Lilleby Skolväg",
+    "location": {
+      "x": 89.64999,
+      "y": 507.34995000000004
+    }
+  },
+  {
+    "name": "Lillebyvägen",
+    "location": {
+      "x": 96.34998999999999,
+      "y": 500.34995000000004
+    }
+  },
+  {
+    "name": "Gamla Torslandavägen",
+    "location": {
+      "x": 92.64999,
+      "y": 496.64995
+    }
+  },
+  {
+    "name": "Spänstvägen",
+    "location": {
+      "x": 163.38372000000004,
+      "y": 398.61257
+    }
+  },
+  {
+    "name": "Högåsa",
+    "location": {
+      "x": 175.84549000000004,
+      "y": 386.15439000000003
+    }
+  },
+  {
+    "name": "Garaget Högstena",
+    "location": {
+      "x": 188.33707000000004,
+      "y": 373.66292
+    }
+  },
+  {
+    "name": "Högstena",
+    "location": {
+      "x": 200.85884,
+      "y": 361.14197
+    }
+  },
+  {
+    "name": "Åseby",
+    "location": {
+      "x": 213.40630000000002,
+      "y": 348.60524
+    }
+  },
+  {
+    "name": "Säve Flyplats",
+    "location": {
+      "x": 225.99999000000003,
+      "y": 336.09996
+    }
+  },
+  {
+    "name": "Säve Flygplatsväg",
+    "location": {
+      "x": 234.34999000000002,
+      "y": 327.6499600000001
+    }
+  },
+  {
+    "name": "Askesby",
+    "location": {
+      "x": 242.34999000000002,
+      "y": 319.6499600000001
+    }
+  },
+  {
+    "name": "Trädet",
+    "location": {
+      "x": 253.09999000000002,
+      "y": 315.99996
+    }
+  },
+  {
+    "name": "Öxnäs",
+    "location": {
+      "x": 264.99999,
+      "y": 315.99996
+    }
+  },
+  {
+    "name": "Kalshed",
+    "location": {
+      "x": 276.89998,
+      "y": 315.99996
+    }
+  },
+  {
+    "name": "Bärby",
+    "location": {
+      "x": 285.99999,
+      "y": 316.09997
+    }
+  },
+  {
+    "name": "Skändla Rös",
+    "location": {
+      "x": 295.99998000000005,
+      "y": 325.8999600000001
+    }
+  },
+  {
+    "name": "Assmundtorp",
+    "location": {
+      "x": 304.09998,
+      "y": 333.99996
+    }
+  },
+  {
+    "name": "Skändla Norra",
+    "location": {
+      "x": 313.34998,
+      "y": 343.34995000000004
+    }
+  },
+  {
+    "name": "Skändla Södra",
+    "location": {
+      "x": 320.99998000000005,
+      "y": 351.09995000000004
+    }
+  },
+  {
+    "name": "Fyrspannvägen",
+    "location": {
+      "x": 401.899967,
+      "y": 282.0
+    }
+  },
+  {
+    "name": "Skimmelvägen",
+    "location": {
+      "x": 398.999968,
+      "y": 273.9
+    }
+  },
+  {
+    "name": "Gerrebacka Gård",
+    "location": {
+      "x": 401.89997900000003,
+      "y": 266.0
+    }
+  },
+  {
+    "name": "Ridhästvägen",
+    "location": {
+      "x": 406.89997900000003,
+      "y": 261.0
+    }
+  },
+  {
+    "name": "Mystängen",
+    "location": {
+      "x": 421.09997300000003,
+      "y": 261.10000000000014
+    }
+  },
+  {
+    "name": "Stora Mysternavägen",
+    "location": {
+      "x": 425.999978,
+      "y": 270.9
+    }
+  },
+  {
+    "name": "Ingebäcks By",
+    "location": {
+      "x": 425.99998,
+      "y": 279.83500000000004
+    }
+  },
+  {
+    "name": "Klareberg",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 288.9
+    }
+  },
+  {
+    "name": "Burmans Gata",
+    "location": {
+      "x": 425.999978,
+      "y": 299.9
+    }
+  },
+  {
+    "name": "Lillekärr Norra",
+    "location": {
+      "x": 425.999978,
+      "y": 307.64830000000006
+    }
+  },
+  {
+    "name": "Kärra Centrum",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 315.39797
+    }
+  },
+  {
+    "name": "Kärra Kyrka",
+    "location": {
+      "x": 425.999977,
+      "y": 323.14875000000006
+    }
+  },
+  {
+    "name": "Lillekärr Södra",
+    "location": {
+      "x": 425.999978,
+      "y": 330.8999600000001
+    }
+  },
+  {
+    "name": "Rönning",
+    "location": {
+      "x": 425.999978,
+      "y": 242.10000000000014
+    }
+  },
+  {
+    "name": "Uppegård",
+    "location": {
+      "x": 425.999978,
+      "y": 232.02940000000012
+    }
+  },
+  {
+    "name": "Skarsbo",
+    "location": {
+      "x": 425.999978,
+      "y": 221.96540000000005
+    }
+  },
+  {
+    "name": "Ellesbo",
+    "location": {
+      "x": 425.999979,
+      "y": 211.91980000000012
+    }
+  },
+  {
+    "name": "Rösbo",
+    "location": {
+      "x": 425.999978,
+      "y": 201.89890000000014
+    }
+  },
+  {
+    "name": "Lilla Oxhagen",
+    "location": {
+      "x": 425.999978,
+      "y": 191.9000000000001
+    }
+  },
+  {
+    "name": "Stora Oxhagen",
+    "location": {
+      "x": 425.999978,
+      "y": 173.57320000000004
+    }
+  },
+  {
+    "name": "Pilgatan",
+    "location": {
+      "x": 416.015742,
+      "y": 705.99995
+    }
+  },
+  {
+    "name": "Kärringberget",
+    "location": {
+      "x": 160.99999000000003,
+      "y": 707.99918
+    }
+  },
+  {
+    "name": "Fågelvägen",
+    "location": {
+      "x": 187.00963000000002,
+      "y": 707.99994
+    }
+  },
+  {
+    "name": "Påvelunds Centrum",
+    "location": {
+      "x": 160.99999000000003,
+      "y": 751.3742900000001
+    }
+  },
+  {
+    "name": "Sändaregatan",
+    "location": {
+      "x": 320.99226,
+      "y": 878.08577
+    }
+  },
+  {
+    "name": "Radiotorget",
+    "location": {
+      "x": 320.90353000000005,
+      "y": 865.20207
+    }
+  },
+  {
+    "name": "Armlängdsgatan",
+    "location": {
+      "x": 320.95056999999997,
+      "y": 852.35783
+    }
+  },
+  {
+    "name": "Synhållsgatan",
+    "location": {
+      "x": 320.99661000000003,
+      "y": 839.55114
+    }
+  },
+  {
+    "name": "Högsbo Sjukhus",
+    "location": {
+      "x": 304.09998,
+      "y": 791.99994
+    }
+  },
+  {
+    "name": "Axel Dahlströms Torg",
+    "location": {
+      "x": 299.00004,
+      "y": 779.4644800000001
+    }
+  },
+  {
+    "name": "Gerdas gård",
+    "location": {
+      "x": 277.09999000000005,
+      "y": 785.99993
+    }
+  },
+  {
+    "name": "Fyrktorget",
+    "location": {
+      "x": 265.99998000000005,
+      "y": 778.0999400000001
+    }
+  },
+  {
+    "name": "Tolvskillingsgatan",
+    "location": {
+      "x": 265.99998000000005,
+      "y": 766.0999400000001
+    }
+  },
+  {
+    "name": "Sjupundsgatan",
+    "location": {
+      "x": 291.36448,
+      "y": 765.89994
+    }
+  },
+  {
+    "name": "Gråberget",
+    "location": {
+      "x": 305.99998000000005,
+      "y": 691.0999400000001
+    }
+  },
+  {
+    "name": "Blåsutgatan",
+    "location": {
+      "x": 305.99998000000005,
+      "y": 681.0999400000001
+    }
+  },
+  {
+    "name": "Kustgatan",
+    "location": {
+      "x": 305.99998000000005,
+      "y": 670.99417
+    }
+  },
+  {
+    "name": "Jaegerdorffsplatsen",
+    "location": {
+      "x": 289.89998,
+      "y": 670.99994
+    }
+  },
+  {
+    "name": "Klippan",
+    "location": {
+      "x": 270.09998,
+      "y": 670.99994
+    }
+  },
+  {
+    "name": "Banehagsgatan",
+    "location": {
+      "x": 258.34999000000005,
+      "y": 677.64994
+    }
+  },
+  {
+    "name": "Orustgatan",
+    "location": {
+      "x": 249.34999000000002,
+      "y": 686.64994
+    }
+  },
+  {
+    "name": "Bolmhörtsgatan",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 739.89994
+    }
+  },
+  {
+    "name": "Dalavägen",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 754.15196
+    }
+  },
+  {
+    "name": "Kaprifolgatan",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 768.40873
+    }
+  },
+  {
+    "name": "Trälåsvägen",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 782.67835
+    }
+  },
+  {
+    "name": "Kavåsvägen",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 796.96504
+    }
+  },
+  {
+    "name": "Klangfärgsgatan",
+    "location": {
+      "x": 235.99348,
+      "y": 810.99994
+    }
+  },
+  {
+    "name": "Bergkristallsgatan",
+    "location": {
+      "x": 235.99999000000003,
+      "y": 830.89993
+    }
+  },
+  {
+    "name": "Smyckegatan",
+    "location": {
+      "x": 243.64999,
+      "y": 838.64994
+    }
+  },
+  {
+    "name": "Rud",
+    "location": {
+      "x": 245.34999000000002,
+      "y": 820.3499400000001
+    }
+  },
+  {
+    "name": "Munspelsgatan",
+    "location": {
+      "x": 256.34999000000005,
+      "y": 831.3499400000001
+    }
+  },
+  {
+    "name": "J A Weetergrens Gata",
+    "location": {
+      "x": 346.09999000000005,
+      "y": 800.99992
+    }
+  },
+  {
+    "name": "Olof Asklunds Gata",
+    "location": {
+      "x": 346.09999000000005,
+      "y": 820.99992
+    }
+  },
+  {
+    "name": "Beatrice Lesslies Gata",
+    "location": {
+      "x": 345.99998,
+      "y": 842.0999400000001
+    }
+  },
+  {
+    "name": "Amalia Jönssons Gata",
+    "location": {
+      "x": 346.09999000000005,
+      "y": 859.99992
+    }
+  },
+  {
+    "name": "F O Peterssons Gata",
+    "location": {
+      "x": 346.09998,
+      "y": 880.99993
+    }
+  },
+  {
+    "name": "Lona Knapes Gata",
+    "location": {
+      "x": 356.09998,
+      "y": 890.99993
+    }
+  },
+  {
+    "name": "Frölunda Smedja",
+    "location": {
+      "x": 345.99998,
+      "y": 907.89993
+    }
+  },
+  {
+    "name": "Pilegårdsvägen",
+    "location": {
+      "x": 355.89998,
+      "y": 924.99994
+    }
+  },
+  {
+    "name": "Kobbegårdsvägen",
+    "location": {
+      "x": 360.99998,
+      "y": 929.89994
+    }
+  },
+  {
+    "name": "Hantvärksvägen",
+    "location": {
+      "x": 372.99998100000005,
+      "y": 935.05424
+    }
+  },
+  {
+    "name": "Sisjö Kullegata",
+    "location": {
+      "x": 383.99998,
+      "y": 920.89994
+    }
+  },
+  {
+    "name": "Datavägen",
+    "location": {
+      "x": 383.99998,
+      "y": 928.0999400000001
+    }
+  },
+  {
+    "name": "Stora Åvägen",
+    "location": {
+      "x": 372.99998100000005,
+      "y": 949.0999400000001
+    }
+  },
+  {
+    "name": "Sisjöbäckens väg",
+    "location": {
+      "x": 383.899983,
+      "y": 948.9998800000001
+    }
+  },
+  {
+    "name": "Kobbegården",
+    "location": {
+      "x": 355.89998,
+      "y": 946.29969
+    }
+  },
+  {
+    "name": "Backa",
+    "location": {
+      "x": 355.99998,
+      "y": 958.89993
+    }
+  },
+  {
+    "name": "Knapehall",
+    "location": {
+      "x": 364.89998,
+      "y": 958.99991
+    }
+  },
+  {
+    "name": "Gåsmossen",
+    "location": {
+      "x": 375.61494100000004,
+      "y": 958.8999100000001
+    }
+  },
+  {
+    "name": "Varpemossen",
+    "location": {
+      "x": 383.99998,
+      "y": 958.89994
+    }
+  },
+  {
+    "name": "Ringestensvägen",
+    "location": {
+      "x": 355.99998,
+      "y": 968.0999400000001
+    }
+  },
+  {
+    "name": "Trollåsen",
+    "location": {
+      "x": 355.99998,
+      "y": 977.0999400000001
+    }
+  },
+  {
+    "name": "Otterbäck",
+    "location": {
+      "x": 355.99998,
+      "y": 985.89994
+    }
+  },
+  {
+    "name": "Askims Kyrka",
+    "location": {
+      "x": 345.92843000000005,
+      "y": 985.99994
+    }
+  },
+  {
+    "name": "Granliden",
+    "location": {
+      "x": 317.99999,
+      "y": 985.8999000000001
+    }
+  },
+  {
+    "name": "Lövviksvägen",
+    "location": {
+      "x": 317.99999,
+      "y": 994.0999
+    }
+  },
+  {
+    "name": "Vassgången",
+    "location": {
+      "x": 317.99999,
+      "y": 1002.09989
+    }
+  },
+  {
+    "name": "Högen",
+    "location": {
+      "x": 317.99999,
+      "y": 1010.89989
+    }
+  },
+  {
+    "name": "Sandås",
+    "location": {
+      "x": 317.89999,
+      "y": 1020.99989
+    }
+  },
+  {
+    "name": "Brottkärrsmotet",
+    "location": {
+      "x": 318.00284,
+      "y": 1030.99989
+    }
+  },
+  {
+    "name": "Enebacken",
+    "location": {
+      "x": 306.44784000000004,
+      "y": 1021.00002
+    }
+  },
+  {
+    "name": "Brända Berget",
+    "location": {
+      "x": 293.50120000000004,
+      "y": 1020.9991
+    }
+  },
+  {
+    "name": "Ugglegården",
+    "location": {
+      "x": 283.5472,
+      "y": 1020.9001900000001
+    }
+  },
+  {
+    "name": "Lyckhem",
+    "location": {
+      "x": 346.99941,
+      "y": 1026.99993
+    }
+  },
+  {
+    "name": "Bassås",
+    "location": {
+      "x": 317.99999,
+      "y": 1040.31409
+    }
+  },
+  {
+    "name": "Uggledal",
+    "location": {
+      "x": 317.99999,
+      "y": 1054.38431
+    }
+  },
+  {
+    "name": "Hästebäck",
+    "location": {
+      "x": 317.99999,
+      "y": 1063.8998900000001
+    }
+  },
+  {
+    "name": "Skintebo",
+    "location": {
+      "x": 317.99999,
+      "y": 1075.09989
+    }
+  },
+  {
+    "name": "Pilegården",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 933.8604700000001
+    }
+  },
+  {
+    "name": "Askims Stationsväg",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 943.0456300000001
+    }
+  },
+  {
+    "name": "Trollängen",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 952.25967
+    }
+  },
+  {
+    "name": "Askimsbadet",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 961.5069000000001
+    }
+  },
+  {
+    "name": "Hovås Nedre",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 979.78379
+    }
+  },
+  {
+    "name": "Högsboleden",
+    "location": {
+      "x": 315.99998000000005,
+      "y": 801.73613
+    }
+  },
+  {
+    "name": "Köpcentrum 421",
+    "location": {
+      "x": 378.69050000000004,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Norra Långebergsgatan",
+    "location": {
+      "x": 410.999979,
+      "y": 891.0999400000001
+    }
+  },
+  {
+    "name": "Bäckstensgatan",
+    "location": {
+      "x": 424.099979,
+      "y": 880.9998800000001
+    }
+  },
+  {
+    "name": "Eklanda skog",
+    "location": {
+      "x": 437.89997800000003,
+      "y": 880.9998800000001
+    }
+  },
+  {
+    "name": "Eklanda torg",
+    "location": {
+      "x": 430.999982,
+      "y": 891.0999400000001
+    }
+  },
+  {
+    "name": "Eklanda lund",
+    "location": {
+      "x": 440.64374200000003,
+      "y": 900.6401800000001
+    }
+  },
+  {
+    "name": "Jolen södra",
+    "location": {
+      "x": 450.22301300000004,
+      "y": 910.25279
+    }
+  },
+  {
+    "name": "Eklanda skola",
+    "location": {
+      "x": 450.89997600000004,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Stallbacken",
+    "location": {
+      "x": 489.599979,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Aby Arenastad",
+    "location": {
+      "x": 487.899901,
+      "y": 920.87718
+    }
+  },
+  {
+    "name": "Kallblodsgatan",
+    "location": {
+      "x": 503.601691,
+      "y": 920.87718
+    }
+  },
+  {
+    "name": "Ponnygatan",
+    "location": {
+      "x": 518.0999,
+      "y": 920.87718
+    }
+  },
+  {
+    "name": "Katrinebergsgatan",
+    "location": {
+      "x": 528.9999740000001,
+      "y": 913.47254
+    }
+  },
+  {
+    "name": "Storgatan",
+    "location": {
+      "x": 518.899973,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Våggatan",
+    "location": {
+      "x": 502.09997400000003,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Stallbacken västra",
+    "location": {
+      "x": 476.00184840000003,
+      "y": 911.99037
+    }
+  },
+  {
+    "name": "Fässbergsskolan",
+    "location": {
+      "x": 510.999973,
+      "y": 878.0999400000001
+    }
+  },
+  {
+    "name": "Jungfruplatsen",
+    "location": {
+      "x": 510.999973,
+      "y": 867.0999400000001
+    }
+  },
+  {
+    "name": "Vetekornsgatan",
+    "location": {
+      "x": 489.64997600000004,
+      "y": 862.34988
+    }
+  },
+  {
+    "name": "Bifrost",
+    "location": {
+      "x": 501.09997400000003,
+      "y": 850.99994
+    }
+  },
+  {
+    "name": "Mölndals sjukhus",
+    "location": {
+      "x": 528.9999720000001,
+      "y": 867.0999400000001
+    }
+  },
+  {
+    "name": "Lackarebäck",
+    "location": {
+      "x": 528.899972,
+      "y": 850.99994
+    }
+  },
+  {
+    "name": "Svanegatan",
+    "location": {
+      "x": 591.89998,
+      "y": 901.99994
+    }
+  },
+  {
+    "name": "Fjällgatan",
+    "location": {
+      "x": 600.64997,
+      "y": 910.64994
+    }
+  },
+  {
+    "name": "Glättaregatan",
+    "location": {
+      "x": 608.34997,
+      "y": 918.3499400000001
+    }
+  },
+  {
+    "name": "Lejonslättsgatan",
+    "location": {
+      "x": 628.09997,
+      "y": 925.99994
+    }
+  },
+  {
+    "name": "Hålsten",
+    "location": {
+      "x": 636.09997,
+      "y": 916.99994
+    }
+  },
+  {
+    "name": "Skyttegatan",
+    "location": {
+      "x": 635.9999700000001,
+      "y": 904.89994
+    }
+  },
+  {
+    "name": "Ejdergatan",
+    "location": {
+      "x": 619.9999700000001,
+      "y": 917.54564
+    }
+  },
+  {
+    "name": "Kullavägen",
+    "location": {
+      "x": 665.9999700000001,
+      "y": 855.09995
+    }
+  },
+  {
+    "name": "Gunnebovägen",
+    "location": {
+      "x": 673.99996,
+      "y": 847.5556100000001
+    }
+  },
+  {
+    "name": "Ängsvägen",
+    "location": {
+      "x": 680.99996,
+      "y": 840.4984300000001
+    }
+  },
+  {
+    "name": "Vällsjö centrum",
+    "location": {
+      "x": 689.34996,
+      "y": 840.34995
+    }
+  },
+  {
+    "name": "Sjökullevägen",
+    "location": {
+      "x": 697.3854,
+      "y": 840.41869
+    }
+  },
+  {
+    "name": "Vällkullevägen",
+    "location": {
+      "x": 706.08538,
+      "y": 840.41869
+    }
+  },
+  {
+    "name": "Rådavägen",
+    "location": {
+      "x": 715.9853800000001,
+      "y": 840.3186900000001
+    }
+  },
+  {
+    "name": "Kvarnbacken",
+    "location": {
+      "x": 710.09998,
+      "y": 856.99995
+    }
+  },
+  {
+    "name": "Hårskeredsvägen",
+    "location": {
+      "x": 696.99998,
+      "y": 870.09995
+    }
+  },
+  {
+    "name": "Kobackevägen",
+    "location": {
+      "x": 683.89998,
+      "y": 882.99995
+    }
+  },
+  {
+    "name": "Kyrkogårdsgatan",
+    "location": {
+      "x": 619.98267,
+      "y": 901.99994
+    }
+  },
+  {
+    "name": "Hönekullavägen",
+    "location": {
+      "x": 715.99996,
+      "y": 831.0999400000001
+    }
+  },
+  {
+    "name": "Råda stock",
+    "location": {
+      "x": 715.89996,
+      "y": 820.99994
+    }
+  },
+  {
+    "name": "Högadal",
+    "location": {
+      "x": 754.38872,
+      "y": 820.99994
+    }
+  },
+  {
+    "name": "Sommarhemsvägen",
+    "location": {
+      "x": 764.28872,
+      "y": 821.0999400000001
+    }
+  },
+  {
+    "name": "Lövskogsvägen",
+    "location": {
+      "x": 774.63872,
+      "y": 826.3499400000001
+    }
+  },
+  {
+    "name": "Nysätersvägen",
+    "location": {
+      "x": 782.73939,
+      "y": 834.4506100000001
+    }
+  },
+  {
+    "name": "Långetjärn",
+    "location": {
+      "x": 790.8395800000001,
+      "y": 842.5508
+    }
+  },
+  {
+    "name": "Höga hallar",
+    "location": {
+      "x": 798.93874,
+      "y": 850.64995
+    }
+  },
+  {
+    "name": "Ekgatan",
+    "location": {
+      "x": 545.9999740000001,
+      "y": 869.0999400000001
+    }
+  },
+  {
+    "name": "Bergfotsgatan",
+    "location": {
+      "x": 545.9999720000001,
+      "y": 838.0999400000001
+    }
+  },
+  {
+    "name": "Sörgärdesgatan",
+    "location": {
+      "x": 545.9999720000001,
+      "y": 822.0999400000001
+    }
+  },
+  {
+    "name": "Kallebäck",
+    "location": {
+      "x": 586.1079100000001,
+      "y": 788.00019
+    }
+  },
+  {
+    "name": "Smörkärnegatan",
+    "location": {
+      "x": 576.44157,
+      "y": 788.00019
+    }
+  },
+  {
+    "name": "Smörgatan",
+    "location": {
+      "x": 566.77485,
+      "y": 788.00019
+    }
+  },
+  {
+    "name": "Gräddgatan",
+    "location": {
+      "x": 557.107915,
+      "y": 788.00019
+    }
+  },
+  {
+    "name": "Kallebäcksvägen",
+    "location": {
+      "x": 550.9999740000001,
+      "y": 769.39993
+    }
+  },
+  {
+    "name": "Skårsskolan",
+    "location": {
+      "x": 572.11237,
+      "y": 734.00144
+    }
+  },
+  {
+    "name": "Fagerängsgatan",
+    "location": {
+      "x": 581.01237,
+      "y": 728.98418
+    }
+  },
+  {
+    "name": "Skårsplatsen",
+    "location": {
+      "x": 581.01237,
+      "y": 717.10148
+    }
+  },
+  {
+    "name": "Prytzgatan",
+    "location": {
+      "x": 577.36237,
+      "y": 711.35148
+    }
+  },
+  {
+    "name": "Anneholmsgatan",
+    "location": {
+      "x": 572.36238,
+      "y": 707.65148
+    }
+  },
+  {
+    "name": "Betaniagatan",
+    "location": {
+      "x": 566.01239,
+      "y": 702.9924500000001
+    }
+  },
+  {
+    "name": "Årbogatan",
+    "location": {
+      "x": 566.01239,
+      "y": 718.4851100000001
+    }
+  },
+  {
+    "name": "Sankt Sigfrids Plan",
+    "location": {
+      "x": 566.01239,
+      "y": 694.10148
+    }
+  },
+  {
+    "name": "Herrgårdsgatan",
+    "location": {
+      "x": 565.99998,
+      "y": 672.0999400000001
+    }
+  },
+  {
+    "name": "Prästgårdsgatan",
+    "location": {
+      "x": 565.99998,
+      "y": 662.09995
+    }
+  },
+  {
+    "name": "Kärralundsgatan",
+    "location": {
+      "x": 566.00003,
+      "y": 646.2771700000001
+    }
+  },
+  {
+    "name": "Lundenskolan",
+    "location": {
+      "x": 580.89365,
+      "y": 649.9998400000001
+    }
+  },
+  {
+    "name": "Hogenskildsgatan",
+    "location": {
+      "x": 585.99365,
+      "y": 640.0998400000001
+    }
+  },
+  {
+    "name": "Nobelgatan",
+    "location": {
+      "x": 578.72633,
+      "y": 620.00008
+    }
+  },
+  {
+    "name": "Nobelplatsen",
+    "location": {
+      "x": 565.9999700000001,
+      "y": 613.1811
+    }
+  },
+  {
+    "name": "Pärlstickare gatan",
+    "location": {
+      "x": 565.9999700000001,
+      "y": 633.12585
+    }
+  },
+  {
+    "name": "Ingeborgsgatan",
+    "location": {
+      "x": 549.349974,
+      "y": 638.3499400000001
+    }
+  },
+  {
+    "name": "Överåsvallen",
+    "location": {
+      "x": 540.946778,
+      "y": 635.99994
+    }
+  },
+  {
+    "name": "Norra Gubberogatan",
+    "location": {
+      "x": 531.223194,
+      "y": 635.99994
+    }
+  },
+  {
+    "name": "Vagnhallen Gårda",
+    "location": {
+      "x": 521.487677,
+      "y": 635.99994
+    }
+  },
+  {
+    "name": "Ullevi Norra",
+    "location": {
+      "x": 511.746779,
+      "y": 635.99994
+    }
+  },
+  {
+    "name": "Syster Estrids Gata",
+    "location": {
+      "x": 443.899985,
+      "y": 783.99994
+    }
+  },
+  {
+    "name": "Doktor Westrings Gata",
+    "location": {
+      "x": 455.899985,
+      "y": 783.99994
+    }
+  },
+  {
+    "name": "Doktor Weltzins Gata",
+    "location": {
+      "x": 467.0999597,
+      "y": 795.9997900000001
+    }
+  },
+  {
+    "name": "Doktor Forselius Gata",
+    "location": {
+      "x": 479.99998500000004,
+      "y": 787.0999400000001
+    }
+  },
+  {
+    "name": "Mossen",
+    "location": {
+      "x": 488.999982,
+      "y": 778.0999300000001
+    }
+  },
+  {
+    "name": "Sörgårdsskolan",
+    "location": {
+      "x": 515.349988,
+      "y": 795.3499400000001
+    }
+  },
+  {
+    "name": "Björkuddsgatan",
+    "location": {
+      "x": 509.34997500000003,
+      "y": 789.3499400000001
+    }
+  },
+  {
+    "name": "Framnäsgatan",
+    "location": {
+      "x": 500.999976,
+      "y": 776.0999400000001
+    }
+  },
+  {
+    "name": "Pilbågsgatan",
+    "location": {
+      "x": 500.99998300000004,
+      "y": 766.3055400000001
+    }
+  },
+  {
+    "name": "Lana",
+    "location": {
+      "x": 528.9999760000001,
+      "y": 787.41614
+    }
+  },
+  {
+    "name": "Bergsprängaregatan",
+    "location": {
+      "x": 501.00644,
+      "y": 755.99994
+    }
+  },
+  {
+    "name": "Engdalhsgatan",
+    "location": {
+      "x": 492.899992,
+      "y": 755.99995
+    }
+  },
+  {
+    "name": "Chalmers Tvärgata",
+    "location": {
+      "x": 485.99998400000004,
+      "y": 745.0999400000001
+    }
+  },
+  {
+    "name": "Ålandsgatan",
+    "location": {
+      "x": 474.34997730000003,
+      "y": 729.3499400000001
+    }
+  },
+  {
+    "name": "Spaldingsgatan",
+    "location": {
+      "x": 500.99998300000004,
+      "y": 743.0999400000001
+    }
+  },
+  {
+    "name": "Vidblicksgatan",
+    "location": {
+      "x": 500.99998300000004,
+      "y": 729.0999400000001
+    }
+  },
+  {
+    "name": "Utlandagatan",
+    "location": {
+      "x": 510.99998300000004,
+      "y": 746.0999400000001
+    }
+  },
+  {
+    "name": "Carlandersplatsen",
+    "location": {
+      "x": 521.099973,
+      "y": 717.99994
+    }
+  },
+  {
+    "name": "Götaplatsen",
+    "location": {
+      "x": 489.649984,
+      "y": 709.64994
+    }
+  },
+  {
+    "name": "Chalmers",
+    "location": {
+      "x": 465.9999857,
+      "y": 735.89994
+    }
+  },
+  {
+    "name": "Wavrinskys Plats",
+    "location": {
+      "x": 458.09998540000004,
+      "y": 743.99994
+    }
+  },
+  {
+    "name": "Medicinaregatan",
+    "location": {
+      "x": 445.866199,
+      "y": 750.97898
+    }
+  },
+  {
+    "name": "Sahlgrenska Södra",
+    "location": {
+      "x": 430.99433,
+      "y": 762.5673400000001
+    }
+  },
+  {
+    "name": "Södermalmsgatan",
+    "location": {
+      "x": 430.899986,
+      "y": 775.99994
+    }
+  },
+  {
+    "name": "Sahlgrenska Huvudentré",
+    "location": {
+      "x": 416.72811,
+      "y": 750.99994
+    }
+  },
+  {
+    "name": "Annedalskyrkan",
+    "location": {
+      "x": 394.899981,
+      "y": 739.99994
+    }
+  },
+  {
+    "name": "Härlanda",
+    "location": {
+      "x": 618.44997,
+      "y": 598.0499500000001
+    }
+  },
+  {
+    "name": "Munkebäckstorget",
+    "location": {
+      "x": 624.9999700000001,
+      "y": 602.09991
+    }
+  },
+  {
+    "name": "Qvidingsgatan",
+    "location": {
+      "x": 630.40125,
+      "y": 607.29785
+    }
+  },
+  {
+    "name": "Bovallstrandsgatan",
+    "location": {
+      "x": 635.64997,
+      "y": 612.64991
+    }
+  },
+  {
+    "name": "Studiegången",
+    "location": {
+      "x": 642.89997,
+      "y": 615.99991
+    }
+  },
+  {
+    "name": "Stabbetorget",
+    "location": {
+      "x": 649.45079,
+      "y": 616.1001
+    }
+  },
+  {
+    "name": "Trätorget",
+    "location": {
+      "x": 655.9999700000001,
+      "y": 615.96056
+    }
+  },
+  {
+    "name": "Spåntorget",
+    "location": {
+      "x": 655.99996,
+      "y": 609.1194300000001
+    }
+  },
+  {
+    "name": "Smörslottsgatan",
+    "location": {
+      "x": 655.99996,
+      "y": 602.2736
+    }
+  },
+  {
+    "name": "Östra Sjukhuset",
+    "location": {
+      "x": 655.99998,
+      "y": 590.89995
+    }
+  },
+  {
+    "name": "Backvägen",
+    "location": {
+      "x": 680.99996,
+      "y": 601.09995
+    }
+  },
+  {
+    "name": "Persplatsen",
+    "location": {
+      "x": 680.9999700000001,
+      "y": 615.09991
+    }
+  },
+  {
+    "name": "Ljungkullen",
+    "location": {
+      "x": 680.89997,
+      "y": 621.9999
+    }
+  },
+  {
+    "name": "Kvarnfallsvägen",
+    "location": {
+      "x": 687.09997,
+      "y": 625.99995
+    }
+  },
+  {
+    "name": "Soldatheden",
+    "location": {
+      "x": 694.89997,
+      "y": 625.99995
+    }
+  },
+  {
+    "name": "Oxledsvägen",
+    "location": {
+      "x": 700.9999700000001,
+      "y": 621.89995
+    }
+  },
+  {
+    "name": "Björnåsvägen",
+    "location": {
+      "x": 700.99996,
+      "y": 608.09991
+    }
+  },
+  {
+    "name": "Broängsvägen",
+    "location": {
+      "x": 709.34996,
+      "y": 594.64995
+    }
+  },
+  {
+    "name": "Bockemossen",
+    "location": {
+      "x": 715.18362,
+      "y": 588.81629
+    }
+  },
+  {
+    "name": "Frejaplan",
+    "location": {
+      "x": 724.34996,
+      "y": 579.64995
+    }
+  },
+  {
+    "name": "Magnusvägen",
+    "location": {
+      "x": 730.34996,
+      "y": 573.64995
+    }
+  },
+  {
+    "name": "Finngösa",
+    "location": {
+      "x": 749.89998,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Stora Ringvägen",
+    "location": {
+      "x": 737.8999699999999,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Sävedalens folkets hus",
+    "location": {
+      "x": 724.4731400000001,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Allévägen",
+    "location": {
+      "x": 711.00505,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Skolvägen",
+    "location": {
+      "x": 697.47685,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Gibsons väg",
+    "location": {
+      "x": 683.87996,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Mellanvägen",
+    "location": {
+      "x": 670.21657,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Fräntorp",
+    "location": {
+      "x": 656.52076,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Torpamotet",
+    "location": {
+      "x": 642.76912,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Munkebäcksmotet",
+    "location": {
+      "x": 624.89149,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Eriksbo Östergärde",
+    "location": {
+      "x": 603.8753300000001,
+      "y": 370.99996
+    }
+  },
+  {
+    "name": "Eriksbo Skola",
+    "location": {
+      "x": 586.479773,
+      "y": 370.999955
+    }
+  },
+  {
+    "name": "Eriksbo Västergärde",
+    "location": {
+      "x": 572.09997,
+      "y": 370.99995
+    }
+  },
+  {
+    "name": "Handbollsvägen",
+    "location": {
+      "x": 559.899971,
+      "y": 370.99995
+    }
+  },
+  {
+    "name": "Bläsebogärdet",
+    "location": {
+      "x": 546.999969,
+      "y": 364.91326000000004
+    }
+  },
+  {
+    "name": "Hjällbovallen",
+    "location": {
+      "x": 547.099972,
+      "y": 350.99995
+    }
+  },
+  {
+    "name": "Branddammsbacken",
+    "location": {
+      "x": 590.99905,
+      "y": 335.99996
+    }
+  },
+  {
+    "name": "Sandeslättsgatan",
+    "location": {
+      "x": 590.9999690000001,
+      "y": 351.099956
+    }
+  },
+  {
+    "name": "Storås Industriväg",
+    "location": {
+      "x": 610.9999660000001,
+      "y": 352.099964
+    }
+  },
+  {
+    "name": "Storås",
+    "location": {
+      "x": 605.9999660000001,
+      "y": 331.099961
+    }
+  },
+  {
+    "name": "Spadegatan",
+    "location": {
+      "x": 590.9999670000001,
+      "y": 316.00481
+    }
+  },
+  {
+    "name": "Gårdstensliden",
+    "location": {
+      "x": 558.999971,
+      "y": 289.0798
+    }
+  },
+  {
+    "name": "Salviagatan",
+    "location": {
+      "x": 543.9999720000001,
+      "y": 279.27020000000005
+    }
+  },
+  {
+    "name": "Gårdsten Centrum",
+    "location": {
+      "x": 543.999971,
+      "y": 265.0947000000001
+    }
+  },
+  {
+    "name": "Saffransgatan",
+    "location": {
+      "x": 543.999971,
+      "y": 256.9308000000001
+    }
+  },
+  {
+    "name": "Timjansgatan",
+    "location": {
+      "x": 520.999973,
+      "y": 256.9741247999999
+    }
+  },
+  {
+    "name": "Kanelgatan",
+    "location": {
+      "x": 520.999973,
+      "y": 272.2590177
+    }
+  },
+  {
+    "name": "Peppargatan",
+    "location": {
+      "x": 520.999973,
+      "y": 281.87980000000005
+    }
+  },
+  {
+    "name": "Angeredsvinkeln",
+    "location": {
+      "x": 571.99996,
+      "y": 270.0798
+    }
+  },
+  {
+    "name": "Trädgårdsberget",
+    "location": {
+      "x": 565.9999700000001,
+      "y": 255.10000000000014
+    }
+  },
+  {
+    "name": "Rappedalen",
+    "location": {
+      "x": 590.99544,
+      "y": 260.90969999999993
+    }
+  },
+  {
+    "name": "Trädsgårdsgärdet",
+    "location": {
+      "x": 590.9999700000001,
+      "y": 250.87979999999993
+    }
+  },
+  {
+    "name": "Kryddnejlikegatan",
+    "location": {
+      "x": 587.34997,
+      "y": 237.34989999999993
+    }
+  },
+  {
+    "name": "Gunnaredsvägen",
+    "location": {
+      "x": 581.09997,
+      "y": 231.0
+    }
+  },
+  {
+    "name": "Fänkålsgatan",
+    "location": {
+      "x": 566.09997,
+      "y": 231.0
+    }
+  },
+  {
+    "name": "Lövgärdets Centrum",
+    "location": {
+      "x": 565.9999700000001,
+      "y": 220.10000000000014
+    }
+  },
+  {
+    "name": "Mejramgatan",
+    "location": {
+      "x": 561.64997,
+      "y": 211.6500000000001
+    }
+  },
+  {
+    "name": "Körvelgatan",
+    "location": {
+      "x": 555.099971,
+      "y": 205.0
+    }
+  },
+  {
+    "name": "Persiljegatan",
+    "location": {
+      "x": 546.34998,
+      "y": 196.33040000000005
+    }
+  },
+  {
+    "name": "Fjäderharvsgatan",
+    "location": {
+      "x": 610.64997,
+      "y": 270.35
+    }
+  },
+  {
+    "name": "Vättleskolan",
+    "location": {
+      "x": 621.34997,
+      "y": 259.6500000000001
+    }
+  },
+  {
+    "name": "Fjällsyran",
+    "location": {
+      "x": 640.9999700000001,
+      "y": 266.1
+    }
+  },
+  {
+    "name": "Fjällkåpan",
+    "location": {
+      "x": 653.89996,
+      "y": 275.97980000000007
+    }
+  },
+  {
+    "name": "Fjällhavren",
+    "location": {
+      "x": 665.9999700000001,
+      "y": 268.2128
+    }
+  },
+  {
+    "name": "Fjällbruden",
+    "location": {
+      "x": 666.09996,
+      "y": 256.0
+    }
+  },
+  {
+    "name": "Rannebergen",
+    "location": {
+      "x": 646.49271,
+      "y": 250.97980000000007
+    }
+  },
+  {
+    "name": "Eliebergsvägen",
+    "location": {
+      "x": 520.000854,
+      "y": 315.9797500000001
+    }
+  },
+  {
+    "name": "Fars Hatt",
+    "location": {
+      "x": 422.999978,
+      "y": 103.10000000000014
+    }
+  },
+  {
+    "name": "Kexbageriet",
+    "location": {
+      "x": 417.433021,
+      "y": 97.33940000000007
+    }
+  },
+  {
+    "name": "Västra Parken",
+    "location": {
+      "x": 411.765382,
+      "y": 91.67139999999995
+    }
+  },
+  {
+    "name": "Kongahällsgatan",
+    "location": {
+      "x": 405.999979,
+      "y": 86.10000000000014
+    }
+  },
+  {
+    "name": "Kungälv resecentrum",
+    "location": {
+      "x": 396.099966,
+      "y": 86.0
+    }
+  },
+  {
+    "name": "Angereds Storåsväg",
+    "location": {
+      "x": 610.9999740000001,
+      "y": 380.92654300000004
+    }
+  },
+  {
+    "name": "Långavallsgatan",
+    "location": {
+      "x": 641.09997,
+      "y": 380.99995
+    }
+  },
+  {
+    "name": "Linnarhultsvägen",
+    "location": {
+      "x": 669.99996,
+      "y": 381.09995000000004
+    }
+  },
+  {
+    "name": "Åstebo",
+    "location": {
+      "x": 783.99996,
+      "y": 641.8579900000001
+    }
+  },
+  {
+    "name": "Örjansvägen",
+    "location": {
+      "x": 783.99996,
+      "y": 655.15317028
+    }
+  },
+  {
+    "name": "Brasebacken",
+    "location": {
+      "x": 783.99996,
+      "y": 666.72072
+    }
+  },
+  {
+    "name": "Öjersjö centrum",
+    "location": {
+      "x": 772.34996,
+      "y": 682.64994
+    }
+  },
+  {
+    "name": "Öjersjö brunn",
+    "location": {
+      "x": 761.34996,
+      "y": 693.64994
+    }
+  },
+  {
+    "name": "Gökegård",
+    "location": {
+      "x": 749.34996,
+      "y": 705.64994
+    }
+  },
+  {
+    "name": "Solbacken",
+    "location": {
+      "x": 738.64996,
+      "y": 716.34996
+    }
+  },
+  {
+    "name": "Hålsjön",
+    "location": {
+      "x": 729.5059200000001,
+      "y": 725.6391500000001
+    }
+  },
+  {
+    "name": "Isfabriken",
+    "location": {
+      "x": 720.19875,
+      "y": 734.7573500000001
+    }
+  },
+  {
+    "name": "Analysvägen",
+    "location": {
+      "x": 701.82707,
+      "y": 753.1711300000001
+    }
+  },
+  {
+    "name": "Mölnlycke företagspark",
+    "location": {
+      "x": 692.64996,
+      "y": 762.34996
+    }
+  },
+  {
+    "name": "Hultet",
+    "location": {
+      "x": 711.0089,
+      "y": 743.97366
+    }
+  },
+  {
+    "name": "Bråta by",
+    "location": {
+      "x": 751.5668800000001,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Bråta industriområde",
+    "location": {
+      "x": 758.6429800000001,
+      "y": 781.9999600000001
+    }
+  },
+  {
+    "name": "Källdalen",
+    "location": {
+      "x": 765.71597,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Röset",
+    "location": {
+      "x": 772.78018,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Slamby",
+    "location": {
+      "x": 779.83124,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Bårekulla",
+    "location": {
+      "x": 786.86708,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Grönhultsvägen",
+    "location": {
+      "x": 793.8886500000001,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Solhem",
+    "location": {
+      "x": 800.89996,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Landvetter resecentrum",
+    "location": {
+      "x": 822.89996,
+      "y": 762.99994
+    }
+  },
+  {
+    "name": "Prinsgatan",
+    "location": {
+      "x": 367.737336,
+      "y": 680.99994
+    }
+  },
+  {
+    "name": "Oscar Fredriks Kyrka",
+    "location": {
+      "x": 359.99998,
+      "y": 685.9655700000001
+    }
+  },
+  {
+    "name": "Vegagatan",
+    "location": {
+      "x": 359.99426,
+      "y": 698.53458
+    }
+  },
+  {
+    "name": "Jungmansgatan",
+    "location": {
+      "x": 353.60165,
+      "y": 704.62095
+    }
+  },
+  {
+    "name": "Paradisgatan",
+    "location": {
+      "x": 345.09998,
+      "y": 704.72095
+    }
+  },
+  {
+    "name": "Fjällskolan",
+    "location": {
+      "x": 330.34999000000005,
+      "y": 704.76197
+    }
+  },
+  {
+    "name": "Kompassgatan",
+    "location": {
+      "x": 339.99998,
+      "y": 711.82095
+    }
+  },
+  {
+    "name": "Masthugget",
+    "location": {
+      "x": 339.999993,
+      "y": 719.82095
+    }
+  },
+  {
+    "name": "Landvetter motet",
+    "location": {
+      "x": 828.09996,
+      "y": 770.99994
+    }
+  },
+  {
+    "name": "Hälsö hamn",
+    "location": {
+      "x": 16.0,
+      "y": 528.04314
+    }
+  },
+  {
+    "name": "Västeräng",
+    "location": {
+      "x": 16.0,
+      "y": 521.15869
+    }
+  },
+  {
+    "name": "Burö färjeläge",
+    "location": {
+      "x": 16.0,
+      "y": 514.80079
+    }
+  },
+  {
+    "name": "Hönö norra",
+    "location": {
+      "x": 16.0,
+      "y": 572.09995
+    }
+  },
+  {
+    "name": "Bäckebolsmotet",
+    "location": {
+      "x": 437.99999,
+      "y": 402.15996000000007
+    }
+  },
+  {
+    "name": "Kapellplatsen",
+    "location": {
+      "x": 465.8999857,
+      "y": 720.99994
+    }
+  },
+  {
+    "name": "Vallhamra torg",
+    "location": {
+      "x": 700.99996,
+      "y": 601.09995
+    }
+  },
+  {
+    "name": "Puketorp",
+    "location": {
+      "x": 716.09996,
+      "y": 600.99991
+    }
+  },
+  {
+    "name": "Åsvägen",
+    "location": {
+      "x": 726.09996,
+      "y": 595.9999200000001
+    }
+  },
+  {
+    "name": "Korsägen",
+    "location": {
+      "x": 733.99996,
+      "y": 587.8999600000001
+    }
+  },
+  {
+    "name": "Hammarkullens Väg",
+    "location": {
+      "x": 571.38539,
+      "y": 315.99995
+    }
+  },
+  {
+    "name": "Ramnebacken",
+    "location": {
+      "x": 556.385387,
+      "y": 315.99995
+    }
+  },
+  {
+    "name": "Bredfjällsgatan",
+    "location": {
+      "x": 556.64997,
+      "y": 341.34997
+    }
+  },
+  {
+    "name": "Gropens Gård",
+    "location": {
+      "x": 573.09997,
+      "y": 335.99996
+    }
+  },
+  {
+    "name": "Madängsgatan",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 577.09996
+    }
+  },
+  {
+    "name": "Volvo Torslanda TLA",
+    "location": {
+      "x": 167.86790000000002,
+      "y": 530.95446
+    }
+  },
+  {
+    "name": "Kanndalen",
+    "location": {
+      "x": 16.00001000000003,
+      "y": 565.68732
+    }
+  },
+  {
+    "name": "Öckerö hamn",
+    "location": {
+      "x": 15.999930000000006,
+      "y": 559.2922100000001
+    }
+  },
+  {
+    "name": "Intaget",
+    "location": {
+      "x": 15.999959999999987,
+      "y": 552.9211200000001
+    }
+  },
+  {
+    "name": "Blåbärsvägen",
+    "location": {
+      "x": 16.00001000000003,
+      "y": 546.44204
+    }
+  },
+  {
+    "name": "Propellerfabriken",
+    "location": {
+      "x": 16.00001000000003,
+      "y": 540.19248
+    }
+  },
+  {
+    "name": "Hälsö södra",
+    "location": {
+      "x": 16.00001000000003,
+      "y": 534.04314
+    }
+  },
+  {
+    "name": "Granhäll",
+    "location": {
+      "x": 256.33541,
+      "y": 365.99993000000006
+    }
+  },
+  {
+    "name": "Säve Depå",
+    "location": {
+      "x": 245.99999000000003,
+      "y": 356.09996
+    }
+  },
+  {
+    "name": "Thorskog",
+    "location": {
+      "x": 79.09998000000002,
+      "y": 486.0000100000001
+    }
+  },
+  {
+    "name": "Hovåsskolan",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 970.77909
+    }
+  },
+  {
+    "name": "Tvärhandsgatan",
+    "location": {
+      "x": 320.96425,
+      "y": 826.7705100000001
+    }
+  },
+  {
+    "name": "Högsbo",
+    "location": {
+      "x": 321.09998,
+      "y": 813.99994
+    }
+  },
+  {
+    "name": "Fässberg",
+    "location": {
+      "x": 463.0999767,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Jolen norra",
+    "location": {
+      "x": 476.09997630000004,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Steken",
+    "location": {
+      "x": 536.004813,
+      "y": 315.99995
+    }
+  },
+  {
+    "name": "Lillövägen",
+    "location": {
+      "x": 274.4787,
+      "y": 1021.0527500000001
+    }
+  },
+  {
+    "name": "Askims Svertemosse",
+    "location": {
+      "x": 402.099985,
+      "y": 958.99994
+    }
+  },
+  {
+    "name": "Råda portar västra",
+    "location": {
+      "x": 686.99996,
+      "y": 802.36166
+    }
+  },
+  {
+    "name": "Råda säteri",
+    "location": {
+      "x": 686.89996,
+      "y": 811.99994
+    }
+  },
+  {
+    "name": "Bårhult",
+    "location": {
+      "x": 783.99996,
+      "y": 682.30366
+    }
+  },
+  {
+    "name": "Hallen",
+    "location": {
+      "x": 784.00367,
+      "y": 690.02881
+    }
+  },
+  {
+    "name": "Gökskulla",
+    "location": {
+      "x": 783.8848399999999,
+      "y": 697.7391
+    }
+  },
+  {
+    "name": "Västergårdsvägen",
+    "location": {
+      "x": 783.9007799999999,
+      "y": 705.4115800000001
+    }
+  },
+  {
+    "name": "Uppegårdsvägen",
+    "location": {
+      "x": 783.90095,
+      "y": 713.0285200000001
+    }
+  },
+  {
+    "name": "Tahults mellangård",
+    "location": {
+      "x": 783.99611,
+      "y": 720.58636
+    }
+  },
+  {
+    "name": "Tahults östergård",
+    "location": {
+      "x": 783.99996,
+      "y": 728.0999400000001
+    }
+  },
+  {
+    "name": "Pinntorpsvägen",
+    "location": {
+      "x": 792.34996,
+      "y": 740.3499400000001
+    }
+  },
+  {
+    "name": "Önneröd",
+    "location": {
+      "x": 798.01637,
+      "y": 746.01635
+    }
+  },
+  {
+    "name": "Önnerödsskolan",
+    "location": {
+      "x": 803.68309,
+      "y": 751.68308
+    }
+  },
+  {
+    "name": "Salmered",
+    "location": {
+      "x": 809.34996,
+      "y": 757.3499400000001
+    }
+  },
+  {
+    "name": "Krokslätts Fabriker",
+    "location": {
+      "x": 528.9999740000001,
+      "y": 832.89988
+    }
+  },
+  {
+    "name": "Krokslätts torg",
+    "location": {
+      "x": 528.899983,
+      "y": 805.99994
+    }
+  },
+  {
+    "name": "Operan",
+    "location": {
+      "x": 404.64998,
+      "y": 637.3499400000001
+    }
+  },
+  {
+    "name": "Liseberg Station",
+    "location": {
+      "x": 546.029316,
+      "y": 697.00148
+    }
+  },
+  {
+    "name": "Gamla torget",
+    "location": {
+      "x": 580.89998,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Lövgatan",
+    "location": {
+      "x": 568.50951,
+      "y": 873.895
+    }
+  },
+  {
+    "name": "Enerbacksgatan",
+    "location": {
+      "x": 576.50951,
+      "y": 871.095
+    }
+  },
+  {
+    "name": "Siriusgatan 30",
+    "location": {
+      "x": 598.53632,
+      "y": 451.0
+    }
+  },
+  {
+    "name": "Siriusgatan 54",
+    "location": {
+      "x": 604.15413,
+      "y": 450.84491
+    }
+  },
+  {
+    "name": "Siriusgatan 78",
+    "location": {
+      "x": 609.77187,
+      "y": 450.99476000000004
+    }
+  },
+  {
+    "name": "Siriusgatan 106",
+    "location": {
+      "x": 615.3911,
+      "y": 450.9999200000001
+    }
+  },
+  {
+    "name": "Siriusgatan 2",
+    "location": {
+      "x": 588.49113,
+      "y": 443.5999300000001
+    }
+  },
+  {
+    "name": "Gärdsås Torg",
+    "location": {
+      "x": 588.49107,
+      "y": 421.09994000000006
+    }
+  },
+  {
+    "name": "Tycho Brahes Gata",
+    "location": {
+      "x": 615.9503500000001,
+      "y": 412.89995
+    }
+  },
+  {
+    "name": "Astronomgatan",
+    "location": {
+      "x": 615.9503500000001,
+      "y": 418.89995
+    }
+  },
+  {
+    "name": "Keplers Gata",
+    "location": {
+      "x": 615.9503500000001,
+      "y": 424.89995
+    }
+  },
+  {
+    "name": "Syrhåla",
+    "location": {
+      "x": 138.09999,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Bur",
+    "location": {
+      "x": 107.09998999999999,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Sörredsmotet",
+    "location": {
+      "x": 165.98109,
+      "y": 565.98587
+    }
+  },
+  {
+    "name": "Torslandakrysset",
+    "location": {
+      "x": 91.09998999999999,
+      "y": 565.99725
+    }
+  },
+  {
+    "name": "Synneröd",
+    "location": {
+      "x": 165.99999000000003,
+      "y": 615.89995
+    }
+  },
+  {
+    "name": "Ytterhamnsmotet",
+    "location": {
+      "x": 195.99351000000001,
+      "y": 585.99995
+    }
+  },
+  {
+    "name": "Vädermotet",
+    "location": {
+      "x": 213.09999000000002,
+      "y": 585.99995
+    }
+  },
+  {
+    "name": "Sydatlanten",
+    "location": {
+      "x": 211.01395000000002,
+      "y": 626.98587
+    }
+  },
+  {
+    "name": "Höstvädersgatan",
+    "location": {
+      "x": 243.09999000000002,
+      "y": 578.99994
+    }
+  },
+  {
+    "name": "Kyrkbytorget",
+    "location": {
+      "x": 261.00746000000004,
+      "y": 585.99994
+    }
+  },
+  {
+    "name": "Vårvindsgatan",
+    "location": {
+      "x": 260.99999,
+      "y": 593.58546
+    }
+  },
+  {
+    "name": "Oslogatan",
+    "location": {
+      "x": 258.09077,
+      "y": 602.82415
+    }
+  },
+  {
+    "name": "Rosenhill",
+    "location": {
+      "x": 249.29077,
+      "y": 611.82415
+    }
+  },
+  {
+    "name": "John Bunyans Väg",
+    "location": {
+      "x": 198.34999,
+      "y": 493.64995
+    }
+  },
+  {
+    "name": "Kålsered",
+    "location": {
+      "x": 205.99999000000003,
+      "y": 480.89995
+    }
+  },
+  {
+    "name": "Lexby Odlareväg",
+    "location": {
+      "x": 205.99999000000003,
+      "y": 450.09996
+    }
+  },
+  {
+    "name": "Allebyvägen",
+    "location": {
+      "x": 189.00746000000004,
+      "y": 445.99995
+    }
+  },
+  {
+    "name": "Trulsegården",
+    "location": {
+      "x": 162.09999,
+      "y": 441.99995
+    }
+  },
+  {
+    "name": "Skra Bro",
+    "location": {
+      "x": 150.99999000000003,
+      "y": 431.09995000000004
+    }
+  },
+  {
+    "name": "Kvisljungeby",
+    "location": {
+      "x": 148.64999,
+      "y": 448.34995000000004
+    }
+  },
+  {
+    "name": "Toleredsgatan",
+    "location": {
+      "x": 284.64999,
+      "y": 519.64995
+    }
+  },
+  {
+    "name": "Bjurslätts Torg",
+    "location": {
+      "x": 296.34999000000005,
+      "y": 531.34995
+    }
+  },
+  {
+    "name": "Wieselgrensplatsen",
+    "location": {
+      "x": 315.99997,
+      "y": 565.89995
+    }
+  },
+  {
+    "name": "Bjurslättsskolan",
+    "location": {
+      "x": 315.99997,
+      "y": 554.9044200000001
+    }
+  },
+  {
+    "name": "Wieselgrensgatan",
+    "location": {
+      "x": 315.99997,
+      "y": 536.01691
+    }
+  },
+  {
+    "name": "Lantmannagatan",
+    "location": {
+      "x": 315.89998,
+      "y": 575.99995
+    }
+  },
+  {
+    "name": "Ramberget",
+    "location": {
+      "x": 315.99998000000005,
+      "y": 585.8999999999999
+    }
+  },
+  {
+    "name": "Volvo Lundby Norra",
+    "location": {
+      "x": 299.09999000000005,
+      "y": 574.99994
+    }
+  },
+  {
+    "name": "Vågmästeraplatsen",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 565.89995
+    }
+  },
+  {
+    "name": "Swedenborgsplatsen",
+    "location": {
+      "x": 335.89998,
+      "y": 543.99995
+    }
+  },
+  {
+    "name": "Frihamnsporten",
+    "location": {
+      "x": 384.113179,
+      "y": 592.88664
+    }
+  },
+  {
+    "name": "Pumpgatan",
+    "location": {
+      "x": 367.99998200000005,
+      "y": 608.89994
+    }
+  },
+  {
+    "name": "Lindholmen",
+    "location": {
+      "x": 356.89998,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Lilleby Kronogård",
+    "location": {
+      "x": 104.34998999999999,
+      "y": 492.6499600000001
+    }
+  },
+  {
+    "name": "Innegården",
+    "location": {
+      "x": 113.23306000000002,
+      "y": 483.79240000000004
+    }
+  },
+  {
+    "name": "Låssbyvägen",
+    "location": {
+      "x": 122.03730999999999,
+      "y": 474.86721
+    }
+  },
+  {
+    "name": "Skräddaregården",
+    "location": {
+      "x": 130.93908,
+      "y": 466.05177000000003
+    }
+  },
+  {
+    "name": "Gamla Lillebyvägen",
+    "location": {
+      "x": 139.79783000000003,
+      "y": 457.20244
+    }
+  },
+  {
+    "name": "Lexbyvägen",
+    "location": {
+      "x": 150.99999000000003,
+      "y": 411.09996
+    }
+  },
+  {
+    "name": "Björlanda Kyrka",
+    "location": {
+      "x": 143.34999,
+      "y": 403.34995000000004
+    }
+  },
+  {
+    "name": "Storegården",
+    "location": {
+      "x": 135.99999000000003,
+      "y": 396.09995000000004
+    }
+  },
+  {
+    "name": "Sjömarksstigen",
+    "location": {
+      "x": 125.89999,
+      "y": 395.99995
+    }
+  },
+  {
+    "name": "Hovdalen",
+    "location": {
+      "x": 118.09998999999999,
+      "y": 395.99995
+    }
+  },
+  {
+    "name": "Björlanda Kile",
+    "location": {
+      "x": 109.99999000000003,
+      "y": 396.09995000000004
+    }
+  },
+  {
+    "name": "Lunnagården",
+    "location": {
+      "x": 138.42793,
+      "y": 388.48053000000004
+    }
+  },
+  {
+    "name": "Östergården",
+    "location": {
+      "x": 141.37777,
+      "y": 379.788
+    }
+  },
+  {
+    "name": "Nolvik",
+    "location": {
+      "x": 144.32788,
+      "y": 371.0793100000001
+    }
+  },
+  {
+    "name": "Kallhed",
+    "location": {
+      "x": 147.01293000000004,
+      "y": 362.26446
+    }
+  },
+  {
+    "name": "Vikhall",
+    "location": {
+      "x": 150.1735,
+      "y": 353.58867
+    }
+  },
+  {
+    "name": "Bli",
+    "location": {
+      "x": 152.97306000000003,
+      "y": 344.7760400000001
+    }
+  },
+  {
+    "name": "Kippholmen",
+    "location": {
+      "x": 155.90000000000003,
+      "y": 335.99996
+    }
+  },
+  {
+    "name": "Volvo Tuve L A",
+    "location": {
+      "x": 229.76141159290432,
+      "y": 412.69089481308515
+    }
+  },
+  {
+    "name": "Volvo Tuve L B",
+    "location": {
+      "x": 236.03757507522369,
+      "y": 418.96229381177113
+    }
+  },
+  {
+    "name": "Svärdslundsvägen",
+    "location": {
+      "x": 266.99658,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Stora Holms Gärd",
+    "location": {
+      "x": 277.67277,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Trafikövningsbanan",
+    "location": {
+      "x": 288.39065000000005,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Smedjeholmen",
+    "location": {
+      "x": 299.16851,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Bygdegården",
+    "location": {
+      "x": 310.00980000000004,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Holmvägen",
+    "location": {
+      "x": 320.89998,
+      "y": 365.99995
+    }
+  },
+  {
+    "name": "Bergsgårdsvägen",
+    "location": {
+      "x": 320.99514,
+      "y": 379.0498
+    }
+  },
+  {
+    "name": "Tuve Prästgård",
+    "location": {
+      "x": 320.99998000000005,
+      "y": 392.0999999999999
+    }
+  },
+  {
+    "name": "Snarberget",
+    "location": {
+      "x": 324.64998,
+      "y": 404.64999999999986
+    }
+  },
+  {
+    "name": "Tångenvägen",
+    "location": {
+      "x": 331.64998,
+      "y": 411.64999999999986
+    }
+  },
+  {
+    "name": "Glöstorpsvägen",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 428.0999999999999
+    }
+  },
+  {
+    "name": "Hinnebäcksgatan",
+    "location": {
+      "x": 295.99999,
+      "y": 441.09995000000004
+    }
+  },
+  {
+    "name": "Norumshöjd",
+    "location": {
+      "x": 295.99998000000005,
+      "y": 431.89999999999986
+    }
+  },
+  {
+    "name": "Norumsgärde",
+    "location": {
+      "x": 304.09998,
+      "y": 426.0
+    }
+  },
+  {
+    "name": "Tuve Centrum",
+    "location": {
+      "x": 315.99998000000005,
+      "y": 435.89999999999986
+    }
+  },
+  {
+    "name": "Brunnehagen",
+    "location": {
+      "x": 315.99998000000005,
+      "y": 445.89999999999986
+    }
+  },
+  {
+    "name": "Gunnesgärde",
+    "location": {
+      "x": 326.09998,
+      "y": 446.0
+    }
+  },
+  {
+    "name": "Grimbo",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 465.89999999999986
+    }
+  },
+  {
+    "name": "Finlandsvägen",
+    "location": {
+      "x": 336.09998,
+      "y": 446.0
+    }
+  },
+  {
+    "name": "Taklöksvägen",
+    "location": {
+      "x": 326.34998,
+      "y": 515.64995
+    }
+  },
+  {
+    "name": "Bäckedalsvägen",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 506.09995000000004
+    }
+  },
+  {
+    "name": "Björnsonsgatan",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 527.09995
+    }
+  },
+  {
+    "name": "Hildedalsgatan",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 516.09995
+    }
+  },
+  {
+    "name": "Sävedal",
+    "location": {
+      "x": 285.99999,
+      "y": 303.4
+    }
+  },
+  {
+    "name": "Säve Station",
+    "location": {
+      "x": 285.99999,
+      "y": 291.1
+    }
+  },
+  {
+    "name": "Brunstorp",
+    "location": {
+      "x": 285.99999,
+      "y": 283.02700000000004
+    }
+  },
+  {
+    "name": "Gunnesby Bro",
+    "location": {
+      "x": 285.99999,
+      "y": 274.5604000000001
+    }
+  },
+  {
+    "name": "Hasselbacken",
+    "location": {
+      "x": 270.64998,
+      "y": 263.6500000000001
+    }
+  },
+  {
+    "name": "Brunstorpsnäs",
+    "location": {
+      "x": 259.14999,
+      "y": 252.1500000000001
+    }
+  },
+  {
+    "name": "Kornhalls Färja",
+    "location": {
+      "x": 247.64999,
+      "y": 240.6500000000001
+    }
+  },
+  {
+    "name": "Gunnensby Skola",
+    "location": {
+      "x": 285.99998000000005,
+      "y": 260.9000000000001
+    }
+  },
+  {
+    "name": "Kringlekullen",
+    "location": {
+      "x": 285.99998000000005,
+      "y": 249.10000000000014
+    }
+  },
+  {
+    "name": "Gunnesby Kalsbogård",
+    "location": {
+      "x": 285.99999,
+      "y": 238.94690000000014
+    }
+  },
+  {
+    "name": "Skålvisered",
+    "location": {
+      "x": 285.99999,
+      "y": 228.79369999999994
+    }
+  },
+  {
+    "name": "Nordängen",
+    "location": {
+      "x": 291.34998,
+      "y": 220.35000000000014
+    }
+  },
+  {
+    "name": "Klobergslyckan",
+    "location": {
+      "x": 302.13049,
+      "y": 209.90840000000003
+    }
+  },
+  {
+    "name": "Tomtebacken",
+    "location": {
+      "x": 312.73144,
+      "y": 199.26580000000013
+    }
+  },
+  {
+    "name": "Bolsten",
+    "location": {
+      "x": 323.36554,
+      "y": 188.63450000000012
+    }
+  },
+  {
+    "name": "Ragnhildsholmen",
+    "location": {
+      "x": 334.00637,
+      "y": 177.99389999999994
+    }
+  },
+  {
+    "name": "Hög",
+    "location": {
+      "x": 344.64998,
+      "y": 167.35000000000014
+    }
+  },
+  {
+    "name": "Ellered",
+    "location": {
+      "x": 363.89998,
+      "y": 161.0
+    }
+  },
+  {
+    "name": "Backered",
+    "location": {
+      "x": 381.266269,
+      "y": 161.01469999999995
+    }
+  },
+  {
+    "name": "Backereds Skola",
+    "location": {
+      "x": 398.632617,
+      "y": 161.11419999999998
+    }
+  },
+  {
+    "name": "Göddered",
+    "location": {
+      "x": 415.999991,
+      "y": 161.10000000000014
+    }
+  },
+  {
+    "name": "Eriksdal",
+    "location": {
+      "x": 426.099978,
+      "y": 161.0
+    }
+  },
+  {
+    "name": "Trankärrsgatan",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 350.73115000000007
+    }
+  },
+  {
+    "name": "Simonsvägen",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 358.8999600000001
+    }
+  },
+  {
+    "name": "Göpåsgatan",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 366.8999600000001
+    }
+  },
+  {
+    "name": "Tagene",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 375.84829
+    }
+  },
+  {
+    "name": "Tagenevägen 11",
+    "location": {
+      "x": 425.999978,
+      "y": 384.89995
+    }
+  },
+  {
+    "name": "Brandkärr",
+    "location": {
+      "x": 425.99998700000003,
+      "y": 397.44675000000007
+    }
+  },
+  {
+    "name": "Bäckebols Gård",
+    "location": {
+      "x": 425.999978,
+      "y": 407.36243
+    }
+  },
+  {
+    "name": "Kärramotet",
+    "location": {
+      "x": 450.999975,
+      "y": 352.05829000000006
+    }
+  },
+  {
+    "name": "Göpåstunneln",
+    "location": {
+      "x": 450.999976,
+      "y": 366.09995000000004
+    }
+  },
+  {
+    "name": "Bäckebol Norra",
+    "location": {
+      "x": 450.999976,
+      "y": 379.59321
+    }
+  },
+  {
+    "name": "Bäckebol Köpcentrum",
+    "location": {
+      "x": 451.003922,
+      "y": 393.37068
+    }
+  },
+  {
+    "name": "Bäckebol Södra",
+    "location": {
+      "x": 450.999976,
+      "y": 407.09996
+    }
+  },
+  {
+    "name": "Bäckebolsmotet Östra",
+    "location": {
+      "x": 450.99996300000004,
+      "y": 420.90821000000005
+    }
+  },
+  {
+    "name": "Friedländers Gata",
+    "location": {
+      "x": 431.999979,
+      "y": 438.8209300000001
+    }
+  },
+  {
+    "name": "Lisa Sass Gata",
+    "location": {
+      "x": 431.999977,
+      "y": 449.55163000000005
+    }
+  },
+  {
+    "name": "Sägengatan",
+    "location": {
+      "x": 405.999967,
+      "y": 467.13967
+    }
+  },
+  {
+    "name": "Backa Kyrkogatan",
+    "location": {
+      "x": 405.999967,
+      "y": 483.38739
+    }
+  },
+  {
+    "name": "Björkrisvägen",
+    "location": {
+      "x": 405.999967,
+      "y": 499.63967
+    }
+  },
+  {
+    "name": "Balladgatan",
+    "location": {
+      "x": 405.999967,
+      "y": 515.89994
+    }
+  },
+  {
+    "name": "Tingstadsmotet",
+    "location": {
+      "x": 425.99996600000003,
+      "y": 515.89994
+    }
+  },
+  {
+    "name": "Tryckerigatan",
+    "location": {
+      "x": 425.99996600000003,
+      "y": 500.89994
+    }
+  },
+  {
+    "name": "Legendgatan",
+    "location": {
+      "x": 425.99996600000003,
+      "y": 490.89994
+    }
+  },
+  {
+    "name": "Selma Lagerlöfs Torg",
+    "location": {
+      "x": 405.999967,
+      "y": 450.89994
+    }
+  },
+  {
+    "name": "Trämjölsfabriken",
+    "location": {
+      "x": 450.999956,
+      "y": 430.86734
+    }
+  },
+  {
+    "name": "Importgatan",
+    "location": {
+      "x": 450.999956,
+      "y": 441.10072
+    }
+  },
+  {
+    "name": "Backa Bergö",
+    "location": {
+      "x": 450.999956,
+      "y": 451.64503
+    }
+  },
+  {
+    "name": "Stigs Center",
+    "location": {
+      "x": 450.999976,
+      "y": 462.31082000000004
+    }
+  },
+  {
+    "name": "Timber Trading",
+    "location": {
+      "x": 450.999976,
+      "y": 472.76177000000007
+    }
+  },
+  {
+    "name": "Plastteknik",
+    "location": {
+      "x": 450.999958,
+      "y": 483.03871000000004
+    }
+  },
+  {
+    "name": "Exportgatan",
+    "location": {
+      "x": 450.999979,
+      "y": 493.5700300000001
+    }
+  },
+  {
+    "name": "Calvert",
+    "location": {
+      "x": 450.999976,
+      "y": 505.09996
+    }
+  },
+  {
+    "name": "Balamundi",
+    "location": {
+      "x": 450.999976,
+      "y": 517.09995
+    }
+  },
+  {
+    "name": "Stena Metall",
+    "location": {
+      "x": 450.89997600000004,
+      "y": 530.99994
+    }
+  },
+  {
+    "name": "Cold Stores",
+    "location": {
+      "x": 442.89997700000004,
+      "y": 538.99996
+    }
+  },
+  {
+    "name": "Stålverksgatan",
+    "location": {
+      "x": 436.79528600000003,
+      "y": 545.21148
+    }
+  },
+  {
+    "name": "Bessemergatan",
+    "location": {
+      "x": 430.636731,
+      "y": 551.36357
+    }
+  },
+  {
+    "name": "Manufakturgatan",
+    "location": {
+      "x": 424.488949,
+      "y": 557.51098
+    }
+  },
+  {
+    "name": "Stenkolsgatan",
+    "location": {
+      "x": 418.349978,
+      "y": 563.64995
+    }
+  },
+  {
+    "name": "Smidesgatan",
+    "location": {
+      "x": 409.89997800000003,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Sankt Jörgens Allé",
+    "location": {
+      "x": 370.99998100000005,
+      "y": 450.89999999999986
+    }
+  },
+  {
+    "name": "Skogabergsgatan",
+    "location": {
+      "x": 367.99998100000005,
+      "y": 458.89999999999986
+    }
+  },
+  {
+    "name": "Lillhagens station",
+    "location": {
+      "x": 355.89998,
+      "y": 461.0
+    }
+  },
+  {
+    "name": "Berghöjdsgatan",
+    "location": {
+      "x": 355.99998,
+      "y": 474.89999999999986
+    }
+  },
+  {
+    "name": "Arödsgatan",
+    "location": {
+      "x": 356.09998,
+      "y": 494.0
+    }
+  },
+  {
+    "name": "Aröds Äng",
+    "location": {
+      "x": 361.16568,
+      "y": 507.86879999999996
+    }
+  },
+  {
+    "name": "Kvillängen Stora",
+    "location": {
+      "x": 367.032831,
+      "y": 515.8671999999999
+    }
+  },
+  {
+    "name": "Minelundsvägen",
+    "location": {
+      "x": 370.99998100000005,
+      "y": 524.3232
+    }
+  },
+  {
+    "name": "Tingstadsvass",
+    "location": {
+      "x": 370.99998100000005,
+      "y": 536.0999999999999
+    }
+  },
+  {
+    "name": "Anekdotgatan",
+    "location": {
+      "x": 398.99998,
+      "y": 536.03421
+    }
+  },
+  {
+    "name": "Brunnsbotorget",
+    "location": {
+      "x": 399.09998,
+      "y": 522.99991
+    }
+  },
+  {
+    "name": "Mölnlyckemotet",
+    "location": {
+      "x": 687.00292,
+      "y": 782.13534
+    }
+  },
+  {
+    "name": "Råda portar",
+    "location": {
+      "x": 700.65292,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Platåvägen",
+    "location": {
+      "x": 719.34448,
+      "y": 781.99994
+    }
+  },
+  {
+    "name": "Solsten",
+    "location": {
+      "x": 738.05140343978,
+      "y": 782.0037132516784
+    }
+  },
+  {
+    "name": "Kyrkvägen",
+    "location": {
+      "x": 737.9962419441578,
+      "y": 792.55888488253
+    }
+  },
+  {
+    "name": "Hulebäcksgymnasiet",
+    "location": {
+      "x": 738.0140504170147,
+      "y": 804.7776914258338
+    }
+  },
+  {
+    "name": "Delsjömotet",
+    "location": {
+      "x": 591.09997,
+      "y": 770.99989
+    }
+  },
+  {
+    "name": "Kalvemossen",
+    "location": {
+      "x": 611.57498,
+      "y": 765.89995
+    }
+  },
+  {
+    "name": "Helenedal",
+    "location": {
+      "x": 619.09998,
+      "y": 785.99994
+    }
+  },
+  {
+    "name": "Helenevik",
+    "location": {
+      "x": 619.09352,
+      "y": 802.52957
+    }
+  },
+  {
+    "name": "Heleneviksvägen",
+    "location": {
+      "x": 619.01292,
+      "y": 819.03918
+    }
+  },
+  {
+    "name": "Nöståsberget",
+    "location": {
+      "x": 619.00095,
+      "y": 835.4795300000001
+    }
+  },
+  {
+    "name": "Gunnebo Park",
+    "location": {
+      "x": 618.99998,
+      "y": 851.89994
+    }
+  },
+  {
+    "name": "Tallkottegatan",
+    "location": {
+      "x": 609.648,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Stensjökyrkan",
+    "location": {
+      "x": 588.89998,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Broberggsgatan",
+    "location": {
+      "x": 579.89998,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Lackarebäcks äldreboende",
+    "location": {
+      "x": 567.09997,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Flöjelbergsgatan",
+    "location": {
+      "x": 554.899974,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Fässbergs äldreboende",
+    "location": {
+      "x": 490.999974,
+      "y": 840.89994
+    }
+  },
+  {
+    "name": "Wennerbergsgatan",
+    "location": {
+      "x": 478.349969,
+      "y": 828.3499400000001
+    }
+  },
+  {
+    "name": "Toltorpsskolan",
+    "location": {
+      "x": 466.3499767,
+      "y": 816.3499400000001
+    }
+  },
+  {
+    "name": "Dalgångsgatan",
+    "location": {
+      "x": 455.99998500000004,
+      "y": 805.99346
+    }
+  },
+  {
+    "name": "Bruns backe",
+    "location": {
+      "x": 473.0999764,
+      "y": 805.99994
+    }
+  },
+  {
+    "name": "Grågåsgatan",
+    "location": {
+      "x": 484.09997500000003,
+      "y": 805.99994
+    }
+  },
+  {
+    "name": "Hökegårdsgatan",
+    "location": {
+      "x": 493.999974,
+      "y": 806.0999400000001
+    }
+  },
+  {
+    "name": "Soltorpsvägen",
+    "location": {
+      "x": 506.899983,
+      "y": 805.99994
+    }
+  },
+  {
+    "name": "Fredåsgatan",
+    "location": {
+      "x": 518.899983,
+      "y": 805.99994
+    }
+  },
+  {
+    "name": "Linnéplatsen",
+    "location": {
+      "x": 381.003741,
+      "y": 725.99994
+    }
+  },
+  {
+    "name": "Olskroken",
+    "location": {
+      "x": 531.899972,
+      "y": 597.99995
+    }
+  },
+  {
+    "name": "Bagaregårdsskolan",
+    "location": {
+      "x": 587.1685200000001,
+      "y": 589.42258
+    }
+  },
+  {
+    "name": "Strömmensbergsstigen",
+    "location": {
+      "x": 589.95615,
+      "y": 578.75584
+    }
+  },
+  {
+    "name": "Gustavsplatsen",
+    "location": {
+      "x": 581.40177,
+      "y": 565.99995
+    }
+  },
+  {
+    "name": "Lefflersgatan",
+    "location": {
+      "x": 604.58722,
+      "y": 579.09995
+    }
+  },
+  {
+    "name": "Kransen",
+    "location": {
+      "x": 607.1304,
+      "y": 586.6577
+    }
+  },
+  {
+    "name": "Tomtebacksgatan",
+    "location": {
+      "x": 604.78722,
+      "y": 594.39995
+    }
+  },
+  {
+    "name": "Kristinedal",
+    "location": {
+      "x": 539.021889,
+      "y": 547.97099
+    }
+  },
+  {
+    "name": "Nylösegatan",
+    "location": {
+      "x": 519.9999750000001,
+      "y": 497.01209000000006
+    }
+  },
+  {
+    "name": "Alekärrsgatan",
+    "location": {
+      "x": 519.99998,
+      "y": 478.9973
+    }
+  },
+  {
+    "name": "Skräppekärr Östra",
+    "location": {
+      "x": 519.99998,
+      "y": 460.82226
+    }
+  },
+  {
+    "name": "Alelyckan",
+    "location": {
+      "x": 519.99998,
+      "y": 442.56411
+    }
+  },
+  {
+    "name": "Kretsloppsparken",
+    "location": {
+      "x": 519.99998,
+      "y": 424.24357
+    }
+  },
+  {
+    "name": "Burmabacken",
+    "location": {
+      "x": 529.9999720000001,
+      "y": 397.92655
+    }
+  },
+  {
+    "name": "Lärjeholmen",
+    "location": {
+      "x": 539.099972,
+      "y": 389.02655000000004
+    }
+  },
+  {
+    "name": "Hjällbo",
+    "location": {
+      "x": 546.9999720000001,
+      "y": 380.92655
+    }
+  },
+  {
+    "name": "Bohus centrum",
+    "location": {
+      "x": 500.999975,
+      "y": 168.87974107999997
+    }
+  },
+  {
+    "name": "Sörgårdsvägen",
+    "location": {
+      "x": 500.999975,
+      "y": 181.11304108000007
+    }
+  },
+  {
+    "name": "Idrottsvägen",
+    "location": {
+      "x": 500.999975,
+      "y": 193.33894107999998
+    }
+  },
+  {
+    "name": "Surte kyrka",
+    "location": {
+      "x": 500.999975,
+      "y": 205.54464107999996
+    }
+  },
+  {
+    "name": "Bruksvägen",
+    "location": {
+      "x": 500.999975,
+      "y": 217.72384108
+    }
+  },
+  {
+    "name": "Videgårdsvägen",
+    "location": {
+      "x": 500.999975,
+      "y": 229.87984107999995
+    }
+  },
+  {
+    "name": "Polhemsplatsen",
+    "location": {
+      "x": 485.999977,
+      "y": 630.0999400000001
+    }
+  },
+  {
+    "name": "Åkareplatsen",
+    "location": {
+      "x": 458.649983,
+      "y": 608.64994
+    }
+  },
+  {
+    "name": "Berzelligatan",
+    "location": {
+      "x": 509.349983,
+      "y": 694.3499400000001
+    }
+  },
+  {
+    "name": "Skårs Kyrka",
+    "location": {
+      "x": 566.01239,
+      "y": 733.97019
+    }
+  },
+  {
+    "name": "Grönsakstorget",
+    "location": {
+      "x": 429.015742,
+      "y": 683.99995
+    }
+  },
+  {
+    "name": "Furulunds centrum",
+    "location": {
+      "x": 788.09998,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Merkurius gatan",
+    "location": {
+      "x": 661.0393,
+      "y": 417.1395
+    }
+  },
+  {
+    "name": "Hönö färjeläge",
+    "location": {
+      "x": 31.340630000000033,
+      "y": 574.64725
+    }
+  },
+  {
+    "name": "Fyrskeppsvägen",
+    "location": {
+      "x": 41.0,
+      "y": 597.09725
+    }
+  },
+  {
+    "name": "Majvik",
+    "location": {
+      "x": 46.10000000000002,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Batterivägen",
+    "location": {
+      "x": 51.45449000000002,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Långrevsvägen",
+    "location": {
+      "x": 56.81021000000004,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Övre Hällsvik",
+    "location": {
+      "x": 62.169250000000034,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Hällsviksvägen",
+    "location": {
+      "x": 67.53269,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Gossbydalsvägen",
+    "location": {
+      "x": 72.89999,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Amhults Torg",
+    "location": {
+      "x": 88.64999,
+      "y": 588.40584
+    }
+  },
+  {
+    "name": "Amhult Resecentrum",
+    "location": {
+      "x": 90.89999,
+      "y": 577.99725
+    }
+  },
+  {
+    "name": "Arendal Skans",
+    "location": {
+      "x": 145.01395000000002,
+      "y": 620.98587
+    }
+  },
+  {
+    "name": "Arendals Allé",
+    "location": {
+      "x": 135.94845000000004,
+      "y": 620.98587
+    }
+  },
+  {
+    "name": "Arendal Terminal",
+    "location": {
+      "x": 130.99999000000003,
+      "y": 614.09995
+    }
+  },
+  {
+    "name": "Bockkranen",
+    "location": {
+      "x": 275.84678,
+      "y": 625.99995
+    }
+  },
+  {
+    "name": "Eriksbergsdockan",
+    "location": {
+      "x": 285.34998,
+      "y": 623.64995
+    }
+  },
+  {
+    "name": "Terminalvägen",
+    "location": {
+      "x": 131.00739,
+      "y": 598.36158
+    }
+  },
+  {
+    "name": "Arendal Norra",
+    "location": {
+      "x": 141.09999,
+      "y": 588.99995
+    }
+  },
+  {
+    "name": "Hamneviksvägen",
+    "location": {
+      "x": 145.89999,
+      "y": 596.20271
+    }
+  },
+  {
+    "name": "Godsgatan",
+    "location": {
+      "x": 150.99999000000003,
+      "y": 610.47985
+    }
+  },
+  {
+    "name": "Östergärde",
+    "location": {
+      "x": 212.99999000000003,
+      "y": 448.09995000000004
+    }
+  },
+  {
+    "name": "Helgered Gårdar",
+    "location": {
+      "x": 225.68002,
+      "y": 460.6987700000001
+    }
+  },
+  {
+    "name": "Klare Mosse",
+    "location": {
+      "x": 238.31748000000002,
+      "y": 473.33164
+    }
+  },
+  {
+    "name": "Klara",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 481.89995
+    }
+  },
+  {
+    "name": "Solstrålegatan",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 491.62547000000006
+    }
+  },
+  {
+    "name": "Länsmanstorget",
+    "location": {
+      "x": 238.09999000000002,
+      "y": 506.99996
+    }
+  },
+  {
+    "name": "Temperaturgatan",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 507.01488000000006
+    }
+  },
+  {
+    "name": "Svarte Mossse",
+    "location": {
+      "x": 229.99999000000003,
+      "y": 506.89995
+    }
+  },
+  {
+    "name": "Väderilsgatan",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 517.89994
+    }
+  },
+  {
+    "name": "Friskväderstorget",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 530.09996
+    }
+  },
+  {
+    "name": "Önskevädersgatan",
+    "location": {
+      "x": 246.99999000000003,
+      "y": 544.5743600000001
+    }
+  },
+  {
+    "name": "Vårväderstorget",
+    "location": {
+      "x": 236.09999000000002,
+      "y": 565.99994
+    }
+  },
+  {
+    "name": "Hagelvädersgatan",
+    "location": {
+      "x": 228.00006000000002,
+      "y": 565.99994
+    }
+  },
+  {
+    "name": "Ruskvädersgatan",
+    "location": {
+      "x": 219.89999,
+      "y": 565.99994
+    }
+  },
+  {
+    "name": "Jättestensskolan",
+    "location": {
+      "x": 260.99999,
+      "y": 548.09995
+    }
+  },
+  {
+    "name": "Skeppsbyggaregatan",
+    "location": {
+      "x": 260.99999,
+      "y": 538.99941
+    }
+  },
+  {
+    "name": "Svartedalsgatan",
+    "location": {
+      "x": 260.99999,
+      "y": 529.8999600000001
+    }
+  },
+  {
+    "name": "Krabbeliderna",
+    "location": {
+      "x": 270.34999000000005,
+      "y": 516.64995
+    }
+  },
+  {
+    "name": "Bjurslättsliden",
+    "location": {
+      "x": 275.90074000000004,
+      "y": 510.9992000000001
+    }
+  },
+  {
+    "name": "Hålldammen",
+    "location": {
+      "x": 783.99996,
+      "y": 591.89995
+    }
+  },
+  {
+    "name": "Björndammen",
+    "location": {
+      "x": 784.00079,
+      "y": 599.45281
+    }
+  },
+  {
+    "name": "Slättenvägen",
+    "location": {
+      "x": 797.09996,
+      "y": 603.99995
+    }
+  },
+  {
+    "name": "Stubbvägen",
+    "location": {
+      "x": 805.99998,
+      "y": 610.99356
+    }
+  },
+  {
+    "name": "Häradsvägen",
+    "location": {
+      "x": 820.99996,
+      "y": 589.09995
+    }
+  },
+  {
+    "name": "Lundby Gamla Kyrka",
+    "location": {
+      "x": 295.89998,
+      "y": 584.99994
+    }
+  },
+  {
+    "name": "Säterigatan",
+    "location": {
+      "x": 306.09998,
+      "y": 600.99995
+    }
+  },
+  {
+    "name": "Danaplatsen",
+    "location": {
+      "x": 298.34998,
+      "y": 608.6499999999999
+    }
+  },
+  {
+    "name": "Eriksbergstorget",
+    "location": {
+      "x": 295.99354000000005,
+      "y": 615.99995
+    }
+  },
+  {
+    "name": "Häggvägen",
+    "location": {
+      "x": 88.64999,
+      "y": 492.6499600000001
+    }
+  },
+  {
+    "name": "Bergegården",
+    "location": {
+      "x": 72.26699000000002,
+      "y": 485.99903000000006
+    }
+  },
+  {
+    "name": "Sävviken",
+    "location": {
+      "x": 65.42367000000002,
+      "y": 486.09478
+    }
+  },
+  {
+    "name": "Gröna Viken",
+    "location": {
+      "x": 58.56446,
+      "y": 486.09086
+    }
+  },
+  {
+    "name": "Lillebybadet",
+    "location": {
+      "x": 51.68902000000003,
+      "y": 486.09049000000005
+    }
+  },
+  {
+    "name": "Norskog",
+    "location": {
+      "x": 44.79961000000003,
+      "y": 486.07945000000007
+    }
+  },
+  {
+    "name": "Lilleby Båthamn",
+    "location": {
+      "x": 37.901639999999986,
+      "y": 485.97576000000004
+    }
+  },
+  {
+    "name": "Sillvik",
+    "location": {
+      "x": 30.999990000000025,
+      "y": 485.89999
+    }
+  },
+  {
+    "name": "Akkas Gata",
+    "location": {
+      "x": 405.999979,
+      "y": 430.89995
+    }
+  },
+  {
+    "name": "Olshammarsgatan",
+    "location": {
+      "x": 382.941646,
+      "y": 420.89995
+    }
+  },
+  {
+    "name": "Båtsman Grås Gata",
+    "location": {
+      "x": 388.89998,
+      "y": 405.99995
+    }
+  },
+  {
+    "name": "Båtsman Kapers Gata",
+    "location": {
+      "x": 388.99998,
+      "y": 394.89995
+    }
+  },
+  {
+    "name": "Båtsman Hisings Gata",
+    "location": {
+      "x": 396.89997900000003,
+      "y": 390.99995
+    }
+  },
+  {
+    "name": "Fridhems Kyrkogård",
+    "location": {
+      "x": 406.099979,
+      "y": 398.99995
+    }
+  },
+  {
+    "name": "Backadalsmotet",
+    "location": {
+      "x": 431.89997700000004,
+      "y": 463.99995
+    }
+  },
+  {
+    "name": "Åketorpsgatan",
+    "location": {
+      "x": 375.54983500000003,
+      "y": 420.99610000000007
+    }
+  },
+  {
+    "name": "Skogsbrynet",
+    "location": {
+      "x": 363.35855000000004,
+      "y": 421.0
+    }
+  },
+  {
+    "name": "Skälltorpsvägen",
+    "location": {
+      "x": 355.99998,
+      "y": 420.99299999999994
+    }
+  },
+  {
+    "name": "Lillhagsparken Södra",
+    "location": {
+      "x": 355.99955,
+      "y": 405.90139999999997
+    }
+  },
+  {
+    "name": "Lillhagsparken Norra",
+    "location": {
+      "x": 356.10130000000004,
+      "y": 390.9012
+    }
+  },
+  {
+    "name": "Skogome",
+    "location": {
+      "x": 355.99998700000003,
+      "y": 375.89995
+    }
+  },
+  {
+    "name": "Sankt jörgens Park",
+    "location": {
+      "x": 355.99998,
+      "y": 446.04039999999986
+    }
+  },
+  {
+    "name": "Krockebacksgatan",
+    "location": {
+      "x": 181.0,
+      "y": 698.11751
+    }
+  },
+  {
+    "name": "Skogsrydsgatan",
+    "location": {
+      "x": 180.99999000000003,
+      "y": 689.57255
+    }
+  },
+  {
+    "name": "Sjögången",
+    "location": {
+      "x": 180.99999000000003,
+      "y": 682.0999400000001
+    }
+  },
+  {
+    "name": "Tångudden",
+    "location": {
+      "x": 185.09999,
+      "y": 675.99995
+    }
+  },
+  {
+    "name": "Toredamm",
+    "location": {
+      "x": 197.64999,
+      "y": 677.64994
+    }
+  },
+  {
+    "name": "Nya Varvets Torg",
+    "location": {
+      "x": 203.09999,
+      "y": 682.99994
+    }
+  },
+  {
+    "name": "Örlogsvägen",
+    "location": {
+      "x": 202.99999000000003,
+      "y": 663.9937
+    }
+  },
+  {
+    "name": "Pingstvägen",
+    "location": {
+      "x": 181.0,
+      "y": 770.97001
+    }
+  },
+  {
+    "name": "Madbäcksvägent",
+    "location": {
+      "x": 196.99999000000003,
+      "y": 787.0999400000001
+    }
+  },
+  {
+    "name": "Beryllgatan",
+    "location": {
+      "x": 210.99999000000003,
+      "y": 810.9991600000001
+    }
+  },
+  {
+    "name": "Östes Gata",
+    "location": {
+      "x": 193.99998,
+      "y": 810.99917
+    }
+  },
+  {
+    "name": "Västes Gata",
+    "location": {
+      "x": 177.99999000000003,
+      "y": 810.99917
+    }
+  },
+  {
+    "name": "Skärvallsgatan",
+    "location": {
+      "x": 160.99999000000003,
+      "y": 782.99917
+    }
+  },
+  {
+    "name": "Björnåsgatan",
+    "location": {
+      "x": 161.09999,
+      "y": 810.99994
+    }
+  },
+  {
+    "name": "Fiskebäcksskolan",
+    "location": {
+      "x": 160.99977,
+      "y": 828.52657
+    }
+  },
+  {
+    "name": "Sikgatan",
+    "location": {
+      "x": 160.99999000000003,
+      "y": 846.05349
+    }
+  },
+  {
+    "name": "Fiskebäcks Småbåtshamn",
+    "location": {
+      "x": 140.90000000000003,
+      "y": 845.99994
+    }
+  },
+  {
+    "name": "Aprikosgatan",
+    "location": {
+      "x": 175.99999000000003,
+      "y": 846.01803
+    }
+  },
+  {
+    "name": "Melongatan",
+    "location": {
+      "x": 183.34999,
+      "y": 853.3499400000001
+    }
+  },
+  {
+    "name": "Åkerberget",
+    "location": {
+      "x": 190.99999000000003,
+      "y": 860.89994
+    }
+  },
+  {
+    "name": "Greveberget",
+    "location": {
+      "x": 202.89999,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Grevegårdsvägen",
+    "location": {
+      "x": 218.09999000000002,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Björkhöjdsgatan",
+    "location": {
+      "x": 231.89999,
+      "y": 860.99994
+    }
+  },
+  {
+    "name": "Stenkärsgatan",
+    "location": {
+      "x": 190.99999000000003,
+      "y": 872.31545
+    }
+  },
+  {
+    "name": "Klåveskärsgatan",
+    "location": {
+      "x": 191.09999,
+      "y": 883.99993
+    }
+  },
+  {
+    "name": "Juteskärsgatan",
+    "location": {
+      "x": 190.99999000000003,
+      "y": 895.05774
+    }
+  },
+  {
+    "name": "Halleskärsgatan",
+    "location": {
+      "x": 190.99999000000003,
+      "y": 906.0999400000001
+    }
+  },
+  {
+    "name": "Önnereds Brygga",
+    "location": {
+      "x": 170.89999,
+      "y": 905.99994
+    }
+  },
+  {
+    "name": "Brungatan",
+    "location": {
+      "x": 208.89999,
+      "y": 905.99994
+    }
+  },
+  {
+    "name": "Åkered",
+    "location": {
+      "x": 225.99999000000003,
+      "y": 906.0999400000001
+    }
+  },
+  {
+    "name": "Opaltorget",
+    "location": {
+      "x": 225.99998000000002,
+      "y": 886.45127
+    }
+  },
+  {
+    "name": "Kulörgatan",
+    "location": {
+      "x": 225.99999000000003,
+      "y": 918.673
+    }
+  },
+  {
+    "name": "Rödgatan",
+    "location": {
+      "x": 225.99998000000002,
+      "y": 931.25755
+    }
+  },
+  {
+    "name": "Hammarvägen",
+    "location": {
+      "x": 225.99998000000002,
+      "y": 943.85239
+    }
+  },
+  {
+    "name": "Näsbovägen",
+    "location": {
+      "x": 225.89999000000003,
+      "y": 955.99994
+    }
+  },
+  {
+    "name": "Kannebäck",
+    "location": {
+      "x": 255.09999000000002,
+      "y": 905.99994
+    }
+  },
+  {
+    "name": "Välen",
+    "location": {
+      "x": 264.99998000000005,
+      "y": 915.45127
+    }
+  },
+  {
+    "name": "Gjutegården",
+    "location": {
+      "x": 264.99999,
+      "y": 926.89994
+    }
+  },
+  {
+    "name": "Hultåsen",
+    "location": {
+      "x": 264.99999,
+      "y": 935.89994
+    }
+  },
+  {
+    "name": "Hults Bro",
+    "location": {
+      "x": 264.99998000000005,
+      "y": 906.0570700000001
+    }
+  },
+  {
+    "name": "Ängås",
+    "location": {
+      "x": 264.99999,
+      "y": 897.0999400000001
+    }
+  },
+  {
+    "name": "Toftaåsgatan",
+    "location": {
+      "x": 264.99999,
+      "y": 887.89994
+    }
+  },
+  {
+    "name": "Västra Frölunda Kyrka",
+    "location": {
+      "x": 302.99998000000005,
+      "y": 878.0999400000001
+    }
+  },
+  {
+    "name": "Radiovägen",
+    "location": {
+      "x": 320.89998,
+      "y": 886.99993
+    }
+  },
+  {
+    "name": "Radiomotet",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 900.89994
+    }
+  },
+  {
+    "name": "Johannefred",
+    "location": {
+      "x": 459.7945786,
+      "y": 919.89368
+    }
+  },
+  {
+    "name": "Riskulla",
+    "location": {
+      "x": 481.006432,
+      "y": 940.99986
+    }
+  },
+  {
+    "name": "Kryptongatan",
+    "location": {
+      "x": 499.099155,
+      "y": 940.99989
+    }
+  },
+  {
+    "name": "Neongatan",
+    "location": {
+      "x": 516.0999850000001,
+      "y": 940.99989
+    }
+  },
+  {
+    "name": "Gamla tingshuset",
+    "location": {
+      "x": 537.099974,
+      "y": 955.99994
+    }
+  },
+  {
+    "name": "Goco",
+    "location": {
+      "x": 536.9999740000001,
+      "y": 948.89994
+    }
+  },
+  {
+    "name": "AstraZeneca",
+    "location": {
+      "x": 529.028604,
+      "y": 940.99994
+    }
+  },
+  {
+    "name": "Peppareds torg",
+    "location": {
+      "x": 537.04674,
+      "y": 973.8127400000001
+    }
+  },
+  {
+    "name": "Kikås",
+    "location": {
+      "x": 627.09998,
+      "y": 890.99994
+    }
+  },
+  {
+    "name": "Gunnebodal",
+    "location": {
+      "x": 656.08433,
+      "y": 891.0999300000001
+    }
+  },
+  {
+    "name": "Persikovägen",
+    "location": {
+      "x": 665.9999700000001,
+      "y": 883.0999300000001
+    }
+  },
+  {
+    "name": "Pixbo herrgård",
+    "location": {
+      "x": 665.9999700000001,
+      "y": 875.1186600000001
+    }
+  },
+  {
+    "name": "Pixbo dammar",
+    "location": {
+      "x": 665.9999700000001,
+      "y": 867.2385
+    }
+  },
+  {
+    "name": "Torsgatan",
+    "location": {
+      "x": 444.999979,
+      "y": 586.89994
+    }
+  },
+  {
+    "name": "Falutorget",
+    "location": {
+      "x": 454.349978,
+      "y": 577.64995
+    }
+  },
+  {
+    "name": "Gasverket",
+    "location": {
+      "x": 465.67452517000004,
+      "y": 566.3237700000001
+    }
+  },
+  {
+    "name": "Vassgatan",
+    "location": {
+      "x": 476.0099606,
+      "y": 555.98994
+    }
+  },
+  {
+    "name": "Viadukten",
+    "location": {
+      "x": 486.349977,
+      "y": 545.64995
+    }
+  },
+  {
+    "name": "Bergsjödalen",
+    "location": {
+      "x": 669.99996,
+      "y": 426.0999999999999
+    }
+  },
+  {
+    "name": "Rymdtorget Buss",
+    "location": {
+      "x": 669.99995,
+      "y": 443.89995
+    }
+  },
+  {
+    "name": "Saturnusgatan",
+    "location": {
+      "x": 692.96725,
+      "y": 450.51957000000004
+    }
+  },
+  {
+    "name": "Komettorget",
+    "location": {
+      "x": 656.09996,
+      "y": 470.99995
+    }
+  },
+  {
+    "name": "Bergsjösvängen",
+    "location": {
+      "x": 660.09995,
+      "y": 485.99995
+    }
+  },
+  {
+    "name": "Atmosfärgatan",
+    "location": {
+      "x": 644.34995,
+      "y": 474.34996
+    }
+  },
+  {
+    "name": "Stora Björn",
+    "location": {
+      "x": 630.9999700000001,
+      "y": 466.09995000000004
+    }
+  },
+  {
+    "name": "Orion",
+    "location": {
+      "x": 630.9999700000001,
+      "y": 474.89995
+    }
+  },
+  {
+    "name": "Gärdsåsgatan",
+    "location": {
+      "x": 630.9999700000001,
+      "y": 482.2999500000001
+    }
+  },
+  {
+    "name": "Valborgsmässogatan",
+    "location": {
+      "x": 635.34997,
+      "y": 490.34995000000004
+    }
+  },
+  {
+    "name": "Hindersmässogatan",
+    "location": {
+      "x": 641.19713,
+      "y": 496.20726
+    }
+  },
+  {
+    "name": "Ungbrodesgatan",
+    "location": {
+      "x": 650.89995,
+      "y": 509.99996
+    }
+  },
+  {
+    "name": "Gillegatan",
+    "location": {
+      "x": 650.9999700000001,
+      "y": 517.8405
+    }
+  },
+  {
+    "name": "SKF",
+    "location": {
+      "x": 559.899971,
+      "y": 526.99995
+    }
+  },
+  {
+    "name": "Bellevue",
+    "location": {
+      "x": 570.89997,
+      "y": 526.99995
+    }
+  },
+  {
+    "name": "Kvibergsskolan",
+    "location": {
+      "x": 584.9999700000001,
+      "y": 526.89995
+    }
+  },
+  {
+    "name": "Orrebacksgatan",
+    "location": {
+      "x": 601.99996,
+      "y": 526.89995
+    }
+  },
+  {
+    "name": "Lemmingsgatan",
+    "location": {
+      "x": 632.99996,
+      "y": 527.04269
+    }
+  },
+  {
+    "name": "Byfogdegatan",
+    "location": {
+      "x": 572.89997,
+      "y": 545.99995
+    }
+  },
+  {
+    "name": "Sävenäs Lokstation",
+    "location": {
+      "x": 586.69284,
+      "y": 545.9977200000001
+    }
+  },
+  {
+    "name": "SKF R-porten",
+    "location": {
+      "x": 600.48833,
+      "y": 545.9748999999999
+    }
+  },
+  {
+    "name": "Lindareverkstaden",
+    "location": {
+      "x": 614.29044,
+      "y": 545.89779
+    }
+  },
+  {
+    "name": "Nordbakels",
+    "location": {
+      "x": 628.09997,
+      "y": 545.99995
+    }
+  },
+  {
+    "name": "Industrivägen",
+    "location": {
+      "x": 632.9999700000001,
+      "y": 537.59995
+    }
+  },
+  {
+    "name": "Östergärde",
+    "location": {
+      "x": 650.9999700000001,
+      "y": 526.96537
+    }
+  },
+  {
+    "name": "Frimästaregatan",
+    "location": {
+      "x": 670.09996,
+      "y": 526.99995
+    }
+  },
+  {
+    "name": "Fjällbo",
+    "location": {
+      "x": 687.09996,
+      "y": 526.99995
+    }
+  },
+  {
+    "name": "Jennyhill",
+    "location": {
+      "x": 706.00642,
+      "y": 526.99996
+    }
+  },
+  {
+    "name": "Artles torg",
+    "location": {
+      "x": 736.09996,
+      "y": 526.99994
+    }
+  },
+  {
+    "name": "Kungälvs sjukhus",
+    "location": {
+      "x": 395.99998600000004,
+      "y": 71.90000000000009
+    }
+  },
+  {
+    "name": "Ekeredsvägen",
+    "location": {
+      "x": 687.84442,
+      "y": 381.09995000000004
+    }
+  },
+  {
+    "name": "Gunnilse skola",
+    "location": {
+      "x": 698.34996,
+      "y": 378.64995
+    }
+  },
+  {
+    "name": "Angereds Kyrka",
+    "location": {
+      "x": 703.35746,
+      "y": 373.64242
+    }
+  },
+  {
+    "name": "Rågården",
+    "location": {
+      "x": 708.36755,
+      "y": 368.63236000000006
+    }
+  },
+  {
+    "name": "Bingared",
+    "location": {
+      "x": 713.3813,
+      "y": 363.61861
+    }
+  },
+  {
+    "name": "Knipared",
+    "location": {
+      "x": 718.39878,
+      "y": 358.60113
+    }
+  },
+  {
+    "name": "Björsared",
+    "location": {
+      "x": 723.41848,
+      "y": 353.58143000000007
+    }
+  },
+  {
+    "name": "Ströms Väg",
+    "location": {
+      "x": 728.43698,
+      "y": 348.56293000000005
+    }
+  },
+  {
+    "name": "Olofstorp Västra",
+    "location": {
+      "x": 733.4490000000001,
+      "y": 343.55091000000004
+    }
+  },
+  {
+    "name": "Olofstorp",
+    "location": {
+      "x": 738.4479200000001,
+      "y": 338.55199000000005
+    }
+  },
+  {
+    "name": "Häljered",
+    "location": {
+      "x": 743.42656,
+      "y": 333.57336
+    }
+  },
+  {
+    "name": "Stenared",
+    "location": {
+      "x": 766.0999400000001,
+      "y": 329.9999700000001
+    }
+  },
+  {
+    "name": "Bergums Kyrka",
+    "location": {
+      "x": 753.2984200000001,
+      "y": 323.7015
+    }
+  },
+  {
+    "name": "Dockeredsvägen",
+    "location": {
+      "x": 758.18439,
+      "y": 318.8155300000001
+    }
+  },
+  {
+    "name": "Kvarnabäcken",
+    "location": {
+      "x": 763.0369000000001,
+      "y": 313.96302000000003
+    }
+  },
+  {
+    "name": "Delabäcken",
+    "location": {
+      "x": 767.85953,
+      "y": 309.1404
+    }
+  },
+  {
+    "name": "Ytterstad",
+    "location": {
+      "x": 772.65824,
+      "y": 304.34170000000006
+    }
+  },
+  {
+    "name": "Målöga",
+    "location": {
+      "x": 777.44058,
+      "y": 299.5593
+    }
+  },
+  {
+    "name": "Jönsagården",
+    "location": {
+      "x": 782.21464,
+      "y": 294.7853
+    }
+  },
+  {
+    "name": "Stannum",
+    "location": {
+      "x": 786.9879900000001,
+      "y": 290.0119000000001
+    }
+  },
+  {
+    "name": "Stannum station",
+    "location": {
+      "x": 791.76686,
+      "y": 285.23310000000004
+    }
+  },
+  {
+    "name": "Furubergsvägen",
+    "location": {
+      "x": 796.55557,
+      "y": 280.4443
+    }
+  },
+  {
+    "name": "Ingabo",
+    "location": {
+      "x": 801.35618,
+      "y": 275.6437000000001
+    }
+  },
+  {
+    "name": "Pionvägen",
+    "location": {
+      "x": 806.1685600000001,
+      "y": 270.83140000000003
+    }
+  },
+  {
+    "name": "Vårlöksvägen",
+    "location": {
+      "x": 810.99071,
+      "y": 266.00919999999996
+    }
+  },
+  {
+    "name": "Stora Lundby kyrka",
+    "location": {
+      "x": 815.8192200000001,
+      "y": 261.1807000000001
+    }
+  },
+  {
+    "name": "Hjällsnäsvägen",
+    "location": {
+      "x": 820.64996,
+      "y": 256.35000000000014
+    }
+  },
+  {
+    "name": "Gråbo busstation",
+    "location": {
+      "x": 825.64996,
+      "y": 251.35000000000014
+    }
+  },
+  {
+    "name": "Kärna bussterminal",
+    "location": {
+      "x": 128.59309000000002,
+      "y": 168.59400000000005
+    }
+  },
+  {
+    "name": "Hallbjörtorpsvägen",
+    "location": {
+      "x": 133.60743000000002,
+      "y": 173.60699999999997
+    }
+  },
+  {
+    "name": "Lerlycke norra",
+    "location": {
+      "x": 138.56459,
+      "y": 178.56439999999998
+    }
+  },
+  {
+    "name": "Lerlycke södra",
+    "location": {
+      "x": 143.52197999999999,
+      "y": 183.5217
+    }
+  },
+  {
+    "name": "Hermansby östra",
+    "location": {
+      "x": 148.47974,
+      "y": 188.47870000000012
+    }
+  },
+  {
+    "name": "Torrebräcka",
+    "location": {
+      "x": 153.38644,
+      "y": 193.4860000000001
+    }
+  },
+  {
+    "name": "Flateby norra",
+    "location": {
+      "x": 158.39159,
+      "y": 198.39460000000008
+    }
+  },
+  {
+    "name": "Flateby södra",
+    "location": {
+      "x": 163.34999,
+      "y": 203.35000000000014
+    }
+  },
+  {
+    "name": "Torps bro",
+    "location": {
+      "x": 169.09999,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Harestad västra",
+    "location": {
+      "x": 176.29155000000003,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Harestads kyrka",
+    "location": {
+      "x": 183.53719,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Sjöhedsvägen",
+    "location": {
+      "x": 190.85234000000003,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Harestad östra",
+    "location": {
+      "x": 198.20482000000004,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Hammars korsväg",
+    "location": {
+      "x": 205.64320000000004,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Hammar södra",
+    "location": {
+      "x": 213.09999000000002,
+      "y": 206.0
+    }
+  },
+  {
+    "name": "Ulvesundsvägen",
+    "location": {
+      "x": 218.20090000000002,
+      "y": 211.19939999999997
+    }
+  },
+  {
+    "name": "Kornhall",
+    "location": {
+      "x": 223.34999000000002,
+      "y": 216.35000000000014
+    }
+  },
+  {
+    "name": "Pölsebo",
+    "location": {
+      "x": 264.09999000000005,
+      "y": 615.99996
+    }
+  },
+  {
+    "name": "Nordviksgatan",
+    "location": {
+      "x": 335.99998000000005,
+      "y": 615.89995
+    }
+  },
+  {
+    "name": "Nordhagsvägen",
+    "location": {
+      "x": 85.34998999999999,
+      "y": 560.34995
+    }
+  },
+  {
+    "name": "Torslanda Torg",
+    "location": {
+      "x": 75.99999000000003,
+      "y": 547.89995
+    }
+  },
+  {
+    "name": "Hembygdsgatan",
+    "location": {
+      "x": 75.99999000000003,
+      "y": 540.89995
+    }
+  },
+  {
+    "name": "Vårbäcksvägen",
+    "location": {
+      "x": 76.01396,
+      "y": 533.98587
+    }
+  },
+  {
+    "name": "Högstensgatan",
+    "location": {
+      "x": 66.90000000000003,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Runskriftsgatan",
+    "location": {
+      "x": 61.0,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Runslingan",
+    "location": {
+      "x": 55.10000000000002,
+      "y": 533.99995
+    }
+  },
+  {
+    "name": "Lönnrunan",
+    "location": {
+      "x": 49.35000000000002,
+      "y": 530.34995
+    }
+  },
+  {
+    "name": "Hornkamsgatan",
+    "location": {
+      "x": 44.65001000000001,
+      "y": 525.6499600000001
+    }
+  },
+  {
+    "name": "Skräppekärr",
+    "location": {
+      "x": 490.999961,
+      "y": 443.48424
+    }
+  },
+  {
+    "name": "Färgfabrikerna",
+    "location": {
+      "x": 490.999974,
+      "y": 456.91182000000003
+    }
+  },
+  {
+    "name": "Dickson Norra",
+    "location": {
+      "x": 490.999974,
+      "y": 467.72185
+    }
+  },
+  {
+    "name": "Dickson Södra",
+    "location": {
+      "x": 491.000061,
+      "y": 478.52653
+    }
+  },
+  {
+    "name": "Göteborgs Varv",
+    "location": {
+      "x": 490.999487,
+      "y": 489.3233
+    }
+  },
+  {
+    "name": "Lärjehamnen",
+    "location": {
+      "x": 491.001153,
+      "y": 500.11087
+    }
+  },
+  {
+    "name": "Marieholm",
+    "location": {
+      "x": 490.99845600000003,
+      "y": 510.8897800000001
+    }
+  },
+  {
+    "name": "Slakthusgatan",
+    "location": {
+      "x": 491.022892,
+      "y": 521.66245
+    }
+  },
+  {
+    "name": "Mölnlycketerminalen",
+    "location": {
+      "x": 737.998226,
+      "y": 820.9988040000001
+    },
+    "radius": 11.850000000000023
+  },
+  {
+    "name": "Gamlestads Torg Västra",
+    "location": {
+      "x": 519.84997,
+      "y": 526.999983
+    },
+    "radius": 13.850000000000023
+  },
+  {
+    "name": "Hjalmar Brantingsplatsen",
+    "location": {
+      "x": 371.0,
+      "y": 566.0
+    },
+    "radius": 14.350000000000023
+  },
+  {
+    "name": "Centralstationen",
+    "location": {
+      "x": 451.01783,
+      "y": 635.9999700000001
+    },
+    "radius": 7.849999900000057
+  },
+  {
+    "name": "Nils Ericson Terminalen",
+    "location": {
+      "x": 440.99998999999997,
+      "y": 605.9999399999999
+    },
+    "radius": 11.850000000000023
+  },
+  {
+    "name": "Marklandsgatan",
+    "location": {
+      "x": 320.99997999999994,
+      "y": 765.9999599999999
+    },
+    "radius": 12.850000000000023
+  },
+  {
+    "name": "Heden",
+    "location": {
+      "x": 485.99998000000005,
+      "y": 671.0
+    },
+    "radius": 14.850000000000023
+  },
+  {
+    "name": "Korsvägen",
+    "location": {
+      "x": 528.99794,
+      "y": 697.00154
+    },
+    "radius": 5.849999900000057
+  },
+  {
+    "name": "Kungssten",
+    "location": {
+      "x": 220.9999899999999,
+      "y": 700.9999999999999
+    },
+    "radius": 9.850000399999999
+  },
+  {
+    "name": "Redbergsplatsen",
+    "location": {
+      "x": 565.999935,
+      "y": 598.03491
+    },
+    "radius": 9.850000399999999
+  },
+  {
+    "name": "Eketrägatan",
+    "location": {
+      "x": 260.99995,
+      "y": 566.00007
+    },
+    "radius": 12.850000000000023
+  },
+  {
+    "name": "Partille centrum",
+    "location": {
+      "x": 783.9999703999999,
+      "y": 556.0
+    },
+    "radius": 17.850000000000023
+  },
+  {
+    "name": "Angered Centrum",
+    "location": {
+      "x": 590.9999700000001,
+      "y": 288.98927000000003
+    },
+    "radius": 15.850000000000023
+  },
+  {
+    "name": "Frölunda Torg",
+    "location": {
+      "x": 265.00001999999995,
+      "y": 860.00003
+    },
+    "radius": 18.850000000000023
+  },
+  {
+    "name": "Brunnsparken",
+    "location": {
+      "x": 433.499988,
+      "y": 653.499981
+    },
+    "radius": 7.8499999
+  },
+  {
+    "name": "Järntorget",
+    "location": {
+      "x": 380.99997,
+      "y": 681.0
+    },
+    "radius": 7.3499999
+  }
+]

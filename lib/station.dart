@@ -4,11 +4,13 @@ import 'dart:io';
 import 'package:flutter/widgets.dart';
 
 class Station {
-  Station(this.name, this.location, {String? apiName}) : _apiName = apiName;
+  Station(this.name, this.location, {this.radius, String? apiName}) : _apiName = apiName;
 
   final String name;
 
   final Offset location;
+
+  final double? radius;
 
   final String? _apiName;
 
@@ -22,6 +24,7 @@ class Station {
           (element) => Station(
             element["name"],
             Offset(element["location"]["x"], element["location"]["y"]),
+            radius: (element["radius"] as num?)?.toDouble(),
           ),
         )
         .toList();

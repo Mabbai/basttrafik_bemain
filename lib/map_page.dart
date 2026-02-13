@@ -34,27 +34,28 @@ class MapPage extends StatelessWidget {
 }
 
 class StationMarker extends StatelessWidget {
-  const StationMarker({super.key, required this.station, this.size = 20});
+  const StationMarker({super.key, required this.station});
 
   final Station station;
 
-  final double size;
+  double get markerSize =>
+      (station.radius != null && station.radius! > 0) ? station.radius! * MapPage.scale * 2 : 20;
 
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: station.location.dx * MapPage.scale - size / 2,
-      top: station.location.dy * MapPage.scale - size / 2,
+      left: station.location.dx * MapPage.scale - markerSize / 2,
+      top: station.location.dy * MapPage.scale - markerSize / 2,
       child: GestureDetector(
         onTap: () {
           print("Tapped ${station.name}");
         },
         child: Container(
-          width: size,
-          height: size,
+          width: markerSize,
+          height: markerSize,
           decoration: BoxDecoration(
             color: Colors.red,
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(markerSize / 2),
           ),
         ),
       ),
