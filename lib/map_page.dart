@@ -1,3 +1,4 @@
+import 'package:basttrafik/departure_service.dart';
 import 'package:basttrafik/station.dart';
 import 'package:flutter/material.dart';
 
@@ -34,9 +35,10 @@ class MapPage extends StatelessWidget {
 }
 
 class StationMarker extends StatelessWidget {
-  const StationMarker({super.key, required this.station});
+  StationMarker({super.key, required this.station}) : departureService = const DepartureService();
 
   final Station station;
+  final DepartureService departureService;
 
   double get markerSize =>
       (station.radius != null && station.radius! > 0) ? station.radius! * MapPage.scale * 2 : 20;
@@ -47,8 +49,13 @@ class StationMarker extends StatelessWidget {
       left: station.location.dx * MapPage.scale - markerSize / 2,
       top: station.location.dy * MapPage.scale - markerSize / 2,
       child: GestureDetector(
-        onTap: () {
-          print("Tapped ${station.name}");
+        onTap: () async {
+          try {
+            final departures = await departureService.fetchDepartures(station.apiName);
+            print("Departures for ${station.apiName}: $departures");
+          } catch (error) {
+            print("Failed to fetch departures for ${station.apiName}: $error");
+          }
         },
         child: Container(
           width: markerSize,
