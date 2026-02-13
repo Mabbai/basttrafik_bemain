@@ -7,12 +7,22 @@ class DepartureService {
   const DepartureService();
 
   Future<List<Map<String, dynamic>>> fetchDepartures(String stopName) async {
+
+    final String pythonExec = Platform.isWindows ? 'python' : 'python3';
+
     try {
-      final result = await Process.run('python3', <String>[_bridgeScript, stopName]);
+      final result = await Process.run(pythonExec, <String>[_bridgeScript, stopName]);
 
       if (result.exitCode != 0) {
-        final stderr = (result.stderr as String?)?.trim();
-        throw ProcessException('python3', <String>[_bridgeScript, stopName], stderr, result.exitCode);
+        // Use 'as dynamic' or 'toString()' to handle both String and List<int>
+        final stderr = result.stderr.toString().trim();
+        
+        throw ProcessException(
+          pythonExec, 
+          [_bridgeScript, stopName], 
+          stderr, 
+          result.exitCode,
+        );
       }
 
       final stdout = (result.stdout as String).trim();
