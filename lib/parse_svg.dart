@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math' as math;
 
 import 'package:xml/xml.dart';
 
@@ -36,14 +37,16 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
   final stations = <ParsedStation>[];
 
   for (final group in smallStopLayer.childElements.where((e) => e.name.local == 'g')) {
-    final use = group.childElements.where((e) => e.name.local == 'use').firstOrNull;
-    final text = group.childElements.where((e) => e.name.local == 'text').firstOrNull;
+    final use = group.descendants.whereType<XmlElement>().firstWhereOrNull(
+      (e) => e.name.local == 'use' && e.getAttribute('xlink:href') != null,
+    );
+    final text = group.descendants.whereType<XmlElement>().firstWhereOrNull((e) => e.name.local == 'text');
 
     if (use == null || text == null) {
       continue;
     }
 
-    final stopPosition = getUsePosition(document, use, ancestor: group);
+    final stopPosition = getUsePosition(document, use);
     final stopName = extractText(text);
 
     if (stopName.isEmpty) {
@@ -56,11 +59,7 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
   return stations;
 }
 
-(double, double) getUsePosition(
-  XmlDocument document,
-  XmlElement use,
-  {XmlElement? ancestor}
-) {
+(double, double) getUsePosition(XmlDocument document, XmlElement use) {
   final href = use.getAttribute('xlink:href')?.replaceFirst('#', '');
 
   if (href == null) {
@@ -71,30 +70,82 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
     (element) => element.getAttribute('id') == href,
   );
 
-  final baseX = double.tryParse(base.getAttribute('cx') ?? '') ?? 0;
-  final baseY = double.tryParse(base.getAttribute('cy') ?? '') ?? 0;
+  var x = (double.tryParse(base.getAttribute('cx') ?? '') ?? 0) + (double.tryParse(use.getAttribute('x') ?? '') ?? 0);
+  var y = (double.tryParse(base.getAttribute('cy') ?? '') ?? 0) + (double.tryParse(use.getAttribute('y') ?? '') ?? 0);
 
-  final useOffset = parseTranslate(use.getAttribute('transform'));
-  final groupOffset = ancestor == null ? (0.0, 0.0) : parseTranslate(ancestor.getAttribute('transform'));
+  final transformChain = [use, ...use.ancestors.whereType<XmlElement>()];
 
-  return (baseX + useOffset.$1 + groupOffset.$1, baseY + useOffset.$2 + groupOffset.$2);
-}
-
-(double, double) parseTranslate(String? transform) {
-  if (transform == null || transform.isEmpty) {
-    return (0, 0);
+  for (final element in transformChain) {
+    (x, y) = applyTransform(element.getAttribute('transform'), x, y);
   }
-
-  final match = RegExp(r'translate\(([-\d.]+)[\s,]+([-\d.]+)\)').firstMatch(transform);
-
-  if (match == null) {
-    return (0, 0);
-  }
-
-  final x = double.tryParse(match.group(1) ?? '') ?? 0;
-  final y = double.tryParse(match.group(2) ?? '') ?? 0;
 
   return (x, y);
+}
+
+(double, double) applyTransform(String? transform, double x, double y) {
+  if (transform == null || transform.isEmpty) {
+    return (x, y);
+  }
+
+  final operations = RegExp(r'(\w+)\(([^)]+)\)').allMatches(transform);
+
+  var currentX = x;
+  var currentY = y;
+
+  for (final operation in operations) {
+    final name = operation.group(1);
+    final args = operation
+        .group(2)
+        ?.split(RegExp(r'[\s,]+'))
+        .where((value) => value.isNotEmpty)
+        .map((value) => double.tryParse(value))
+        .whereType<double>()
+        .toList();
+
+    if (args == null || args.isEmpty) {
+      continue;
+    }
+
+    switch (name) {
+      case 'translate':
+        final tx = args[0];
+        final ty = args.length >= 2 ? args[1] : 0.0;
+        currentX += tx;
+        currentY += ty;
+        break;
+      case 'matrix':
+        if (args.length < 6) {
+          continue;
+        }
+
+        final nextX = args[0] * currentX + args[2] * currentY + args[4];
+        final nextY = args[1] * currentX + args[3] * currentY + args[5];
+        currentX = nextX;
+        currentY = nextY;
+        break;
+      case 'scale':
+        final sx = args[0];
+        final sy = args.length >= 2 ? args[1] : sx;
+        currentX *= sx;
+        currentY *= sy;
+        break;
+      case 'rotate':
+        final angle = args[0] * math.pi / 180;
+        final centerX = args.length >= 3 ? args[1] : 0.0;
+        final centerY = args.length >= 3 ? args[2] : 0.0;
+        final shiftedX = currentX - centerX;
+        final shiftedY = currentY - centerY;
+        final rotatedX = shiftedX * math.cos(angle) - shiftedY * math.sin(angle);
+        final rotatedY = shiftedX * math.sin(angle) + shiftedY * math.cos(angle);
+        currentX = rotatedX + centerX;
+        currentY = rotatedY + centerY;
+        break;
+      default:
+        continue;
+    }
+  }
+
+  return (currentX, currentY);
 }
 
 String extractText(XmlElement textElement) {
