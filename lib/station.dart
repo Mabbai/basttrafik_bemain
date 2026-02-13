@@ -25,6 +25,7 @@ class Station {
             element["name"],
             Offset(element["location"]["x"], element["location"]["y"]),
             radius: (element["radius"] as num?)?.toDouble(),
+            apiName: element["api_name"] as String? ?? element["apiName"] as String?,
           ),
         )
         .toList();
