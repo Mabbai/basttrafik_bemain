@@ -54,7 +54,7 @@ class StationMarker extends StatelessWidget {
           width: markerSize,
           height: markerSize,
           decoration: BoxDecoration(
-            color: Colors.red,
+            //color: Colors.red,
             borderRadius: BorderRadius.circular(markerSize / 2),
           ),
         ),

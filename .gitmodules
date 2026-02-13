@@ -1,0 +1,3 @@
+[submodule "basttrafik"]
+	path = basttrafik
+	url = https://github.com/Mabbai/basttrafik
