@@ -1,15 +1,13 @@
 import 'package:basttrafik/departure_service.dart';
+import 'package:basttrafik/map_config.dart';
 import 'package:basttrafik/station.dart';
 import 'package:flutter/material.dart';
 
 class MapPage extends StatefulWidget {
-  const MapPage({super.key, this.stations = const []});
+  const MapPage({super.key, this.stations = const [], required this.mapConfig});
 
   final List<Station> stations;
-
-  static final Size imageSize = const Size(10760, 13146);
-  static final Size stationsSize = const Size(911, 1113);
-  static final double scale = imageSize.width / stationsSize.width;
+  final MapConfig mapConfig;
 
   @override
   State<MapPage> createState() => _MapPageState();
@@ -77,8 +75,8 @@ class _MapPageState extends State<MapPage> {
           maxScale: 2.5,
           constrained: false,
           child: SizedBox(
-            width: MapPage.imageSize.width,
-            height: MapPage.imageSize.height,
+            width: widget.mapConfig.imageSize.width,
+            height: widget.mapConfig.imageSize.height,
             child: Stack(
               clipBehavior: Clip.none,
               children: [
@@ -86,11 +84,13 @@ class _MapPageState extends State<MapPage> {
                 for (var station in widget.stations)
                   StationMarker(
                     station: station,
+                    mapConfig: widget.mapConfig,
                     onTap: () => _showStationDepartures(station),
                   ),
                 if (_selectedStation != null)
                   DeparturesPopup(
                     station: _selectedStation!,
+                    mapConfig: widget.mapConfig,
                     departures: _departures,
                     isLoading: _isLoadingDepartures,
                     errorMessage: _departureError,
@@ -105,19 +105,20 @@ class _MapPageState extends State<MapPage> {
 }
 
 class StationMarker extends StatelessWidget {
-  const StationMarker({super.key, required this.station, required this.onTap});
+  const StationMarker({super.key, required this.station, required this.mapConfig, required this.onTap});
 
   final Station station;
+  final MapConfig mapConfig;
   final VoidCallback onTap;
 
   double get markerSize =>
-      (station.radius != null && station.radius! > 0) ? station.radius! * MapPage.scale * 2 : 20;
+      (station.radius != null && station.radius! > 0) ? station.radius! * mapConfig.scale * 2 : 20;
 
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: station.location.dx * MapPage.scale - markerSize / 2,
-      top: station.location.dy * MapPage.scale - markerSize / 2,
+      left: station.location.dx * mapConfig.scale - markerSize / 2,
+      top: station.location.dy * mapConfig.scale - markerSize / 2,
       child: GestureDetector(
         onTap: onTap,
         child: Container(
@@ -137,12 +138,14 @@ class DeparturesPopup extends StatelessWidget {
   const DeparturesPopup({
     super.key,
     required this.station,
+    required this.mapConfig,
     required this.departures,
     required this.isLoading,
     this.errorMessage,
   });
 
   final Station station;
+  final MapConfig mapConfig;
   final List<Map<String, dynamic>> departures;
   final bool isLoading;
   final String? errorMessage;
@@ -150,13 +153,13 @@ class DeparturesPopup extends StatelessWidget {
   static const double _popupWidth = 360;
 
   double get _markerSize =>
-      (station.radius != null && station.radius! > 0) ? station.radius! * MapPage.scale * 2 : 20;
+      (station.radius != null && station.radius! > 0) ? station.radius! * mapConfig.scale * 2 : 20;
 
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: station.location.dx * MapPage.scale - _popupWidth / 2,
-      top: station.location.dy * MapPage.scale - _markerSize / 2 - 12,
+      left: station.location.dx * mapConfig.scale - _popupWidth / 2,
+      top: station.location.dy * mapConfig.scale - _markerSize / 2 - 12,
       child: Transform.translate(
         offset: const Offset(0, -120),
         child: Material(
