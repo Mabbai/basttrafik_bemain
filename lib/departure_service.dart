@@ -3,10 +3,24 @@ import 'dart:io';
 
 class DepartureService {
   static const String _bridgeScript = 'scripts/fetch_departures_bridge.py';
+  static const Map<String, List<String>> _stopAliases = <String, List<String>>{
+    'Skolvägen': <String>['Skolvägen, Ale', 'Skolvägen, Partille'],
+  };
 
   const DepartureService();
 
   Future<List<Map<String, dynamic>>> fetchDepartures(String stopName) async {
+    final stopNames = <String>[stopName, ...?_stopAliases[stopName]];
+    final allDepartures = <Map<String, dynamic>>[];
+
+    for (final name in stopNames) {
+      allDepartures.addAll(await _fetchDeparturesForStop(name));
+    }
+
+    return allDepartures;
+  }
+
+  Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) async {
     final String pythonExec = Platform.isWindows ? 'python' : 'python3';
 
     try {
