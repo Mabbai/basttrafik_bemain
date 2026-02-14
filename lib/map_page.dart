@@ -178,6 +178,56 @@ class DeparturesPopup extends StatelessWidget {
   static const double _messageHeight = 22;
   static const double _departureRowHeight = 28;
 
+  List<_DepartureRowData> get _displayedDepartureRows {
+    final groupedDepartures = <String, List<Map<String, dynamic>>>{};
+    final keyOrder = <String>[];
+
+    for (final departure in departures) {
+      final key = '${departure['line'] ?? ''}|${departure['direction'] ?? ''}';
+      if (!groupedDepartures.containsKey(key)) {
+        groupedDepartures[key] = [];
+        keyOrder.add(key);
+      }
+      groupedDepartures[key]!.add(departure);
+    }
+
+    return [
+      for (final key in keyOrder)
+        _buildDepartureRow(
+          groupedDepartures[key]!,
+        ),
+    ];
+  }
+
+  _DepartureRowData _buildDepartureRow(List<Map<String, dynamic>> groupedDepartureEntries) {
+    final departure = groupedDepartureEntries.first;
+
+    if (groupedDepartureEntries.length >= 3) {
+      return _DepartureRowData(
+        title: '${departure['line'] ?? ''} ${departure['direction'] ?? ''}'.trim(),
+        timeText: _departureTimeText(departure),
+      );
+    }
+
+    if (groupedDepartureEntries.length == 2) {
+      return _DepartureRowData(
+        title: '${departure['line'] ?? ''} ${departure['direction'] ?? ''}'.trim(),
+        timeText: groupedDepartureEntries.map(_departureTimeText).join('   '),
+      );
+    }
+
+    return _DepartureRowData(
+      title: '${departure['line'] ?? ''} ${departure['direction'] ?? ''}'.trim(),
+      timeText: _departureTimeText(departure),
+    );
+  }
+
+  String _departureTimeText(Map<String, dynamic> departure) {
+    return departure['isCanceled'] == true
+        ? 'canceled'
+        : (departure['displayTime'] ?? departure['time'] ?? '').toString();
+  }
+
   double get _markerSize =>
       (station.radius != null && station.radius! > 0) ? station.radius! * mapConfig.scale * 2 : 20;
 
@@ -190,7 +240,7 @@ class DeparturesPopup extends StatelessWidget {
       return _messageHeight;
     }
 
-    return departures.length * _departureRowHeight;
+    return _displayedDepartureRows.length * _departureRowHeight;
   }
 
   double get _popupHeight =>
@@ -277,25 +327,25 @@ class DeparturesPopup extends StatelessWidget {
       );
     }
 
+    final displayedRows = _displayedDepartureRows;
+
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        for (final departure in departures)
+        for (final departure in displayedRows)
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 4),
             child: Row(
               children: [
                 Expanded(
                   child: Text(
-                    '${departure['line'] ?? ''} ${departure['direction'] ?? ''}'.trim(),
+                    departure.title,
                     style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w600),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Text(
-                  departure['isCanceled'] == true
-                      ? 'canceled'
-                      : (departure['displayTime'] ?? departure['time'] ?? '').toString(),
+                  departure.timeText,
                   style: textTheme.bodyMedium,
                   textAlign: TextAlign.right,
                 ),
@@ -305,6 +355,13 @@ class DeparturesPopup extends StatelessWidget {
       ],
     );
   }
+}
+
+class _DepartureRowData {
+  const _DepartureRowData({required this.title, required this.timeText});
+
+  final String title;
+  final String timeText;
 }
 
 class _PopupPointerPainter extends CustomPainter {
