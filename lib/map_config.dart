@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'dart:io';
 
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 class MapConfig {
@@ -15,8 +15,8 @@ class MapConfig {
     stationsSize: Size(911, 1113),
   );
 
-  static Future<MapConfig> readFile(File file) async {
-    final json = jsonDecode(await file.readAsString()) as Map<String, dynamic>;
+  static Future<MapConfig> readAsset(String assetPath) async {
+    final json = jsonDecode(await rootBundle.loadString(assetPath)) as Map<String, dynamic>;
     final image = json['image'] as Map<String, dynamic>;
     final stations = json['stations'] as Map<String, dynamic>;
 
