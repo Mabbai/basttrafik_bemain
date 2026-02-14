@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'dart:io';
 
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 class Station {
@@ -16,8 +16,8 @@ class Station {
 
   String get apiName => _apiName ?? name;
 
-  static Future<List<Station>> readFile(File file) async {
-    final json = jsonDecode(await file.readAsString()) as List<dynamic>;
+  static Future<List<Station>> readAsset(String assetPath) async {
+    final json = jsonDecode(await rootBundle.loadString(assetPath)) as List<dynamic>;
 
     return json
         .map(

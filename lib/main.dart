@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:basttrafik/map_config.dart';
 import 'package:basttrafik/map_page.dart';
 import 'package:basttrafik/station.dart';
@@ -8,12 +6,15 @@ import 'package:flutter/material.dart';
 List<Station> stations = [];
 MapConfig mapConfig = MapConfig.fallback;
 
-void main() async {
-  stations = await Station.readFile(File("assets/data/stations.json"));
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 
-  final mapConfigFile = File('assets/data/map_config.json');
-  if (await mapConfigFile.exists()) {
-    mapConfig = await MapConfig.readFile(mapConfigFile);
+  stations = await Station.readAsset('assets/data/stations.json');
+
+  try {
+    mapConfig = await MapConfig.readAsset('assets/data/map_config.json');
+  } catch (_) {
+    mapConfig = MapConfig.fallback;
   }
 
   runApp(const MainApp());

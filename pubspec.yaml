@@ -17,3 +17,5 @@ flutter:
     - assets/images/map.svg
     - assets/images/map.png
     - assets/images/map.jpg
+    - assets/data/stations.json
+    - assets/data/map_config.json
