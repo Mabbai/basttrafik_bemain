@@ -15,6 +15,7 @@ class MapPage extends StatefulWidget {
 
 class _MapPageState extends State<MapPage> {
   final DepartureService _departureService = const DepartureService();
+  static const int _maxDepartureFetchAttempts = 3;
 
   Station? _selectedStation;
   List<Map<String, dynamic>> _departures = const [];
@@ -30,7 +31,7 @@ class _MapPageState extends State<MapPage> {
     });
 
     try {
-      final departures = await _departureService.fetchDepartures(station.apiName);
+      final departures = await _fetchDeparturesWithRetry(station.apiName);
 
       if (!mounted) return;
 
@@ -50,6 +51,22 @@ class _MapPageState extends State<MapPage> {
         _isLoadingDepartures = false;
       });
     }
+  }
+
+  Future<List<Map<String, dynamic>>> _fetchDeparturesWithRetry(String stopName) async {
+    Object? lastError;
+
+    for (var attempt = 1; attempt <= _maxDepartureFetchAttempts; attempt++) {
+      try {
+        return await _departureService.fetchDepartures(stopName);
+      } catch (error) {
+        lastError = error;
+      }
+    }
+
+    throw StateError(
+      'Could not load departures after $_maxDepartureFetchAttempts attempts: $lastError',
+    );
   }
 
   void _clearStationDepartures() {
