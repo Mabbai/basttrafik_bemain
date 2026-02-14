@@ -39,22 +39,41 @@ Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) asyn
       return const <Map<String, dynamic>>[];
     }
 
-    final decoded = jsonDecode(stdout) as List<dynamic>;
-    return decoded.map((dynamic item) {
-      final raw = Map<String, dynamic>.from(item as Map);
-      return <String, dynamic>{
-        'line': raw['bus'],
-        'direction': raw['destination'],
-        'wheelchair': raw['wheelchair'],
-        'time': raw['time'],
-        'displayTime': raw['time'],
-        'isCanceled': raw['isCancelled'] == true,
-        'bus': raw['bus'],
-        'destination': raw['destination'],
-        'isCancelled': raw['isCancelled'],
-      };
-    }).toList();
+    final decodedBody = jsonDecode(stdout);
+    return _normalizeDepartures(decodedBody);
   } catch (error) {
     throw StateError('Could not fetch departures for "$stopName": $error');
   }
+}
+
+List<Map<String, dynamic>> _normalizeDepartures(dynamic decodedBody) {
+  final List<dynamic> departures;
+
+  if (decodedBody is List<dynamic>) {
+    departures = decodedBody;
+  } else if (decodedBody is Map && decodedBody['departures'] is List<dynamic>) {
+    departures = decodedBody['departures'] as List<dynamic>;
+  } else {
+    throw const FormatException('Expected a list of departures or an object with a departures list.');
+  }
+
+  return departures.map((dynamic item) {
+    final raw = Map<String, dynamic>.from(item as Map);
+    final line = raw['line'] ?? raw['bus'] ?? '';
+    final direction = raw['direction'] ?? raw['destination'] ?? '';
+    final time = raw['displayTime'] ?? raw['time'] ?? '';
+    final isCancelled = raw['isCancelled'] == true || raw['isCanceled'] == true;
+
+    return <String, dynamic>{
+      'line': line,
+      'direction': direction,
+      'wheelchair': raw['wheelchair'],
+      'time': time,
+      'displayTime': time,
+      'isCanceled': isCancelled,
+      'bus': line,
+      'destination': direction,
+      'isCancelled': isCancelled,
+    };
+  }).toList();
 }
