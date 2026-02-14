@@ -153,15 +153,42 @@ class DeparturesPopup extends StatelessWidget {
   static const double _popupWidth = 360;
   static const double _pointerHeight = 12;
   static const double _pointerWidth = 24;
+  static const double _popupSpacingFromMarker = 8;
+  static const double _popupPadding = 12;
+  static const double _titleHeight = 24;
+  static const double _titleBottomSpacing = 8;
+  static const double _loadingHeight = 24;
+  static const double _messageHeight = 22;
+  static const double _departureRowHeight = 28;
 
   double get _markerSize =>
       (station.radius != null && station.radius! > 0) ? station.radius! * mapConfig.scale * 2 : 20;
+
+  double get _departuresContentHeight {
+    if (isLoading) {
+      return _loadingHeight;
+    }
+
+    if (errorMessage != null || departures.isEmpty) {
+      return _messageHeight;
+    }
+
+    return departures.length * _departureRowHeight;
+  }
+
+  double get _popupHeight =>
+      (_popupPadding * 2) + _titleHeight + _titleBottomSpacing + _departuresContentHeight;
 
   @override
   Widget build(BuildContext context) {
     return Positioned(
       left: station.location.dx * mapConfig.scale - _popupWidth / 2,
-      top: station.location.dy * mapConfig.scale - _markerSize / 2 - _pointerHeight - 8,
+      top:
+          station.location.dy * mapConfig.scale -
+          _markerSize / 2 -
+          _pointerHeight -
+          _popupSpacingFromMarker -
+          _popupHeight,
       child: Material(
         color: Colors.transparent,
         child: Column(
