@@ -2,6 +2,17 @@ import 'dart:io';
 import 'dart:math' as math;
 
 import 'package:xml/xml.dart';
+extension IterableFirstWhereOrNullExtension<T> on Iterable<T> {
+  T? firstWhereOrNull(bool Function(T element) test) {
+    for (final element in this) {
+      if (test(element)) {
+        return element;
+      }
+    }
+
+    return null;
+  }
+}
 
 void main() async {
   final svgFile = File('assets/images/map.svg');
@@ -80,9 +91,9 @@ List<ParsedStation> getStationsFromSmallStopLayer(XmlDocument document) {
 
     if (stopName == 'Skolvägen') {
       if (skolvagenCount == 0) {
-        stopName = 'Skolvägen, Ale';
-      } else if (skolvagenCount == 1) {
         stopName = 'Skolvägen, Partille';
+      } else if (skolvagenCount == 1) {
+        stopName = 'Skolvägen, Ale';
       }
       skolvagenCount += 1;
     }
