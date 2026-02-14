@@ -122,21 +122,49 @@ class DepartureService {
   }) {
     for (final key in keys) {
       final value = _valueForLooseKey(source, key);
-      if (value is String && value.trim().isNotEmpty) {
-        return value.trim();
-      }
-      if (value is num || value is bool) {
-        return value.toString();
+      final parsed = _stringFromDynamic(value);
+      if (parsed != null) {
+        return parsed;
       }
     }
 
     for (final path in nested) {
       final value = _nestedValue(source, path);
-      if (value is String && value.trim().isNotEmpty) {
-        return value.trim();
+      final parsed = _stringFromDynamic(value);
+      if (parsed != null) {
+        return parsed;
       }
-      if (value is num || value is bool) {
-        return value.toString();
+    }
+
+    return null;
+  }
+
+  String? _stringFromDynamic(dynamic value) {
+    if (value is String && value.trim().isNotEmpty) {
+      return value.trim();
+    }
+
+    if (value is num || value is bool) {
+      return value.toString();
+    }
+
+    if (value is Map) {
+      for (final key in const <String>[
+        'shortName',
+        'name',
+        'designation',
+        'number',
+        'publicCode',
+        'sname',
+        'id',
+      ]) {
+        final nestedValue = _valueForLooseKey(value, key);
+        if (nestedValue is String && nestedValue.trim().isNotEmpty) {
+          return nestedValue.trim();
+        }
+        if (nestedValue is num || nestedValue is bool) {
+          return nestedValue.toString();
+        }
       }
     }
 
