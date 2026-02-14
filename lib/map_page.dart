@@ -218,7 +218,6 @@ class DeparturesPopup extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
-                const SizedBox(width: 12),
                 Text(
                   departure['isCanceled'] == true
                       ? 'canceled'
