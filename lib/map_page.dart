@@ -151,6 +151,8 @@ class DeparturesPopup extends StatelessWidget {
   final String? errorMessage;
 
   static const double _popupWidth = 360;
+  static const double _pointerHeight = 12;
+  static const double _pointerWidth = 24;
 
   double get _markerSize =>
       (station.radius != null && station.radius! > 0) ? station.radius! * mapConfig.scale * 2 : 20;
@@ -159,33 +161,58 @@ class DeparturesPopup extends StatelessWidget {
   Widget build(BuildContext context) {
     return Positioned(
       left: station.location.dx * mapConfig.scale - _popupWidth / 2,
-      top: station.location.dy * mapConfig.scale - _markerSize / 2 - 12,
-      child: Transform.translate(
-        offset: const Offset(0, -120),
-        child: Material(
-          color: Colors.transparent,
-          child: Container(
-            width: _popupWidth,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xFFBFE3FF).withOpacity(0.88),
-              borderRadius: BorderRadius.circular(14),
-              boxShadow: const [
-                BoxShadow(
-                  color: Color(0x33000000),
-                  blurRadius: 12,
-                  offset: Offset(0, 4),
-                ),
-              ],
+      top: station.location.dy * mapConfig.scale - _markerSize / 2 - _pointerHeight - 8,
+      child: Material(
+        color: Colors.transparent,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: _popupWidth,
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: const Color(0xFFBFE3FF).withOpacity(0.88),
+                borderRadius: BorderRadius.circular(14),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x33000000),
+                    blurRadius: 12,
+                    offset: Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: _buildContent(context),
             ),
-            child: _buildContent(context),
-          ),
+            CustomPaint(
+              size: const Size(_pointerWidth, _pointerHeight),
+              painter: _PopupPointerPainter(
+                color: const Color(0xFFBFE3FF).withOpacity(0.88),
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
 
   Widget _buildContent(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          station.name,
+          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+        ),
+        const SizedBox(height: 8),
+        _buildDeparturesContent(context),
+      ],
+    );
+  }
+
+  Widget _buildDeparturesContent(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
 
     if (isLoading) {
@@ -234,4 +261,25 @@ class DeparturesPopup extends StatelessWidget {
       ],
     );
   }
+}
+
+class _PopupPointerPainter extends CustomPainter {
+  const _PopupPointerPainter({required this.color});
+
+  final Color color;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..color = color;
+    final path = Path()
+      ..moveTo(0, 0)
+      ..lineTo(size.width / 2, size.height)
+      ..lineTo(size.width, 0)
+      ..close();
+
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant _PopupPointerPainter oldDelegate) => oldDelegate.color != color;
 }
