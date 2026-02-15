@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:html';
 
+const String _departuresApiBase = String.fromEnvironment('DEPARTURES_API_BASE');
+
 const Map<String, List<String>> _stopAliases = <String, List<String>>{
   'Skolvägen': <String>['Skolvägen, Ale', 'Skolvägen, Partille'],
 };
@@ -29,9 +31,10 @@ Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) asyn
     );
 
     if (response.status != 200) {
-      throw StateError('Unexpected status code ${response.status}');
+      throw StateError('Unexpected status code ${response.status} from $uri');
     }
 
+    final contentType = response.getResponseHeader('content-type') ?? '';
     final body = response.responseText?.trim() ?? '';
     if (body.isEmpty) {
       return const <Map<String, dynamic>>[];
@@ -42,7 +45,8 @@ Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) asyn
   } catch (error) {
     throw StateError(
       'Could not fetch departures for "$stopName" on web. '
-      'Expected backend endpoint GET /api/departures?stop=<name>: $error',
+      'Expected backend endpoint GET /api/departures?stop=<name>. '
+      'You can override the API host with --dart-define=DEPARTURES_API_BASE=<origin>: $error',
     );
   }
 }
