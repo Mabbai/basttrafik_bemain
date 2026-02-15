@@ -19,8 +19,7 @@ Future<List<Map<String, dynamic>>> fetchDepartures(String stopName) async {
 }
 
 Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) async {
-  final baseUri = _departuresApiBase.isEmpty ? Uri.base : Uri.parse(_departuresApiBase);
-  final uri = baseUri.resolve('/api/departures').replace(
+  final uri = Uri.base.resolve('api/departures').replace(
     queryParameters: <String, String>{'stop': stopName},
   );
 
@@ -39,14 +38,6 @@ Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) asyn
     final body = response.responseText?.trim() ?? '';
     if (body.isEmpty) {
       return const <Map<String, dynamic>>[];
-    }
-
-    if (contentType.contains('text/html') || body.startsWith('<!DOCTYPE html')) {
-      throw StateError(
-        'Received HTML instead of JSON from $uri. '
-        'This usually means /api/departures is not routed to a backend in web mode. '
-        'Current content-type: $contentType',
-      );
     }
 
     final decodedBody = jsonDecode(body);
