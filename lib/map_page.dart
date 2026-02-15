@@ -42,7 +42,7 @@ class _MapPageState extends State<MapPage> {
       if (!mounted) return;
 
       setState(() {
-        _departureError = _friendlyDepartureError(error);
+        _departureError = 'Could not load departures: $error';
       });
     } finally {
       if (!mounted) return;

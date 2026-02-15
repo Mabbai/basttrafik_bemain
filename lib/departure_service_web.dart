@@ -1,8 +1,6 @@
 import 'dart:convert';
 import 'dart:html';
 
-final RegExp _htmlMarkerRegExp = RegExp(r'<\s*(?:!doctype|html|head|body)\b', caseSensitive: false);
-
 const String _departuresApiBase = String.fromEnvironment('DEPARTURES_API_BASE');
 
 const Map<String, List<String>> _stopAliases = <String, List<String>>{
@@ -21,8 +19,7 @@ Future<List<Map<String, dynamic>>> fetchDepartures(String stopName) async {
 }
 
 Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) async {
-  final baseUri = _departuresApiBase.isEmpty ? Uri.base : Uri.parse(_departuresApiBase);
-  final uri = baseUri.resolve('/api/departures').replace(
+  final uri = Uri.base.resolve('api/departures').replace(
     queryParameters: <String, String>{'stop': stopName},
   );
 
@@ -43,32 +40,15 @@ Future<List<Map<String, dynamic>>> _fetchDeparturesForStop(String stopName) asyn
       return const <Map<String, dynamic>>[];
     }
 
-    if (_looksLikeHtmlResponse(contentType, body)) {
-      throw StateError(
-        'Backend returned HTML instead of departures JSON from $uri. '
-        'Configure /api/departures routing or set --dart-define=DEPARTURES_API_BASE=<origin>.',
-      );
-    }
-
     final decodedBody = jsonDecode(body);
     return _normalizeDepartures(decodedBody);
-  } on FormatException catch (error) {
-    throw StateError('Invalid departures JSON from $uri: $error');
   } catch (error) {
-    throw StateError('Could not fetch departures from $uri: $error');
+    throw StateError(
+      'Could not fetch departures for "$stopName" on web. '
+      'Expected backend endpoint GET /api/departures?stop=<name>. '
+      'You can override the API host with --dart-define=DEPARTURES_API_BASE=<origin>: $error',
+    );
   }
-}
-
-bool _looksLikeHtmlResponse(String contentType, String body) {
-  if (contentType.toLowerCase().contains('text/html')) {
-    return true;
-  }
-
-  if (body.startsWith('<')) {
-    return _htmlMarkerRegExp.hasMatch(body);
-  }
-
-  return false;
 }
 
 List<Map<String, dynamic>> _normalizeDepartures(dynamic decodedBody) {
