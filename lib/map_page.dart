@@ -64,9 +64,26 @@ class _MapPageState extends State<MapPage> {
       }
     }
 
-    throw StateError(
-      'Could not load departures after $_maxDepartureFetchAttempts attempts: $lastError',
-    );
+    if (lastError != null) {
+      throw lastError;
+    }
+
+    throw StateError('Could not load departures.');
+  }
+
+  String _friendlyDepartureError(Object error) {
+    final message = error.toString();
+
+    if (message.contains('Backend returned HTML instead of departures JSON')) {
+      return 'Departures API is not connected in web mode. '
+          'Route /api/departures to your backend or set DEPARTURES_API_BASE.';
+    }
+
+    if (message.contains('Invalid departures JSON')) {
+      return 'Departures API returned invalid JSON.';
+    }
+
+    return 'Could not load departures.';
   }
 
   void _clearStationDepartures() {
